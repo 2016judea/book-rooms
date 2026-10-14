@@ -1,0 +1,13 @@
+name = "book-rooms-api"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = true
+
+[vars]
+AI_ENABLED = "1"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "book-rooms"
+database_id = "bdd09741-deef-4240-b16e-c34fdbf0ea22"

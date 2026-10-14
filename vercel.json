@@ -1,0 +1,38 @@
+{
+  "outputDirectory": "public",
+  "functions": {
+    "api/page.js": {
+      "includeFiles": "public/index.html"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/v1/:path*",
+      "destination": "https://book-rooms-api.small-business-intelligence-mcp.workers.dev/v1/:path*"
+    },
+    {
+      "source": "/b/:id",
+      "destination": "/api/page?id=:id"
+    },
+    {
+      "source": "/dm/:path*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/inbox",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/covers/(.*)",
+      "headers": [
+        {
+          "key": "cache-control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
+  "buildCommand": "echo build"
+}

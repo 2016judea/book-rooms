@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+<title>Read with community.</title>
+<!--OG-->
+<meta property="og:title" content="Read with community.">
+<meta property="og:description" content="Read with community.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<!--/OG-->
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23000'/%3E%3Cpath d='M8 9h16v14H8z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap" rel="stylesheet">
+<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)}</script><script defer src="/_vercel/insights/script.js"></script>
+<style>
+/* Black and white is the UX (Aidan, 2026-10-14). Covers are the only colour. */
+:root { --ink:#000; --paper:#fff; --gutter:16px;
+  --sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --serif: "Playfair Display", Georgia, "Times New Roman", serif; color-scheme: light; }
+* { box-sizing: border-box; }
+html, body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--sans); -webkit-text-size-adjust:100%; }
+body { overflow-x:hidden; }
+button { font:inherit; color:inherit; background:none; border:0; padding:0; cursor:pointer; }
+a { color:inherit; }
+[hidden] { display:none !important; }
+.screen { min-height:100svh; }
+
+/* ---------- home: 40 / 60 ---------- */
+.hero { height:40svh; padding:0 var(--gutter); display:flex; flex-direction:column; justify-content:space-evenly; overflow:hidden; }
+.hero .line { font-family:var(--serif); font-weight:800; line-height:.86; letter-spacing:-.02em; white-space:nowrap; margin:0; }
+.shelf { height:60svh; display:flex; overflow-x:auto; overflow-y:hidden; scroll-snap-type:x mandatory; scrollbar-width:none; background:var(--ink); overscroll-behavior-x:contain; }
+.shelf::-webkit-scrollbar { display:none; }
+.shelf a { flex:0 0 auto; height:100%; scroll-snap-align:start; display:block; text-decoration:none; position:relative; }
+.shelf img { height:100%; width:auto; display:block; }
+.shelf .noimg { height:100%; aspect-ratio:2/3; background:var(--ink); color:var(--paper); display:flex; flex-direction:column; justify-content:flex-end; padding:20px; border-right:1px solid var(--paper); }
+.shelf .noimg b { font-family:var(--serif); font-size:28px; line-height:1.05; }
+.shelf .noimg span { font-size:15px; margin-top:8px; }
+.below { padding:20px var(--gutter) 48px; max-width:720px; margin:0 auto; }
+.search { display:flex; align-items:center; border:2px solid var(--ink); border-radius:999px; padding:0 6px 0 18px; height:52px; }
+.search input { flex:1; border:0; outline:0; font-size:17px; background:transparent; height:100%; min-width:0; }
+.results { margin-top:8px; }
+.results button, .results a { display:flex; width:100%; text-align:left; gap:12px; align-items:center; padding:12px 2px; border-bottom:1px solid var(--ink); text-decoration:none; min-height:56px; }
+.results img { width:36px; height:54px; object-fit:cover; }
+.results .t { font-weight:700; font-size:16px; }
+.results .a { font-size:14px; }
+.results .go { margin-left:auto; font-size:13px; font-weight:700; white-space:nowrap; }
+.inboxlink { display:inline-flex; align-items:center; gap:8px; margin-top:20px; font-weight:700; font-size:16px; text-decoration:none; min-height:44px; }
+.count { background:var(--ink); color:var(--paper); border-radius:999px; font-size:13px; min-width:22px; height:22px; padding:0 7px; display:inline-flex; align-items:center; justify-content:center; }
+
+/* ---------- group chat ---------- */
+.chat { display:flex; flex-direction:column; height:100svh; }
+.bar { position:sticky; top:0; z-index:5; background:var(--paper); border-bottom:1px solid var(--ink); display:grid; grid-template-columns:56px 1fr 56px; align-items:center; min-height:60px; padding-top:env(safe-area-inset-top); }
+.bar .back { height:44px; font-size:30px; line-height:1; text-align:left; padding-left:12px; }
+.bar .title { text-align:center; min-width:0; padding:6px 0; display:flex; flex-direction:column; align-items:center; }
+.bar .title img { height:30px; width:auto; margin-bottom:3px; }
+.bar .title b { font-size:16px; display:block; max-width:100%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.bar .title span { font-size:12px; }
+.bar .act { height:44px; font-size:13px; font-weight:700; padding-right:12px; text-align:right; }
+.where { display:flex; justify-content:center; padding:8px var(--gutter); border-bottom:1px solid var(--ink); }
+.where button { font-size:14px; font-weight:700; border:1px solid var(--ink); border-radius:999px; padding:6px 14px; min-height:36px; }
+.where button.unset { background:var(--ink); color:var(--paper); }
+.thread { flex:1; overflow-y:auto; padding:12px var(--gutter) 16px; -webkit-overflow-scrolling:touch; }
+.digest { background:var(--ink); color:var(--paper); border-radius:16px; padding:14px 16px; margin-bottom:16px; }
+.digest h2 { font-size:13px; letter-spacing:.06em; text-transform:uppercase; margin:0 0 8px; }
+.digest button { display:block; text-align:left; width:100%; padding:10px 0; border-top:1px solid var(--paper); }
+.digest button:first-of-type { border-top:0; }
+.digest .q { font-weight:700; font-size:16px; }
+.digest .s { font-size:14px; margin-top:4px; }
+.digest .n { font-size:12px; margin-top:6px; text-decoration:underline; }
+.near { margin-bottom:16px; }
+.near h3 { font-size:13px; text-transform:uppercase; letter-spacing:.06em; margin:0 0 6px; }
+.near .chips { display:flex; gap:8px; overflow-x:auto; scrollbar-width:none; }
+.near .chips button { border:1px solid var(--ink); border-radius:999px; padding:8px 14px; font-size:14px; white-space:nowrap; min-height:40px; }
+.msg { margin:10px 0; display:flex; flex-direction:column; align-items:flex-start; }
+.msg.mine { align-items:flex-end; }
+.by { font-size:12px; font-weight:700; margin:0 12px 3px; text-align:left; padding:4px 0; }
+.by .tag { font-weight:400; }
+.by .nearyou { font-weight:800; text-transform:uppercase; font-size:10px; letter-spacing:.06em; border:1px solid var(--ink); border-radius:4px; padding:1px 4px; margin-left:4px; }
+.bubble { max-width:82%; border:1px solid var(--ink); border-radius:20px; padding:10px 14px; font-size:16px; line-height:1.4; white-space:pre-wrap; overflow-wrap:anywhere; position:relative; background:var(--paper); }
+.mine .bubble { background:var(--ink); color:var(--paper); }
+.bubble.hl { outline:3px solid var(--ink); outline-offset:3px; }
+.bubble.gated { cursor:pointer; overflow:hidden; }
+.bubble.gated .txt { filter:blur(7px); user-select:none; -webkit-user-select:none; max-height:7.5em; overflow:hidden; display:block; }
+.bubble.gated .veil { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; text-align:center; padding:8px; }
+.bubble.gated .veil span { background:var(--paper); color:var(--ink); border:1px solid var(--ink); border-radius:999px; padding:6px 12px; font-size:13px; font-weight:700; }
+.src { font-size:11px; margin:3px 12px 0; }
+.empty { text-align:center; font-size:14px; padding:24px 0; }
+.composer { position:fixed; left:0; right:0; bottom:0; z-index:6; background:var(--paper); border-top:1px solid var(--ink); padding:8px var(--gutter) calc(8px + env(safe-area-inset-bottom)); display:flex; gap:8px; align-items:flex-end; }
+.composer textarea { flex:1; resize:none; font:inherit; font-size:17px; line-height:1.35; border:1px solid var(--ink); border-radius:20px; padding:8px 14px; max-height:140px; outline:0; background:var(--paper); color:var(--ink); }
+.composer .send { width:40px; height:40px; border-radius:50%; background:var(--ink); color:var(--paper); font-size:20px; font-weight:700; flex:0 0 auto; }
+.composer .send:disabled { background:var(--paper); color:var(--ink); border:1px solid var(--ink); }
+.spacer { height:72px; }
+
+/* ---------- sheets ---------- */
+.scrim { position:fixed; inset:0; background:rgba(0,0,0,.5); z-index:20; display:flex; align-items:flex-end; justify-content:center; }
+.sheet { background:var(--paper); width:100%; max-width:520px; border-radius:20px 20px 0 0; padding:20px var(--gutter) calc(20px + env(safe-area-inset-bottom)); max-height:92svh; overflow-y:auto; animation:up .22s ease-out; }
+@keyframes up { from { transform:translateY(100%); } to { transform:none; } }
+.sheet h2 { font-size:20px; margin:0 0 4px; }
+.sheet p.held { border:1px solid var(--ink); border-radius:16px; padding:10px 14px; font-size:15px; margin:12px 0; max-height:6em; overflow:hidden; white-space:pre-wrap; }
+.sheet label { display:block; font-size:13px; font-weight:700; margin:14px 0 4px; }
+.sheet label i { font-weight:400; font-style:normal; }
+.sheet input { width:100%; font-size:17px; padding:12px 14px; border:1px solid var(--ink); border-radius:12px; outline:0; background:var(--paper); color:var(--ink); }
+.sheet .hint { font-size:12px; margin-top:4px; }
+.sheet .row { display:flex; gap:10px; margin-top:20px; }
+.btn { flex:1; min-height:48px; border-radius:999px; font-weight:700; font-size:16px; border:2px solid var(--ink); }
+.btn.solid { background:var(--ink); color:var(--paper); }
+.sug { border:1px solid var(--ink); border-top:0; border-radius:0 0 12px 12px; margin-top:-6px; }
+.sug button { display:block; width:100%; text-align:left; padding:12px 14px; font-size:16px; border-top:1px solid var(--ink); min-height:44px; }
+.sug button:first-child { border-top:0; }
+input[type=range] { width:100%; accent-color:#000; height:44px; }
+.poslabel { text-align:center; font-size:28px; font-weight:800; font-family:var(--serif); margin:8px 0; }
+.toast { position:fixed; left:50%; bottom:96px; transform:translateX(-50%); background:var(--ink); color:var(--paper); padding:10px 16px; border-radius:999px; font-size:14px; z-index:30; }
+.draft { font-size:10px; font-weight:800; letter-spacing:.08em; border:1px solid var(--ink); padding:0 4px; margin-left:6px; vertical-align:middle; }
+.inbox .row { display:block; text-decoration:none; padding:14px 0; border-bottom:1px solid var(--ink); }
+.inbox .row b { font-size:16px; }
+.inbox .row .m { font-size:14px; margin-top:3px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.inbox .row .u { float:right; }
+.blocked { text-align:center; font-size:14px; padding:12px; border:1px solid var(--ink); border-radius:12px; margin:12px 0; }
+
+@media (min-width: 900px) {
+  .thread { padding-left:max(var(--gutter), calc(50% - 360px)); padding-right:max(var(--gutter), calc(50% - 360px)); }
+  .composer { padding-left:max(var(--gutter), calc(50% - 360px)); padding-right:max(var(--gutter), calc(50% - 360px)); }
+  .bubble { max-width:70%; }
+}
+::view-transition-old(cover), ::view-transition-new(cover) { animation-duration:.28s; }
+</style>
+<!-- bm-posthog:begin v2 — shared across every Vercel prototype; source ~/.claude/skills/site-analytics/posthog_snippet.html. ?me=1 opts this browser out on this site (?me=0 undoes); ?me=1&next=host1,host2 walks the opt-out across sites; headless (navigator.webdriver) never loads it. -->
+<script>
+(function(w,d){var S="book-rooms",K="bm_me",me=false,u,p,n;
+try{u=new URLSearchParams(location.search);p=u.get("me");n=u.get("next");}catch(e){}
+try{if(p==="1"){localStorage.setItem(K,"1");}else if(p==="0"){localStorage.removeItem(K);}}catch(e){}
+if(p==="1"){d.cookie=K+"=1; path=/; max-age=63072000; SameSite=Lax";}else if(p==="0"){d.cookie=K+"=; path=/; max-age=0; SameSite=Lax";}
+try{me=localStorage.getItem(K)==="1";}catch(e){}
+if(!me&&/(?:^|; )bm_me=1/.test(d.cookie))me=true;
+if(p==="1"&&n){var h=n.split(","),f=h.shift();if(/^[a-z0-9.-]+$/.test(f)&&(f.slice(-11)===".vercel.app"||f==="brickandmortar.dev"||f==="readglean.com")){location.replace("https://"+f+"/?me=1"+(h.length?"&next="+h.join(","):""));}}
+if(navigator.webdriver===true)return;
+!function(t,e){var o,n,p,r;e.__SV||(w.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once unregister identify setPersonProperties reset get_distinct_id get_session_id alias set_config startSessionRecording stopSessionRecording opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing captureException getFeatureFlag isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(d,w.posthog||[]);
+posthog.init("phc_yFgRGppL6H7DvhgZTQKbHdrY5oqnpLT482rrNYtLqnAx",{api_host:"https://us.i.posthog.com",person_profiles:"identified_only",persistence:"localStorage+cookie",opt_out_capturing_by_default:me});
+if(me){posthog.opt_out_capturing();}else{if(p==="0")posthog.opt_in_capturing();posthog.register({site:S});}
+})(window,document);
+</script>
+<!-- bm-posthog:end -->
+</head>
+<body>
+<main id="app"></main>
+<script>
+"use strict";
+const MEETUP = "yo you wanna meetup and talk about the book in person?"; // Aidan's copy, verbatim — never edit
+const app = document.getElementById("app");
+const S = { books: null, me: null, chat: null, cities: null, pollT: null, revealed: new Set() };
+const $ = (s, el = document) => el.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const track = (e, p) => { try { window.posthog && posthog.capture(e, p); } catch (_) {} };
+
+// Per-browser identity: a secret token in localStorage. #reader=<token> claims an existing identity.
+function token() {
+  let t = null;
+  try {
+    const m = /#reader=([A-Za-z0-9_-]{20,80})/.exec(location.hash);
+    if (m) { localStorage.setItem("br_token", m[1]); history.replaceState(null, "", location.pathname + location.search); }
+    t = localStorage.getItem("br_token");
+    if (!t) { t = "r-" + crypto.getRandomValues(new Uint32Array(6)).join("-"); localStorage.setItem("br_token", t); }
+  } catch (_) { t = S._t || (S._t = "r-" + Math.random().toString(36).slice(2) + Math.random().toString(36).slice(2) + Date.now()); }
+  return t;
+}
+async function api(path, opts = {}) {
+  const r = await fetch(path, { ...opts, headers: { "content-type": "application/json", "x-reader": token(), ...(opts.headers || {}) },
+    body: opts.body ? JSON.stringify(opts.body) : undefined });
+  const data = await r.json().catch(() => ({}));
+  if (!r.ok) { const e = new Error(data.error || r.status); e.status = r.status; throw e; }
+  return data;
+}
+function toast(msg) { const t = document.createElement("div"); t.className = "toast"; t.textContent = msg; document.body.appendChild(t); setTimeout(() => t.remove(), 2200); }
+
+// ---------- router ----------
+function go(path, { replace = false, transition = false } = {}) {
+  if (replace) history.replaceState(null, "", path); else history.pushState(null, "", path);
+  if (transition && document.startViewTransition) document.startViewTransition(() => route()); else route();
+}
+window.addEventListener("popstate", () => document.startViewTransition ? document.startViewTransition(() => route()) : route());
+document.addEventListener("click", (e) => {
+  const a = e.target.closest("a[data-nav]");
+  if (!a || e.metaKey || e.ctrlKey) return;
+  e.preventDefault();
+  const img = a.querySelector("img");
+  if (img) { document.querySelectorAll("[style*=view-transition-name]").forEach((x) => (x.style.viewTransitionName = "")); img.style.viewTransitionName = "cover"; }
+  go(a.getAttribute("href"), { transition: true });
+});
+function route() {
+  clearInterval(S.pollT);
+  document.querySelectorAll(".composer, .scrim").forEach((c) => c.remove());
+  const p = location.pathname;
+  let m;
+  if ((m = /^\/b\/([a-z0-9-]+)\/?$/.exec(p))) return renderChat(m[1]);
+  if ((m = /^\/dm\/([a-z0-9]+)\/?$/.exec(p))) return renderDM(m[1]);
+  if (p === "/dm/new") return renderDM(null);
+  if (p === "/inbox") return renderInbox();
+  return renderHome();
+}
+
+// ---------- home: "Read with community." (top 40%) + first-edition covers (60%) ----------
+function fitHero(el) {
+  const words = ["Read", "with", "community."];
+  const layouts = [[words.join(" ")], ["Read with", "community."], words];
+  const W = el.clientWidth - 32, H = el.clientHeight;
+  const ctx = document.createElement("canvas").getContext("2d");
+  ctx.font = '800 100px "Playfair Display", Georgia, serif';
+  let best = null;
+  for (const lines of layouts) {
+    const wmax = Math.max(...lines.map((l) => ctx.measureText(l).width)) / 100 * 0.98; // em, with -.02em tracking
+    const size = Math.min(W / wmax, H / (lines.length * 0.86 + 0.08));
+    if (!best || size > best.size) best = { lines, size };
+  }
+  el.innerHTML = best.lines.map((l) => `<p class="line" style="font-size:${Math.floor(best.size)}px">${esc(l)}</p>`).join("");
+}
+function coverCard(b) {
+  const img = b.cover && b.cover.image
+    ? `<img src="${esc(b.cover.image)}" alt="${esc(b.title)} — ${esc(b.author)}, ${esc(b.cover.edition || "")}" loading="lazy" decoding="async">`
+    : `<div class="noimg"><b>${esc(b.title)}</b><span>${esc(b.author)}</span></div>`;
+  return `<a data-nav href="/b/${esc(b.id)}" aria-label="${esc(b.title)} by ${esc(b.author)}">${img}</a>`;
+}
+async function renderHome() {
+  document.title = "Read with community.";
+  app.innerHTML = `<section class="screen home">
+    <h1 class="hero" id="hero" aria-label="Read with community."></h1>
+    <nav class="shelf" id="shelf" aria-label="Five-star books"></nav>
+    <section class="below">
+      <form class="search" role="search" onsubmit="return false"><input id="q" type="search" inputmode="search" autocomplete="off" placeholder="Search by title or author" aria-label="Search books by title or author"></form>
+      <div class="results" id="results"></div>
+      <a data-nav class="inboxlink" href="/inbox">Inbox <span class="count" id="unread" hidden></span></a>
+    </section></section>`;
+  const hero = $("#hero");
+  fitHero(hero);
+  document.fonts && document.fonts.ready.then(() => fitHero(hero));
+  window.onresize = () => $("#hero") && fitHero($("#hero"));
+  if (!S.books) S.books = (await api("/v1/books")).books;
+  $("#shelf").innerHTML = S.books.map(coverCard).join("");
+  let t;
+  $("#q").addEventListener("input", (e) => { clearTimeout(t); t = setTimeout(() => doSearch(e.target.value), 280); });
+  api("/v1/dm").then((d) => { const u = $("#unread"); if (u && d.unread) { u.textContent = d.unread; u.hidden = false; } }).catch(() => {});
+}
+async function doSearch(q) {
+  const box = $("#results");
+  if (!box) return;
+  if (q.trim().length < 2) { box.innerHTML = ""; return; }
+  box.innerHTML = `<div class="empty">Searching…</div>`;
+  const r = await api("/v1/search?q=" + encodeURIComponent(q)).catch(() => ({ local: [], openlibrary: [] }));
+  if ($("#q").value !== q) return;
+  const local = r.local.map((b) => `<a data-nav href="/b/${esc(b.id)}">${b.cover && b.cover.image ? `<img src="${esc(b.cover.image)}" alt="">` : ""}<div><div class="t">${esc(b.title)}</div><div class="a">${esc(b.author)}</div></div><span class="go">Open</span></a>`).join("");
+  const ol = r.openlibrary.map((b) => `<button data-work="${esc(b.work)}"><div><div class="t">${esc(b.title)}</div><div class="a">${esc(b.author)}${b.first_published ? ", " + b.first_published : ""}</div></div><span class="go">Start group chat</span></button>`).join("");
+  box.innerHTML = local + ol || `<div class="empty">Nothing found.</div>`;
+  box.querySelectorAll("button[data-work]").forEach((btn) => btn.addEventListener("click", async () => {
+    btn.querySelector(".go").textContent = "Opening…";
+    try { const { book } = await api("/v1/books", { method: "POST", body: { work: btn.dataset.work } }); track("group_chat_created", { book: book.id }); go("/b/" + book.id); }
+    catch (_) { btn.querySelector(".go").textContent = "Try again"; }
+  }));
+}
+
+// ---------- group chat ----------
+const posLabel = (book, p) => p == null ? "Where are you in the book?" :
+  p <= 0 ? "Not started" : p >= book.unit_count ? "Finished" : book.unit === "chapter" ? `Ch. ${p} of ${book.unit_count}` : `${p}% through`;
+const gateLabel = (book, s) => book.unit === "chapter" ? (s >= book.unit_count ? "the ending" : `ch. ${s}`) : (s >= 100 ? "the ending" : `${s}%`);
+function nearRank(me, u) {
+  if (!me || !me.state || !u || !u.state || u.id === me.id) return 0;
+  if (me.city && u.city && me.city.toLowerCase() === u.city.toLowerCase() && me.state === u.state) return 2;
+  return me.state === u.state ? 1 : 0;
+}
+async function renderChat(id) {
+  window.onresize = null;
+  app.innerHTML = `<section class="chat"><header class="bar"><button class="back" aria-label="Back">‹</button><div class="title"></div><button class="act" id="share">Share</button></header><div class="thread" id="thread"><div class="empty">Loading…</div></div></section>`;
+  $(".back").onclick = () => (history.length > 1 && S.cameFromApp ? history.back() : go("/"));
+  let first = true;
+  const load = async () => {
+    let d;
+    try { d = await api(`/v1/books/${id}/chat`); } catch (e) { $("#thread").innerHTML = `<div class="empty">That group chat doesn't exist. <a data-nav href="/">Back to the books</a></div>`; return; }
+    S.chat = d; S.me = d.me && d.me.byline ? d.me : S.me;
+    drawChat(first);
+    if (first) { first = false; loadDigest(); }
+  };
+  await load();
+  S.pollT = setInterval(() => { if (!document.hidden && location.pathname === `/b/${id}`) load(); }, 6000);
+  S.cameFromApp = true;
+}
+function drawChat(initial) {
+  const { book, messages, readers, position } = S.chat;
+  const me = S.me;
+  document.title = `${book.title} — ${book.author}`;
+  $(".bar .title").innerHTML = `${book.cover && book.cover.image ? `<img src="${esc(book.cover.image)}" alt="" style="view-transition-name:cover">` : ""}<b>${esc(book.title)}</b><span>${esc(book.author)}</span>`;
+  $("#share").onclick = () => share(book);
+  const th = $("#thread");
+  const atBottom = th.scrollHeight - th.scrollTop - th.clientHeight < 80;
+  const pos = position == null ? 0 : position;
+  const near = readers.filter((u) => u.byline && nearRank(me, u) > 0).sort((a, b) => nearRank(me, b) - nearRank(me, a));
+  const bubbles = messages.map((m) => {
+    const mine = me && m.user.id === me.id;
+    const gated = m.spoils_to > pos && !S.revealed.has(m.id) && !mine;
+    const nr = nearRank(me, m.user);
+    const by = mine ? "" : `<button class="by" data-dm="${esc(m.user.id)}">${esc(m.user.byline || "")}${nr ? `<span class="nearyou">near you</span>` : ""}${m.is_review ? ` <span class="tag">· review</span>` : ""}</button>`;
+    const body = gated
+      ? `<div class="bubble gated" data-reveal="${m.id}"><span class="txt">${esc(m.body)}</span><div class="veil"><span>Spoils ${esc(gateLabel(book, m.spoils_to))} · tap to read</span></div></div>`
+      : `<div class="bubble" id="m${m.id}">${esc(m.body)}</div>`;
+    const src = m.source === "goodreads" ? `<div class="src">From his Goodreads review</div>` : "";
+    return `<div class="msg ${mine ? "mine" : ""}" id="msg${m.id}">${by}${body}${src}</div>`;
+  }).join("");
+  th.innerHTML = `
+    <div class="where"><button id="pos" class="${position == null ? "unset" : ""}">${esc(posLabel(book, position))}</button></div>
+    <div id="digest">${S.digestHTML || ""}</div>
+    ${near.length ? `<div class="near"><h3>Near you</h3><div class="chips">${near.map((u) => `<button data-dm="${esc(u.id)}">${esc(u.byline)}</button>`).join("")}</div></div>` : ""}
+    ${bubbles || `<div class="empty">No messages yet.</div>`}
+    <div class="spacer"></div>`;
+  if (!$(".composer")) mountComposer({ placeholder: "Message", onSend: sendGroup });
+  $("#pos").onclick = () => positionSheet(book, position);
+  th.querySelectorAll("[data-reveal]").forEach((el) => el.addEventListener("click", () => { S.revealed.add(+el.dataset.reveal); drawChat(false); }));
+  th.querySelectorAll("[data-dm]").forEach((el) => el.addEventListener("click", () => openDM(el.dataset.dm, book.id)));
+  wireDigest();
+  if (initial || atBottom) th.scrollTop = th.scrollHeight;
+}
+async function loadDigest() {
+  const { book, position, ai } = S.chat;
+  S.digestHTML = "";
+  if (!ai) return;
+  try {
+    const d = await api(`/v1/books/${book.id}/digest?pos=${position == null ? 0 : position}`);
+    if (!d.points || !d.points.length) return;
+    S.digestHTML = `<div class="digest"><h2>What's being argued</h2>${d.points.map((p) =>
+      `<button data-ids="${p.message_ids.join(",")}"><div class="q">${esc(p.question)}</div>${p.sides.map((s) => `<div class="s">${esc(s)}</div>`).join("")}<div class="n">Jump in · ${p.message_ids.length} messages</div></button>`).join("")}</div>`;
+    const el = $("#digest"); if (el) { el.innerHTML = S.digestHTML; wireDigest(); }
+  } catch (_) {}
+}
+function wireDigest() {
+  document.querySelectorAll(".digest button[data-ids]").forEach((b) => (b.onclick = () => {
+    const ids = b.dataset.ids.split(",").map(Number);
+    document.querySelectorAll(".bubble.hl").forEach((x) => x.classList.remove("hl"));
+    ids.forEach((id) => { const el = $(`#msg${id} .bubble`); el && el.classList.add("hl"); });
+    const first = $(`#msg${ids[0]}`); first && first.scrollIntoView({ behavior: "smooth", block: "center" });
+    track("digest_jump", { book: S.chat.book.id });
+    const ta = $(".composer textarea"); if (ta) setTimeout(() => ta.focus({ preventScroll: true }), 600);
+  }));
+}
+async function sendGroup(text) {
+  const book = S.chat.book;
+  await api(`/v1/books/${book.id}/messages`, { method: "POST", body: { body: text } });
+  track("message_sent", { book: book.id });
+  const d = await api(`/v1/books/${book.id}/chat`); S.chat = d; drawChat(true);
+}
+function positionSheet(book, position) {
+  const max = book.unit_count, step = book.unit === "chapter" ? 1 : 5;
+  const sc = sheet(`<h2>Where are you in the book?</h2><div class="poslabel" id="pl"></div>
+    <input type="range" id="pr" min="0" max="${max}" step="${step}" value="${position == null ? 0 : position}" aria-label="Where are you in the book">
+    <div class="row"><button class="btn" data-close>Cancel</button><button class="btn solid" id="ps">Save</button></div>`);
+  const r = $("#pr", sc), l = $("#pl", sc);
+  const upd = () => (l.textContent = posLabel(book, +r.value)); upd(); r.oninput = upd;
+  $("#ps", sc).onclick = async () => {
+    await api(`/v1/books/${book.id}/position`, { method: "PUT", body: { position: +r.value } });
+    sc.remove(); S.revealed.clear(); S.chat.position = +r.value; drawChat(false); loadDigest();
+  };
+}
+async function share(book) {
+  const url = location.origin + "/b/" + book.id;
+  track("share", { book: book.id });
+  try { if (navigator.share) { await navigator.share({ title: `${book.title} — ${book.author}`, text: "Read with community.", url }); return; } } catch (e) { if (e.name === "AbortError") return; }
+  try { await navigator.clipboard.writeText(url); toast("Link copied"); } catch (_) { prompt("Copy this link", url); }
+}
+
+// ---------- composer (shared by group chat and 1:1) ----------
+function mountComposer({ placeholder, onSend, prefill = "" }) {
+  document.querySelectorAll(".composer").forEach((c) => c.remove());
+  const c = document.createElement("form");
+  c.className = "composer";
+  c.innerHTML = `<textarea rows="1" placeholder="${esc(placeholder)}" aria-label="${esc(placeholder)}" enterkeyhint="send"></textarea><button class="send" type="submit" aria-label="Send">↑</button>`;
+  document.body.appendChild(c);
+  const ta = $("textarea", c), btn = $(".send", c);
+  const key = "draft:" + location.pathname;
+  try { ta.value = localStorage.getItem(key) || prefill; } catch (_) { ta.value = prefill; }
+  const grow = () => { ta.style.height = "auto"; ta.style.height = Math.min(ta.scrollHeight + 2, 140) + "px"; btn.disabled = !ta.value.trim(); };
+  ta.addEventListener("input", () => { grow(); try { localStorage.setItem(key, ta.value); } catch (_) {} });
+  ta.addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.shiftKey && window.matchMedia("(pointer:fine)").matches) { e.preventDefault(); c.requestSubmit(); } });
+  grow();
+  c.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const text = ta.value.trim();
+    if (!text) return;
+    if (!S.me || !S.me.byline) { // first send: hold the message, ask who is saying it
+      const ok = await nameSheet(text);
+      if (!ok) return; // draft stays in the box
+    }
+    btn.disabled = true;
+    try { await onSend(text); ta.value = ""; try { localStorage.removeItem(key); } catch (_) {} grow(); }
+    catch (err) { toast(err.status === 429 ? "Slow down a little" : err.status === 403 ? "This chat is blocked" : "Didn't send. Try again."); btn.disabled = false; }
+  });
+  // keep the box above the iOS keyboard
+  const vv = window.visualViewport;
+  if (vv) {
+    const place = () => { const off = Math.max(0, window.innerHeight - vv.height - vv.offsetTop); c.style.transform = off ? `translateY(${-off}px)` : ""; };
+    vv.addEventListener("resize", place); vv.addEventListener("scroll", place);
+  }
+  return c;
+}
+
+// ---------- name sheet: first name, last name (initial kept), optional city ----------
+async function loadCities() {
+  if (S.cities) return S.cities;
+  const t = await (await fetch("/cities.txt")).text();
+  return (S.cities = t.split("\n").map((l) => { const [c, s] = l.split("|"); return { c, s, k: c.toLowerCase() }; }));
+}
+function nameSheet(heldText) {
+  return new Promise((resolve) => {
+    const sc = sheet(`<h2>Who's saying this?</h2>
+      ${heldText ? `<p class="held">${esc(heldText)}</p>` : ""}
+      <label for="fn">First name</label><input id="fn" autocomplete="given-name" autocapitalize="words" required>
+      <label for="ln">Last name</label><input id="ln" autocomplete="family-name" autocapitalize="words" required>
+      <div class="hint">Only the first letter is kept.</div>
+      <label for="ct">City <i>(optional)</i></label><input id="ct" autocomplete="off" placeholder="Start typing your city" aria-describedby="cthint">
+      <div class="sug" id="sug" hidden></div>
+      <div class="hint" id="cthint">Readers near you can find you to meet in person.</div>
+      <div class="hint" id="err" hidden></div>
+      <div class="row"><button class="btn" data-close>Not now</button><button class="btn solid" id="ok">Post</button></div>`, () => resolve(false));
+    let picked = null;
+    const ct = $("#ct", sc), sug = $("#sug", sc);
+    loadCities();
+    ct.addEventListener("input", async () => {
+      picked = null;
+      const q = ct.value.trim().toLowerCase().replace(/,.*$/, "");
+      if (q.length < 2) { sug.hidden = true; return; }
+      const list = await loadCities();
+      const hits = []; for (const x of list) { if (x.k.startsWith(q)) { hits.push(x); if (hits.length >= 6) break; } }
+      sug.innerHTML = hits.map((x, i) => `<button type="button" data-i="${i}">${esc(x.c)}, ${esc(x.s)}</button>`).join("");
+      sug.hidden = !hits.length;
+      sug.querySelectorAll("button").forEach((b) => (b.onclick = () => { picked = hits[+b.dataset.i]; ct.value = `${picked.c}, ${picked.s}`; sug.hidden = true; }));
+    });
+    setTimeout(() => $("#fn", sc).focus(), 250);
+    $("#ok", sc).onclick = async () => {
+      const first = $("#fn", sc).value.trim(), last = $("#ln", sc).value.trim();
+      const err = $("#err", sc);
+      if (!first || !last) { err.hidden = false; err.textContent = "First and last name are needed to post."; return; }
+      if (ct.value.trim() && !picked) { err.hidden = false; err.textContent = "Pick your city from the list, or leave it blank."; return; }
+      try {
+        const r = await api("/v1/me", { method: "PUT", body: { first_name: first, last_name: last, city: picked ? picked.c : null, state: picked ? picked.s : null } });
+        S.me = r.me; sc.remove(); resolve(true);
+      } catch (_) { err.hidden = false; err.textContent = "Couldn't save. Try again."; }
+    };
+  });
+}
+function sheet(html, onClose) {
+  const sc = document.createElement("div");
+  sc.className = "scrim";
+  sc.innerHTML = `<div class="sheet" role="dialog" aria-modal="true">${html}</div>`;
+  document.body.appendChild(sc);
+  const close = () => { sc.remove(); onClose && onClose(); };
+  sc.addEventListener("click", (e) => { if (e.target === sc || e.target.closest("[data-close]")) close(); });
+  return sc;
+}
+
+// ---------- 1:1 chat: tap a byline ----------
+function openDM(userId, bookId) {
+  if (S.me && S.me.id === userId) return;
+  track("dm_open", { book: bookId });
+  go(`/dm/new?u=${encodeURIComponent(userId)}&b=${encodeURIComponent(bookId)}`);
+}
+async function renderDM(tid) {
+  window.onresize = null;
+  app.innerHTML = `<section class="chat"><header class="bar"><button class="back" aria-label="Back">‹</button><div class="title"></div><button class="act" id="block">Block</button></header><div class="thread" id="thread"><div class="empty">Loading…</div></div></section>`;
+  $(".back").onclick = () => (S.cameFromApp ? history.back() : go("/inbox"));
+  S.cameFromApp = true;
+  let d;
+  if (!tid) {
+    const q = new URLSearchParams(location.search);
+    const [u, b] = await Promise.all([api(`/v1/users/${q.get("u")}`).catch(() => null), api(`/v1/books/${q.get("b")}`).catch(() => null)]);
+    if (!u || !b) { $("#thread").innerHTML = `<div class="empty">Not found.</div>`; return; }
+    try { const meR = await api("/v1/me"); S.me = meR.me; } catch (_) {}
+    d = { id: null, other: u.user, book: b.book, messages: [], blocked: false };
+  } else {
+    try { d = await api(`/v1/dm/${tid}`); S.me = d.me; } catch (_) { $("#thread").innerHTML = `<div class="empty">Not found.</div>`; return; }
+  }
+  const draw = () => {
+    $(".bar .title").innerHTML = `<b>${esc(d.other.byline || "Reader")}</b><span>${esc(d.book.title)}</span>`;
+    document.title = `${d.other.byline || "Reader"} · ${d.book.title}`;
+    $("#block").hidden = !d.id;
+    $("#block").textContent = d.blocked_by_me ? "Unblock" : "Block";
+    const th = $("#thread");
+    th.innerHTML = d.messages.map((m) => `<div class="msg ${m.mine ? "mine" : ""}"><div class="bubble">${esc(m.body)}</div></div>`).join("") +
+      (d.blocked ? `<div class="blocked">${d.blocked_by_me ? "You blocked this chat." : "This chat is closed."}</div>` : "") +
+      (!d.messages.length ? `<div class="empty">Only first names and cities are shared. No email or phone number.</div>` : "") + `<div class="spacer"></div>`;
+    th.scrollTop = th.scrollHeight;
+  };
+  draw();
+  if (!d.blocked) {
+    mountComposer({ placeholder: "Message", prefill: d.messages.length ? "" : MEETUP, onSend: async (text) => {
+      if (!d.id) {
+        const t = await api("/v1/dm", { method: "POST", body: { user_id: d.other.id, book_id: d.book.id } });
+        d.id = t.thread_id;
+        history.replaceState(null, "", "/dm/" + d.id);
+      }
+      await api(`/v1/dm/${d.id}`, { method: "POST", body: { body: text } });
+      track("dm_sent", { book: d.book.id, meetup_line: text === MEETUP });
+      d = await api(`/v1/dm/${d.id}`); draw();
+    } });
+  }
+  $("#block").onclick = async () => {
+    if (!d.id) return;
+    if (!d.blocked_by_me && !confirm("Block this person? Neither of you can send in this chat.")) return;
+    await api(`/v1/dm/${d.id}/block`, { method: "POST", body: { unblock: !!d.blocked_by_me } });
+    location.reload();
+  };
+  if (d.id) S.pollT = setInterval(async () => { if (document.hidden || location.pathname !== "/dm/" + d.id) return; const n = await api(`/v1/dm/${d.id}`).catch(() => null); if (n && n.messages.length !== d.messages.length) { d = n; draw(); } }, 6000);
+}
+async function renderInbox() {
+  window.onresize = null;
+  document.querySelectorAll(".composer").forEach((c) => c.remove());
+  document.title = "Inbox";
+  app.innerHTML = `<section class="chat"><header class="bar"><button class="back" aria-label="Back">‹</button><div class="title"><b>Inbox</b></div><span></span></header><div class="thread inbox" id="thread"><div class="empty">Loading…</div></div></section>`;
+  $(".back").onclick = () => go("/");
+  const d = await api("/v1/dm").catch(() => ({ threads: [] }));
+  $("#thread").innerHTML = d.threads.length ? d.threads.map((t) => `<a data-nav class="row" href="/dm/${esc(t.id)}">${t.unread ? `<span class="count u">${t.unread}</span>` : ""}<b>${esc(t.other.byline || "Reader")}</b><div class="m">${esc(t.book.title)} · ${esc(t.last_body)}</div></a>`).join("")
+    : `<div class="empty">No chats yet. Tap a name in any group chat.</div>`;
+}
+
+route();
+</script>
+</body>
+</html>

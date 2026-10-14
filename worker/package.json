@@ -1,0 +1,1 @@
+{"name":"book-rooms-api","private":true,"type":"module","dependencies":{"@anthropic-ai/sdk":"^0.134.0"}}

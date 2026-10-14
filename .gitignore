@@ -1,0 +1,6 @@
+data/cache/
+data/aidan_token.txt
+node_modules/
+.wrangler/
+.vercel/
+data/admin_token.txt

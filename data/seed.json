@@ -1,0 +1,1996 @@
+{
+ "books": [
+  {
+   "id": "blood-meridian",
+   "title": "Blood Meridian, or, the Evening Redness in the West",
+   "author": "Cormac McCarthy",
+   "first_published": 1985,
+   "openlibrary_work": "/works/OL40879W",
+   "unit": "chapter",
+   "unit_count": 23,
+   "cover": {
+    "source_url": "https://www.abebooks.com/signed-first-edition/Blood-Meridian-MCCARTHY-CORMAC-Random-House/32491006854/bd",
+    "edition": "First edition, Random House",
+    "year": "1985",
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "from_hbc": true,
+    "image": "/covers/blood-meridian.jpg"
+   },
+   "preferred_editions": [
+    {
+     "label": "First edition (Random House, 1985)",
+     "url": "https://www.ebay.com/sch/i.html?_nkw=%22blood+meridian%22+%22random+house%22+1985+first+edition&_sacat=267"
+    },
+    {
+     "label": "Vintage International",
+     "url": "https://www.ebay.com/sch/i.html?_nkw=%22blood+meridian%22+%22vintage+international%22&_sacat=267"
+    },
+    {
+     "label": "Picador",
+     "url": "https://www.ebay.com/sch/i.html?_nkw=%22blood+meridian%22+picador+hardback&_sacat=267"
+    }
+   ],
+   "review": {
+    "rating": 5,
+    "body": "Recently re-read this as part of a book club with a buddy. Couple of quotes from the re-read:\n\n“In the morning they crossed a bed of thunderstones clustered on that heath like the ossified eggs of some primal groundbird.”\n\n“Beyond the fire it was cold and the night was clear and the stars were falling. The old hunter pulled his blanket about him. I wonder if there’s other worlds like this, he said. Or if this is the only one.”\n\n—————————\n\nAnd some notes/discussion on the ending sequence:\n\nThe little girl gone missing at the end, after her bear was killed, was it the judge? Seems related to the judge killing the idiot. \n\nThe Judge preys on children throughout the novel (there are multiple hints and references to missing children whenever he appears). Whenever children disappear in proximity to him, violence follows. \n\nA child disappears.\nThe Judge remains.\nThe Judge dances.\n\nHe survives. The innocent does not.\n\nThe bear and the girl matter symbolically too.\n- The bear = something wild, ancient, mythic.\n- It’s reduced to spectacle.\n- It’s shot for entertainment.\n\nCivilization isn’t moral — it’s just another arena for violence. The girl disappearing right after the bear is killed suggests:\n\nThe spectacle continues.\nThe ritual of blood continues.\nThe Judge continues.",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Tue, 24 Feb 2026 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "go-down-moses",
+   "title": "Go Down, Moses",
+   "author": "William Faulkner",
+   "first_published": 1942,
+   "openlibrary_work": "/works/OL82918W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/14810382-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL26885488M",
+    "edition": "Modern Library, 1942",
+    "year": 1942,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/go-down-moses.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "Brilliant.",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Fri, 21 Aug 2026 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "still-possible",
+   "title": "Still Possible",
+   "author": "David Whyte",
+   "first_published": 2121,
+   "openlibrary_work": "/works/OL27870171W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/13880765-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL38092228M",
+    "edition": "Many Rivers Press, 2021",
+    "year": 2021,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition or preferred-imprint image; earliest English edition with a cover",
+    "imprint": null,
+    "image": "/covers/still-possible.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "Best work of contemporary poetry I’ve read in years. Saw Gracie Abrams post about it on her Instagram. Have always respected her songwriting and emotional depth. Good taste in prose too it appears.",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Fri, 2 Jan 2026 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "the-age-of-reason",
+   "title": "The Age of Reason",
+   "author": "Thomas Paine",
+   "first_published": 1794,
+   "openlibrary_work": "/works/OL60357W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/5718342-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL7167047M",
+    "edition": "Bennett, 1877",
+    "year": 1877,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition or preferred-imprint image; earliest English edition with a cover",
+    "imprint": null,
+    "image": "/covers/the-age-of-reason.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "F*cking brilliant. \n\n> First, – Canst thou by searching find out God? Yes because, in the first place, I know I did not make myself, and yet I have existence; and by searching into the nature of other things, I find that no other thing could make itself; and yet millions of other things exist; therefore it is, that I know, by positive conclusion resulting from this search, that there is a power superior to all those things, and that power is God.\n\n> It is a fraud of the Christian system to call the sciences human invention; it is only the application of them that is human. Every science has for its basis a system of principles as fixed and unalterable as those by which the universe is regulated and governed. Man cannot make principles, he can only discover them.",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Sun, 15 Mar 2026 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "the-uncanny",
+   "title": "The Uncanny",
+   "author": "Sigmund Freud",
+   "first_published": 1919,
+   "openlibrary_work": "/works/OL1069503W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "source_url": "https://archive.org/details/Imago-ZeitschriftFuumlrAnwendungDerPsychoanalyseAufDie_464",
+    "edition": "First appearance, as Das Unheimliche, in Imago V (Heft 5/6), Internationaler Psychoanalytischer Verlag",
+    "year": "1919",
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "from_hbc": true,
+    "image": "/covers/the-uncanny.jpg"
+   },
+   "preferred_editions": [
+    {
+     "label": "First edition (Imago, 1919)",
+     "url": "https://www.ebay.com/sch/i.html?_nkw=%22imago%22+freud+zeitschrift&_sacat=267"
+    },
+    {
+     "label": "Penguin Classics",
+     "url": "https://www.ebay.com/sch/i.html?_nkw=%22the+uncanny%22+freud+%22penguin+classics%22&_sacat=267"
+    },
+    {
+     "label": "Hogarth Press",
+     "url": "https://www.ebay.com/sch/i.html?_nkw=freud+%22collected+papers%22+hogarth&_sacat=267"
+    }
+   ],
+   "review": {
+    "rating": 5,
+    "body": "Notes:\n—————\n\nWishful fantasies of entire nations result in myth. Folk psychology. \n\nBeing able to mask underlying desires and express them in a way that others gain pleasure from. Creatively mask them. Poetic subjectivity. \n\nAll children eventually realize that their mother is certainly their mother (having they came from her body). But the father less certain. \n\nThe dreaming of different parents. Those grander. Not as a matter of replacing them, but rather to exalt them. Reminiscing over happy times long past. Projected via fantasy. \n\nVasari recounts that in his last hour of life, Leonardo Da Vinci reproached himself for having offended God and mankind by failing in his duty as artist. \n\nAll childhood memories are fantasies. Like nations. When a nation is small and weak it does not think of recording its history. Only later, does it look back and recount its deeds. Re-tooled to serve later preoccupations. \n\nThe relation between obsessional neurosis and the compulsive nature of trivial activities. \n\nDa Vinci loved his mother more than any other woman, thereby presumed homosexual.",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Sat, 14 Feb 2026 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "ask-the-dust",
+   "title": "Ask the Dust",
+   "author": "John Fante",
+   "first_published": 1939,
+   "openlibrary_work": "/works/OL77327W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/6650913-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL4418261M",
+    "edition": "Black Sparrow Press, 1980",
+    "year": 1980,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition or preferred-imprint image; earliest English edition with a cover",
+    "imprint": null,
+    "image": "/covers/ask-the-dust.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "Raw emotion seared onto the page.",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Sat, 8 Mar 2025 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "introductory-lectures-on-aesthetics",
+   "title": "Introductory Lectures on Aesthetics",
+   "author": "Georg Wilhelm Friedrich Hegel",
+   "first_published": 1993,
+   "openlibrary_work": "/works/OL678366W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/103207-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL1170360M",
+    "edition": "Penguin Books, 1993",
+    "year": 1993,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition image found; fell back to Penguin Classics",
+    "imprint": "penguin classics",
+    "image": "/covers/introductory-lectures-on-aesthetics.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "The more that works of art excel in true beauty of presentation, the more profound is the inner truth of their content and thought. \n\nWill be reading more Hegel.",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Mon, 15 Sep 2025 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "sometimes-a-great-notion",
+   "title": "Sometimes a Great Notion",
+   "author": "Ken Kesey",
+   "first_published": 1964,
+   "openlibrary_work": "/works/OL2944470W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/9932619-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL7816520M",
+    "edition": "Bantam Books, 1964",
+    "year": 1964,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/sometimes-a-great-notion.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "Wow. Incredibly creative. And oddly heart wrenching? I’m very impressed. \n\nFunny weed, them flycatchers. Lots of funny plants. Them Indians eat a outfit called a wapatoo, a tuber-like affair that grows under water in the sloughs, squaws wade around barefoot and grub them outen the mud with their toes. — Ken Kesey (Sometimes a Great Notion)",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Tue, 7 Jan 2025 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "the-odyssey",
+   "title": "The Odyssey",
+   "author": "Homer",
+   "first_published": -750,
+   "openlibrary_work": null,
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": null,
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "Been listening to this on long walks. Interesting to see the themes that cascade history. \n\nWhat got me on this (btw) was reading that nearly half of all Ancient Greek papyrus finds are fragments of Homer. Says a lot as to his/their importance (depending on your opinion on the Homeric Question) and our Western heritage. \n\nWould recommend.",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Sun, 10 Aug 2025 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "eragon",
+   "title": "Eragon",
+   "author": "Christopher Paolini",
+   "first_published": 2002,
+   "openlibrary_work": "/works/OL5819895W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/731664-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL3960101M",
+    "edition": "Paolini International, 2002",
+    "year": 2002,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/eragon.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "less-than-zero",
+   "title": "Less Than Zero",
+   "author": "Bret Easton Ellis",
+   "first_published": 1985,
+   "openlibrary_work": "/works/OL1812917W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/9847616-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL3020544M",
+    "edition": "Simon and Schuster, 1985",
+    "year": 1985,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/less-than-zero.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "Love the layout of this novel. Very readable.\n\nWhile the plot and characters of this novel leave me feeling numb, there is a certain quality to it that speaks truth — especially to a younger reader.",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Mon, 5 Feb 2024 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "outer-dark",
+   "title": "Outer Dark",
+   "author": "Cormac McCarthy",
+   "first_published": 1968,
+   "openlibrary_work": "/works/OL40881W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/9296903-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL5607189M",
+    "edition": "Random House, 1968",
+    "year": 1968,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/outer-dark.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "What makes McCarthy’s novels so intriguing, at least to me, is that they are littered with parables and often opaque modernism - leaving a portentous (and often dark) feeling hanging over the reader. That said, I highly recommend this novel. But forewarning, don’t read after twilight.",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Thu, 25 Apr 2024 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "the-big-sleep",
+   "title": "The Big Sleep",
+   "author": "Raymond Chandler",
+   "first_published": 1939,
+   "openlibrary_work": "/works/OL15400582W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/12911916-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL39798510M",
+    "edition": "Penguin, 2004",
+    "year": 2004,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition image found; fell back to Penguin Classics",
+    "imprint": "penguin classics",
+    "image": "/covers/the-big-sleep.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "This was such a fun read. A well written, hard boiled crime novel. Fantastic dialogue too (see my Kindle highlights).",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Sat, 15 Jun 2024 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "bright-lights-big-city",
+   "title": "Bright Lights, Big City",
+   "author": "Jay McInerney",
+   "first_published": 1984,
+   "openlibrary_work": "/works/OL1917713W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/254247-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL2866634M",
+    "edition": "Vintage Books, 1984",
+    "year": 1984,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/bright-lights-big-city.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "Somewhere between This Side of Paradise and American Psycho. Brilliant.",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Sun, 26 Nov 2023 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "helter-skelter",
+   "title": "Helter Skelter: The True Story of the Manson Murders",
+   "author": "Vincent Bugliosi",
+   "first_published": 1974,
+   "openlibrary_work": "/works/OL19855049W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/14977515-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL53539095M",
+    "edition": "Bantam Books, 1974",
+    "year": 1974,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/helter-skelter.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "They began questioning Crockett and Poston. The officers had come looking for arson suspects, and a possible stolen vehicle. They found something totally unexpected. From Pursell’s report: “The interview resulted in some of the most unbelievable and fantastic information we had ever heard: tales of drug use, sex orgies, the actual attempt to re-create the days of Rommel and the Desert Corps by tearing over the countryside by night in numerous dune buggies, the stringing of field phones around the area for rapid communication, the opinion of the leader that he is Jesus Christ and seemed to be trying to form a cult of some sort…” - Vincent Bugliosi (Helter Skelter)",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Sat, 1 Apr 2023 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "moby-dick-or-the-whale",
+   "title": "Moby-Dick or, The Whale",
+   "author": "Herman Melville",
+   "first_published": 1851,
+   "openlibrary_work": "/works/OL102749W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/10720369-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL32062399M",
+    "edition": "United States Book Company, 1892",
+    "year": 1892,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition or preferred-imprint image; earliest English edition with a cover",
+    "imprint": null,
+    "image": "/covers/moby-dick-or-the-whale.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "Incredible scope. Melville’s prose is both daunting and dazzling. My favorite chapters: \n\nThe Castaway\nThe Try-Works\nThe Blacksmith\nThe Chase — Third Day",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Tue, 7 Nov 2023 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "omensetter-s-luck",
+   "title": "Omensetter's Luck",
+   "author": "William H. Gass",
+   "first_published": 1966,
+   "openlibrary_work": "/works/OL1999222W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/15212393-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL14103160M",
+    "edition": "New American Library, 1966",
+    "year": 1966,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/omensetter-s-luck.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "Experimental fiction can be so hit or miss. But this was brilliant. First time I’ve encountered an author who did stream-of-consciousness in an even more creative way than the archons themselves (Joyce + Faulkner).",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Mon, 29 May 2023 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "the-fountainhead",
+   "title": "The Fountainhead",
+   "author": "Ayn Rand",
+   "first_published": 1943,
+   "openlibrary_work": "/works/OL731663W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/6748805-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL24646249M",
+    "edition": "Signet/New American Library, Signet, 1943",
+    "year": 1943,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/the-fountainhead.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "Probably the best novel I’ve read since ‘This Side of Paradise’. Both abrasive and assured, Ayn Rand is an author worth discussing with your peers. Brilliant work of literature.",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Mon, 6 Feb 2023 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "american-psycho",
+   "title": "American Psycho",
+   "author": "Bret Easton Ellis",
+   "first_published": 1991,
+   "openlibrary_work": "/works/OL1812933W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "source_url": "https://www.abebooks.com/first-edition/American-Psycho-Bret-Easton-Ellis-Vintage/32335270943/bd",
+    "edition": "First edition, Vintage Contemporaries paperback original",
+    "year": "1991",
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "from_hbc": true,
+    "image": "/covers/american-psycho.jpg"
+   },
+   "preferred_editions": [
+    {
+     "label": "First edition (Vintage Contemporaries, 1991)",
+     "url": "https://www.ebay.com/sch/i.html?_nkw=%22american+psycho%22+1991+vintage+first+edition&_sacat=267"
+    },
+    {
+     "label": "Picador",
+     "url": "https://www.ebay.com/sch/i.html?_nkw=%22american+psycho%22+picador+1991&_sacat=267"
+    },
+    {
+     "label": "Picador hardcover",
+     "url": "https://www.ebay.com/sch/i.html?_nkw=%22american+psycho%22+picador+hardcover&_sacat=267"
+    }
+   ],
+   "review": {
+    "rating": 5,
+    "body": "I vividly remember being in a bookstore in Cambridge, waiting to catch my train back to London, and coming across this novel. \n\nDisgusting. Riveting. Honestly, an incredibly drastic encapsulation of the American Dream.",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Thu, 12 May 2022 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "augustus",
+   "title": "Augustus",
+   "author": "John  Williams",
+   "first_published": 1972,
+   "openlibrary_work": "/works/OL3511458W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/6783324-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL24711441M",
+    "edition": "Viking Press, 1972",
+    "year": 1972,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/augustus.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "Thus I did not determine to change the world out of an easy idealism and selfish righteousness that are invariably the harbingers of failure, nor did I determine to change the world so that my wealth and power might be enhanced; wealth beyond one’s comfort has always seemed to me the most boring of possessions, and power beyond its usefulness has seemed the most contemptible. It was destiny that seized me that afternoon at Apollonia nearly sixty years ago, and I chose not to avoid its embrace. - John Williams (Augustus)",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Sat, 8 Oct 2022 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "cities-of-the-plain",
+   "title": "Cities of the Plain",
+   "author": "Cormac McCarthy",
+   "first_published": 1998,
+   "openlibrary_work": "/works/OL40869W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/10587380-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL28047127M",
+    "edition": "Picador, Alfred A. Knopf, May 14, 1998",
+    "year": 1998,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/cities-of-the-plain.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "Every man’s death is a standing in for every other. And since death comes to all there is no way to abate the fear of it except to love that man who stands for us. We are not waiting for his history to be written. He passed here long ago. That man who is all men and who stands in the dock for us until our own time come and we must stand for him. Do you love him, that man? Will you honor the path he has taken? Will you listen to his tale? - Cormac McCarthy (Cities of the Plain)",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Fri, 22 Apr 2022 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "jesus-son",
+   "title": "Jesus’ Son",
+   "author": "Denis Johnson",
+   "first_published": 1992,
+   "openlibrary_work": "/works/OL14961795W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/6299756-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL24084945M",
+    "edition": "Picador, February 17, 2009",
+    "year": 2009,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition image found; fell back to Picador",
+    "imprint": "picador",
+    "image": "/covers/jesus-son.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "The Vine had no jukebox but a real stereo continually playing tunes of alcoholic self-pity and sentimental divorce. “Nurse,” I sobbed. She poured doubles like an angel, right up to the lip of a cocktail glass, no measuring. “You have a lovely pitching arm.” You had to go down to them like a hummingbird over a blossom. I saw her much later, not too many years ago, and when I smiled she seemed to believe I was making advances. But it was only that I remembered. I’ll never forget you. Your husband will beat you with an extension cord and the bus will pull away leaving you standing there in tears, but you were my mother. - Denis Johnson (Jesus’ Son)",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Sun, 27 Feb 2022 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "play-it-as-it-lays",
+   "title": "Play It As It Lays",
+   "author": "Joan Didion",
+   "first_published": 1970,
+   "openlibrary_work": "/works/OL500177W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/6863096-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL24870556M",
+    "edition": "Farrar, Straus & Giroux, 1970",
+    "year": 1970,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/play-it-as-it-lays.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "This was like an 60s version of “Less Than Zero” - which makes sense given Bret Easton Ellis has stated this to be one of his top 10 favorite novels. I still haven’t fully come to grips with this one. So I’ll end on a quote: \n\nMaria made a list of things she would never do. She would never: walk through Sands or Caesar’s alone after midnight. She would never: ball at a party, do S-M unless she wanted to, borrow furs from Abe Lipsey, deal. She would never: carry a Yorkshire in Beverly Hills. - Joan Didion (Play It As It Lays)",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Thu, 15 Dec 2022 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "requiem-for-a-dream",
+   "title": "Requiem for a Dream",
+   "author": "Hubert Selby Jr.",
+   "first_published": 1978,
+   "openlibrary_work": "/works/OL2737309W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/978923-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL8889429M",
+    "edition": "Editions 10/18, September 21, 1999",
+    "year": 1999,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition or preferred-imprint image; earliest English edition with a cover",
+    "imprint": null,
+    "image": "/covers/requiem-for-a-dream.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "stoner",
+   "title": "Stoner",
+   "author": "John  Williams",
+   "first_published": 1965,
+   "openlibrary_work": "/works/OL3511459W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/8131783-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL5087169M",
+    "edition": "Allen Lane, 1973",
+    "year": 1973,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition or preferred-imprint image; earliest English edition with a cover",
+    "imprint": null,
+    "image": "/covers/stoner.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "Wow. First 300ish page book I’ve read cover to cover in 24 hours since maybe Harry Potter in middle school?\n\nIm gonna write a real review after this settles in. Incredible.",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Sun, 14 Aug 2022 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "the-fall",
+   "title": "The Fall",
+   "author": "Albert Camus",
+   "first_published": 1956,
+   "openlibrary_work": "/works/OL1230720W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/745331-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL8362992M",
+    "edition": "Everyman's Library, August 17, 2004",
+    "year": 2004,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition or preferred-imprint image; earliest English edition with a cover",
+    "imprint": null,
+    "image": "/covers/the-fall.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "the-passenger",
+   "title": "The Passenger",
+   "author": "Cormac McCarthy",
+   "first_published": 2022,
+   "openlibrary_work": "/works/OL20682827W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/12968819-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL37848017M",
+    "edition": "Alfred A. Knopf, Oct 25, 2022",
+    "year": 2022,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/the-passenger.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "Stylistically, this reminds me of Suttree. But thematically? The ending of Cities of the Plain comes to mind. I don’t know, this was very different than what I’ve come to expect from McCarthy through his previous 10 novels (that I’ve read at least). Yet, The Passenger is still fundamentally McCarthy. It’s funny, deeply philosophical, and the last chapter? McCarthy at his best. I think I’ve got 10 highlights from the final chapter alone. \n\nExcited for Stella Maris (and eagerly waiting for my friends to finish this one so we can discuss).",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Sat, 12 Nov 2022 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "the-throne-of-the-third-heaven-of-the-nations-millennium-general-assembly",
+   "title": "The Throne of the Third Heaven of the Nations Millennium General Assembly",
+   "author": "Denis Johnson",
+   "first_published": 1995,
+   "openlibrary_work": "/works/OL21743602W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": null,
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "Not sure if this would be considered traditional poetry, but the blurbs of thought Johnson lays bare are incredibly intricate and exceedingly profound. Very, very impressed with this work.\n\nHave not been a huge fan of his longer novels, but he is hands down the best short story and sheer prose author I’ve ever read.\n\nLooking forward to more of his.",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Wed, 1 Jun 2022 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "train-dreams",
+   "title": "Train Dreams",
+   "author": "Denis Johnson",
+   "first_published": 2002,
+   "openlibrary_work": "/works/OL15916948W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/9106091-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL27663354M",
+    "edition": "Picador, May 22, 2012",
+    "year": 2012,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition image found; fell back to Picador",
+    "imprint": "picador",
+    "image": "/covers/train-dreams.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "anatomy-of-the-state",
+   "title": "Anatomy of the State",
+   "author": "Murray N. Rothbard",
+   "first_published": 1974,
+   "openlibrary_work": "/works/OL20176407W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/11749750-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL33046401M",
+    "edition": "www.bnpublishing.com, bnpublishing.com, Sep 21, 2014",
+    "year": 2014,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition or preferred-imprint image; earliest English edition with a cover",
+    "imprint": null,
+    "image": "/covers/anatomy-of-the-state.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "This essay concisely defines the difference between “social power” and “state power”. Or rather, “the mutually exclusive interrelations between men” - production and predation. Very informative (and short) read.",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Tue, 7 Sep 2021 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "atlas-shrugged",
+   "title": "Atlas Shrugged",
+   "author": "Ayn Rand",
+   "first_published": 1957,
+   "openlibrary_work": "/works/OL731644W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/6296654-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL6224212M",
+    "edition": "Random House, 12 October 1957",
+    "year": 1957,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/atlas-shrugged.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "Broader in scope than ‘The Fountainhead’ and a more apt encapsulation of Rand’s philosophy, but I feel like ‘The Fountainhead’ was a better novel. That said, kudos to the writer who can put pencil to paper for 1200 pages. \n\nWho is John Galt?",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Sat, 18 Sep 2021 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "cannery-row",
+   "title": "Cannery Row",
+   "author": "John Steinbeck",
+   "first_published": 1943,
+   "openlibrary_work": "/works/OL23199W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/14813377-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL37905726M",
+    "edition": "Viking, 1945",
+    "year": 1945,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition or preferred-imprint image; earliest English edition with a cover",
+    "imprint": null,
+    "image": "/covers/cannery-row.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "child-of-god",
+   "title": "Child of God",
+   "author": "Cormac McCarthy",
+   "first_published": 1973,
+   "openlibrary_work": "/works/OL40878W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/195599-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL10489306M",
+    "edition": "Picador, March 10, 1989",
+    "year": 1989,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition image found; fell back to Picador",
+    "imprint": "picador",
+    "image": "/covers/child-of-god.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "First novel I’ve read cover to cover in a single day in years. Glaringly disturbing novel - yet McCarthy’s prose is powerful and prophetic.",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Sat, 10 Apr 2021 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "slouching-towards-bethlehem",
+   "title": "Slouching Towards Bethlehem",
+   "author": "Joan Didion",
+   "first_published": 1968,
+   "openlibrary_work": "/works/OL43100620W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/8018063-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL26337614M",
+    "edition": "Dell Publ., 1968",
+    "year": 1968,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/slouching-towards-bethlehem.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "Years ago, I remember sending a text to several of my friends asking “What does California mean to you?” and receiving an incredulous response or no response at all. \n\nThis collection of essays embodies what I was inquiring as to. California. \n\n“Go west young man, ain’t you been told? California’s full of whiskey, women, and gold…” — Should Have Been a Cowboy (Toby Keith)",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Fri, 26 Nov 2021 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "the-orchard-keeper",
+   "title": "The Orchard Keeper",
+   "author": "Cormac McCarthy",
+   "first_published": 1965,
+   "openlibrary_work": "/works/OL40884W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/14208369-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL38245970M",
+    "edition": "Random House, Jun 01, 1965",
+    "year": 1965,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/the-orchard-keeper.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "“It was still dark and the fire had long since died, still dark and quiet with that silence that seems to be of itself listening, and astral quiet where planets collide soundlessly, beyond the auricular dimension altogether.” - Cormac McCarthy (The Orchard Keeper)",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Sat, 3 Jul 2021 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "twilight",
+   "title": "Twilight",
+   "author": "William Gay",
+   "first_published": 2006,
+   "openlibrary_work": "/works/OL464029W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/877282-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL8892334M",
+    "edition": "MacAdam Cage, October 20, 2006",
+    "year": 2006,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/twilight.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "Halfway through this, I realized how much I enjoyed Gay’s storytelling ability (and sheer prose) - and ordered a copy of ‘Provinces of Night’. \n\nThat said, ‘Twilight’ was magnificent. A fitting and beautiful archetype of Southern Gothic.",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Sun, 12 Sep 2021 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "absalom-absalom",
+   "title": "Absalom, Absalom!",
+   "author": "William Faulkner",
+   "first_published": 1936,
+   "openlibrary_work": "/works/OL82928W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/14810350-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL22736920M",
+    "edition": "Chatto & Windus, 1936",
+    "year": 1936,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/absalom-absalom.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "Most difficult novel I’ve ever read. \n\nEasier to understand than The Sound and the Fury, but more difficult to read (I can see a lot of people disagreeing on this though). \n\nTypical of Faulkner, I was lost for a great portion of this novel. Not really ‘getting it’, but in the last 20 pages it all comes together and clicks. This man was an artist.",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Sat, 29 Feb 2020 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "fight-club",
+   "title": "Fight Club",
+   "author": "Chuck Palahniuk",
+   "first_published": 1996,
+   "openlibrary_work": "/works/OL18941W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/247032-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL810718M",
+    "edition": "W. W. Norton & Company, 1996",
+    "year": 1996,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/fight-club.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "on-the-genealogy-of-morals",
+   "title": "On the Genealogy of Morals",
+   "author": "Friedrich Nietzsche",
+   "first_published": 1887,
+   "openlibrary_work": "/works/OL15326236W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/15157779-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL61047007M",
+    "edition": "Vintage Books, 1969",
+    "year": 1969,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition or preferred-imprint image; earliest English edition with a cover",
+    "imprint": null,
+    "image": "/covers/on-the-genealogy-of-morals.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "the-name-of-the-wind",
+   "title": "The Name of the Wind",
+   "author": "Patrick Rothfuss",
+   "first_published": 2007,
+   "openlibrary_work": "/works/OL8479867W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/13409756-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL46835937M",
+    "edition": "Penguin Group DAW, April 1, 2007",
+    "year": 2007,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/the-name-of-the-wind.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "white-nights",
+   "title": "White Nights",
+   "author": "Fyodor Dostoevsky",
+   "first_published": 1848,
+   "openlibrary_work": null,
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": null,
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "all-quiet-on-the-western-front",
+   "title": "All Quiet on the Western Front",
+   "author": "Erich Maria Remarque",
+   "first_published": 1928,
+   "openlibrary_work": "/works/OL38898913W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/15262512-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL62656102M",
+    "edition": "Mayflower, 1970",
+    "year": 1970,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition or preferred-imprint image; earliest English edition with a cover",
+    "imprint": null,
+    "image": "/covers/all-quiet-on-the-western-front.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "all-the-pretty-horses",
+   "title": "All the Pretty Horses",
+   "author": "Cormac McCarthy",
+   "first_published": 1992,
+   "openlibrary_work": "/works/OL40882W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/253875-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL1568559M",
+    "edition": "Knopf, Distributed by Random House, 1992",
+    "year": 1992,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/all-the-pretty-horses.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "beyond-good-and-evil",
+   "title": "Beyond Good and Evil",
+   "author": "Friedrich Nietzsche",
+   "first_published": 1886,
+   "openlibrary_work": "/works/OL39995025W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": null,
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "i-am-the-messenger",
+   "title": "I Am the Messenger",
+   "author": "Markus Zusak",
+   "first_published": 2002,
+   "openlibrary_work": "/works/OL5819463W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/4319082-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL3754560M",
+    "edition": "Pan, 2002",
+    "year": 2002,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/i-am-the-messenger.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "junius-maltby",
+   "title": "Junius Maltby",
+   "author": "John Steinbeck",
+   "first_published": 1933,
+   "openlibrary_work": "/works/OL23197W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/15050163-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL58736444M",
+    "edition": "Viking Press, 1945",
+    "year": 1945,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition or preferred-imprint image; earliest English edition with a cover",
+    "imprint": null,
+    "image": "/covers/junius-maltby.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "selected-poems",
+   "title": "Selected Poems",
+   "author": "John Keats",
+   "first_published": 1970,
+   "openlibrary_work": "/works/OL1455252W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/6561274-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL6267720M",
+    "edition": "Houghton Mifflin, 1959",
+    "year": 1959,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition or preferred-imprint image; earliest English edition with a cover",
+    "imprint": null,
+    "image": "/covers/selected-poems.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "the-book-thief",
+   "title": "The Book Thief",
+   "author": "Markus Zusak",
+   "first_published": 2005,
+   "openlibrary_work": "/works/OL5819456W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/13336574-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL16525597M",
+    "edition": "Picador, Alfred A. Knopf, 2005",
+    "year": 2005,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/the-book-thief.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "the-grapes-of-wrath",
+   "title": "The Grapes of Wrath",
+   "author": "John Steinbeck",
+   "first_published": 1939,
+   "openlibrary_work": "/works/OL23205W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/14913337-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL58653763M",
+    "edition": "The Viking press, 1939",
+    "year": 1939,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/the-grapes-of-wrath.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "the-red-pony",
+   "title": "The Red Pony",
+   "author": "John Steinbeck",
+   "first_published": 1933,
+   "openlibrary_work": "/works/OL23197W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/15050163-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL58736444M",
+    "edition": "Viking Press, 1945",
+    "year": 1945,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition or preferred-imprint image; earliest English edition with a cover",
+    "imprint": null,
+    "image": "/covers/the-red-pony.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "the-shadow-of-the-wind",
+   "title": "The Shadow of the Wind",
+   "author": "Carlos Ruiz Zafón",
+   "first_published": 2001,
+   "openlibrary_work": "/works/OL36433603W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": null,
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "the-sound-and-the-fury",
+   "title": "The Sound and the Fury",
+   "author": "William Faulkner",
+   "first_published": 1929,
+   "openlibrary_work": "/works/OL82870W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/14810818-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL17729431M",
+    "edition": "Random House, 1929",
+    "year": 1929,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/the-sound-and-the-fury.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "this-side-of-paradise",
+   "title": "This Side of Paradise",
+   "author": "F. Scott Fitzgerald",
+   "first_published": 1920,
+   "openlibrary_work": "/works/OL468488W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/5526922-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL7720245M",
+    "edition": "Collier Books, April 1920",
+    "year": 1920,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/this-side-of-paradise.jpg"
+   },
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "I’ve struggled for years to find the words to review this book. I still remember picking up a copy in a Fargo, ND bookstore whilst interning for John Deere. Read it in a single weekend. \n\nThis Side of Paradise is smart. It’s poetic. Eloquent in the way only Fitzgerald can be. \n\nAnd it’s still, to date, the best book I’ve ever read.\n\nArmory Blaine is eternal - as well as F Scott.",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read Thu, 26 Dec 2019 00:00:00 +0000"
+   }
+  },
+  {
+   "id": "a-brief-history-of-time",
+   "title": "A Brief History of Time",
+   "author": "Stephen W. Hawking",
+   "first_published": 1988,
+   "openlibrary_work": "/works/OL1892617W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/4635085-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL22724446M",
+    "edition": "Bantam Press, 1988",
+    "year": 1988,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/a-brief-history-of-time.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "brave-new-world",
+   "title": "Brave New World",
+   "author": "Aldous Huxley",
+   "first_published": 1932,
+   "openlibrary_work": "/works/OL64365W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/13223527-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL7275142M",
+    "edition": "HarperCollins Publishers, December 1932",
+    "year": 1932,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/brave-new-world.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "ender-s-game",
+   "title": "Ender’s Game",
+   "author": "Orson Scott Card",
+   "first_published": 1985,
+   "openlibrary_work": "/works/OL49488W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/183786-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL2586366M",
+    "edition": "T. Doherty Associates, 1985",
+    "year": 1985,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/ender-s-game.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "the-ballad-of-reading-gaol",
+   "title": "The Ballad of Reading Gaol",
+   "author": "Oscar Wilde",
+   "first_published": 1898,
+   "openlibrary_work": "/works/OL8271329W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/6954470-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL25082694M",
+    "edition": "Leonard Smithers, February 24, 1898",
+    "year": 1898,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/the-ballad-of-reading-gaol.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "1984",
+   "title": "1984",
+   "author": "George Orwell",
+   "first_published": 1949,
+   "openlibrary_work": "/works/OL11326416W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/15145130-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL22819394M",
+    "edition": "Pearson Education, 2003",
+    "year": 2003,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition or preferred-imprint image; earliest English edition with a cover",
+    "imprint": null,
+    "image": "/covers/1984.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "airman",
+   "title": "Airman",
+   "author": "Eoin Colfer",
+   "first_published": 2007,
+   "openlibrary_work": "/works/OL5726031W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/2570140-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL10658495M",
+    "edition": "Listening Library, June 2007",
+    "year": 2007,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/airman.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "angels-demons",
+   "title": "Angels & Demons",
+   "author": "Dan    Brown",
+   "first_published": 2000,
+   "openlibrary_work": "/works/OL76833W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/12392839-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL33985282M",
+    "edition": "Pocket Books, 2000",
+    "year": 2000,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/angels-demons.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "cormac-mccarthy-returns-to-the-kekul-problem",
+   "title": "Cormac McCarthy Returns to the Kekulé Problem",
+   "author": "Cormac McCarthy",
+   "first_published": 2017,
+   "openlibrary_work": null,
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": null,
+   "preferred_editions": [],
+   "review": {
+    "rating": 5,
+    "body": "Really interesting essay regarding the nature of our subconscious. Had never really thought about it. Here’s the link if anyone else wants to read it: https://nautil.us/the-kekul-problem-2...",
+    "author": "Aidan",
+    "source": "goodreads",
+    "source_ref": "Aidan's Goodreads review, read None"
+   }
+  },
+  {
+   "id": "fablehaven",
+   "title": "Fablehaven",
+   "author": "Brandon Mull",
+   "first_published": 2006,
+   "openlibrary_work": "/works/OL8755877W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/12233479-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL35390886M",
+    "edition": "Aladdin, Oct 29, 2006",
+    "year": 2006,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/fablehaven.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "grip-of-the-shadow-plague",
+   "title": "Grip of the Shadow Plague",
+   "author": "Brandon Mull",
+   "first_published": 2008,
+   "openlibrary_work": "/works/OL15597926W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/12850673-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL12369022M",
+    "edition": "Shadow Mountain, Shadow Mountain Publishing, 2008",
+    "year": 2008,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/grip-of-the-shadow-plague.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "harry-potter-and-the-chamber-of-secrets",
+   "title": "Harry Potter and the Chamber of Secrets",
+   "author": "J.K. Rowling",
+   "first_published": 1998,
+   "openlibrary_work": "/works/OL82537W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/15158664-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL59041259M",
+    "edition": "Bloomsbury, 1998",
+    "year": 1998,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/harry-potter-and-the-chamber-of-secrets.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "harry-potter-and-the-deathly-hallows",
+   "title": "Harry Potter and the Deathly Hallows",
+   "author": "J.K. Rowling",
+   "first_published": 2007,
+   "openlibrary_work": "/works/OL82586W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/15159977-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL61068190M",
+    "edition": "Arthur A. Levine Books, 2007",
+    "year": 2007,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/harry-potter-and-the-deathly-hallows.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "harry-potter-and-the-goblet-of-fire",
+   "title": "Harry Potter and the Goblet of Fire",
+   "author": "J.K. Rowling",
+   "first_published": 2000,
+   "openlibrary_work": "/works/OL82560W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/15158661-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL61057759M",
+    "edition": "Bloomsbury, 2000",
+    "year": 2000,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/harry-potter-and-the-goblet-of-fire.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "harry-potter-and-the-half-blood-prince",
+   "title": "Harry Potter and the Half-Blood Prince",
+   "author": "J.K. Rowling",
+   "first_published": 2005,
+   "openlibrary_work": "/works/OL82565W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/15156807-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL61041700M",
+    "edition": "Listening Library, 2005",
+    "year": 2005,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/harry-potter-and-the-half-blood-prince.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "harry-potter-and-the-order-of-the-phoenix",
+   "title": "Harry Potter and the Order of the Phoenix",
+   "author": "J.K. Rowling",
+   "first_published": 2003,
+   "openlibrary_work": "/works/OL82548W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/15166468-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL23247162M",
+    "edition": "Arthur A. Levine Books, 2003",
+    "year": 2003,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/harry-potter-and-the-order-of-the-phoenix.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "harry-potter-and-the-prisoner-of-azkaban",
+   "title": "Harry Potter and the Prisoner of Azkaban",
+   "author": "J.K. Rowling",
+   "first_published": 1999,
+   "openlibrary_work": "/works/OL82536W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/15158668-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL61057806M",
+    "edition": "Bloomsbury, 1999",
+    "year": 1999,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/harry-potter-and-the-prisoner-of-azkaban.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "harry-potter-and-the-sorcerer-s-stone",
+   "title": "Harry Potter and the Sorcerer's Stone",
+   "author": "J.K. Rowling",
+   "first_published": 1997,
+   "openlibrary_work": "/works/OL31306243W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/276518-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL7510988M",
+    "edition": "Scholastic Professional Books, August 1, 2000",
+    "year": 2000,
+    "is_first_edition": false,
+    "fallback_reason": "no first-edition or preferred-imprint image; earliest English edition with a cover",
+    "imprint": null,
+    "image": "/covers/harry-potter-and-the-sorcerer-s-stone.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "of-mice-and-men",
+   "title": "Of Mice and Men",
+   "author": "John Steinbeck",
+   "first_published": 1937,
+   "openlibrary_work": "/works/OL23204W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/15154067-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL60991549M",
+    "edition": "P. F. Collier & Son Corporation, 1937",
+    "year": 1937,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/of-mice-and-men.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "rise-of-the-evening-star",
+   "title": "Rise of the Evening Star",
+   "author": "Brandon Mull",
+   "first_published": 2007,
+   "openlibrary_work": "/works/OL8755876W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/1970302-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL9648322M",
+    "edition": "Shadow Mountain, May 1, 2007",
+    "year": 2007,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/rise-of-the-evening-star.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "secrets-of-the-dragon-sanctuary",
+   "title": "Secrets of the Dragon Sanctuary",
+   "author": "Brandon Mull",
+   "first_published": 2009,
+   "openlibrary_work": "/works/OL15069174W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/14605759-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL24548621M",
+    "edition": "Aladdin, Simon & Schuster Children's Publishing, 2009",
+    "year": 2009,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/secrets-of-the-dragon-sanctuary.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "the-battle-of-the-labyrinth",
+   "title": "The Battle of the Labyrinth",
+   "author": "Rick Riordan",
+   "first_published": 2008,
+   "openlibrary_work": "/works/OL492640W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/14940002-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL37026241M",
+    "edition": "Hyperion Books for Children, 6 May 2008",
+    "year": 2008,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/the-battle-of-the-labyrinth.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "the-bourne-supremacy",
+   "title": "The Bourne Supremacy",
+   "author": "Robert Ludlum",
+   "first_published": 1986,
+   "openlibrary_work": "/works/OL2664910W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/7000595-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL23258054M",
+    "edition": "Random House, 1986",
+    "year": 1986,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/the-bourne-supremacy.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "the-call-of-the-wild",
+   "title": "The Call of the Wild",
+   "author": "Jack London",
+   "first_published": 1903,
+   "openlibrary_work": "/works/OL14942956W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/15201606-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL61449628M",
+    "edition": "Lexicon Books, 1903",
+    "year": 1903,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/the-call-of-the-wild.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "the-catcher-in-the-rye",
+   "title": "The Catcher in the Rye",
+   "author": "J.D. Salinger",
+   "first_published": 1951,
+   "openlibrary_work": "/works/OL3335245W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/15172713-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL6089177M",
+    "edition": "Little, Brown and Company, 1951",
+    "year": 1951,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/the-catcher-in-the-rye.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "the-da-vinci-code",
+   "title": "The Da Vinci Code",
+   "author": "Dan    Brown",
+   "first_published": 2003,
+   "openlibrary_work": "/works/OL76837W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/15207728-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL58723818M",
+    "edition": "Doubleday, 2003",
+    "year": 2003,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/the-da-vinci-code.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "the-great-gatsby",
+   "title": "The Great Gatsby",
+   "author": "F. Scott Fitzgerald",
+   "first_published": 1925,
+   "openlibrary_work": "/works/OL468431W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/8160160-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL17721696M",
+    "edition": "C. Scribner's Sons, 1925",
+    "year": 1925,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/the-great-gatsby.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "the-hobbit-or-there-and-back-again",
+   "title": "The Hobbit, or There and Back Again",
+   "author": "J.R.R. Tolkien",
+   "first_published": 1937,
+   "openlibrary_work": "/works/OL27482W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/15214278-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL61641547M",
+    "edition": "The Random House Publishing Group, 1937",
+    "year": 1937,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/the-hobbit-or-there-and-back-again.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "the-hound-of-the-baskervilles",
+   "title": "The Hound of the Baskervilles",
+   "author": "Arthur Conan Doyle",
+   "first_published": 1902,
+   "openlibrary_work": "/works/OL262454W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/15148697-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL47070483M",
+    "edition": "P.F. Collier & Son, 1902",
+    "year": 1902,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/the-hound-of-the-baskervilles.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "the-lightning-thief",
+   "title": "The Lightning Thief",
+   "author": "Rick Riordan",
+   "first_published": 2005,
+   "openlibrary_work": "/works/OL492658W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/14859911-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL53339216M",
+    "edition": "Bound to Stay Bound Books, 2005",
+    "year": 2005,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/the-lightning-thief.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "the-lost-colony",
+   "title": "The Lost Colony",
+   "author": "Eoin Colfer",
+   "first_published": 2006,
+   "openlibrary_work": "/works/OL5725977W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/12015673-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL33965742M",
+    "edition": "Puffin Books, Sep 28, 2006",
+    "year": 2006,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/the-lost-colony.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "the-lost-symbol",
+   "title": "The Lost Symbol",
+   "author": "Dan    Brown",
+   "first_published": 2009,
+   "openlibrary_work": "/works/OL14873315W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/13823321-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL47317469M",
+    "edition": "PLANETA INTERNACIONAL, Apr 04, 2009",
+    "year": 2009,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/the-lost-symbol.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "the-sea-wolf",
+   "title": "The Sea Wolf",
+   "author": "Jack London",
+   "first_published": 1904,
+   "openlibrary_work": "/works/OL144824W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/7893793-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL26214433M",
+    "edition": "L&PM Pocket, 1904",
+    "year": 1904,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/the-sea-wolf.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  },
+  {
+   "id": "where-the-red-fern-grows",
+   "title": "Where the Red Fern Grows",
+   "author": "Wilson Rawls",
+   "first_published": 1961,
+   "openlibrary_work": "/works/OL465360W",
+   "unit": "percent",
+   "unit_count": 100,
+   "cover": {
+    "image_url": "https://covers.openlibrary.org/b/id/14914338-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL58697419M",
+    "edition": "Bantam Pathfinder Editions, 1961",
+    "year": 1961,
+    "is_first_edition": true,
+    "fallback_reason": null,
+    "imprint": null,
+    "image": "/covers/where-the-red-fern-grows.jpg"
+   },
+   "preferred_editions": [],
+   "review": null
+  }
+ ]
+}
