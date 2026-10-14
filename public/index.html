@@ -14,13 +14,13 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23000'/%3E%3Cpath d='M8 9h16v14H8z' fill='%23fff'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 <script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)}</script><script defer src="/_vercel/insights/script.js"></script>
 <style>
 /* Black and white is the UX (Aidan, 2026-10-14). Covers are the only colour. */
 :root { --ink:#000; --paper:#fff; --gutter:16px;
   --sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --serif: "Instrument Serif", Georgia, "Times New Roman", serif; color-scheme: light; }
+  --serif: "Instrument Serif", Georgia, "Times New Roman", serif; --book: "EB Garamond", Garamond, Georgia, serif; color-scheme: light; }
 * { box-sizing: border-box; }
 html, body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--sans); -webkit-text-size-adjust:100%; }
 body { overflow-x:hidden; }
@@ -32,23 +32,31 @@ a { color:inherit; }
 /* ---------- home: 40 / 60 ---------- */
 .hero { height:40svh; margin:0; padding:0 var(--gutter); display:flex; flex-direction:column; justify-content:space-evenly; overflow:hidden; }
 .hero .line { font-family:var(--serif); font-weight:400; line-height:.9; letter-spacing:-.01em; white-space:nowrap; margin:0; }
-.shelf { height:60svh; display:flex; overflow-x:auto; overflow-y:hidden; scroll-snap-type:x mandatory; scrollbar-width:none; background:var(--ink); overscroll-behavior-x:contain; }
-.shelf::-webkit-scrollbar { display:none; }
-.shelf a { flex:0 0 auto; height:100%; scroll-snap-align:start; display:block; text-decoration:none; position:relative; }
-.shelf img { height:100%; width:auto; display:block; }
-.shelf .noimg { height:100%; aspect-ratio:2/3; background:var(--ink); color:var(--paper); display:flex; flex-direction:column; justify-content:flex-end; padding:20px; border-right:1px solid var(--paper); }
-.shelf .noimg b { font-family:var(--serif); font-weight:400; font-size:32px; line-height:1.05; }
-.shelf .noimg span { font-size:15px; margin-top:8px; }
-.below { padding:20px var(--gutter) 48px; max-width:720px; margin:0 auto; }
-.search { display:flex; align-items:center; border:2px solid var(--ink); border-radius:999px; padding:0 6px 0 18px; height:52px; }
-.search input { flex:1; border:0; outline:0; font-size:17px; background:transparent; height:100%; min-width:0; }
-.results { margin-top:8px; }
+.board { display:flex; gap:12px; padding:10px var(--gutter) 64px; background:var(--paper); align-items:flex-start; }
+.board .col { flex:1 1 0; min-width:0; display:flex; flex-direction:column; gap:22px; }
+.board a { display:block; text-decoration:none; color:var(--ink); }
+.board img { width:100%; height:auto; display:block; }
+.board .noimg { aspect-ratio:2/3; background:var(--ink); color:var(--paper); display:flex; flex-direction:column; justify-content:flex-end; padding:10px; }
+.board .noimg b { font-family:var(--serif); font-weight:400; font-size:20px; line-height:1.05; }
+.label { font-family:var(--book); margin-top:8px; font-size:15px; line-height:1.2; }
+.label .ti { font-weight:600; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+.label .au { font-style:italic; }
+.label .pp { font-family:var(--sans); font-size:14px; margin-top:5px; font-weight:600; }
+.label .pp .nr { font-weight:800; }
+.label .alive { display:inline-block; width:7px; height:7px; border-radius:50%; background:var(--ink); margin-right:6px; vertical-align:1px; }
+@media (min-width:900px) { .board { gap:20px; padding:16px 48px 96px; } .board .col { gap:32px; } }
+.findbar { position:fixed; top:0; left:0; right:0; z-index:8; background:var(--paper); border-bottom:2px solid var(--ink); padding:8px 8px calc(8px); padding-top:calc(8px + env(safe-area-inset-top)); display:flex; gap:10px; align-items:center; transform:translateY(-110%); transition:transform .18s ease-out; }
+.findbar.on { transform:none; }
+.search { flex:1; display:flex; align-items:center; border:2px solid var(--ink); border-radius:999px; padding:0 6px 0 16px; height:46px; }
+.search input { flex:1; border:0; outline:0; font-size:17px; background:transparent; height:100%; min-width:0; color:var(--ink); }
+.findbar .inboxlink { font-weight:700; font-size:16px; text-decoration:none; min-height:44px; display:inline-flex; align-items:center; gap:6px; padding:0 4px; }
+.resultsbox { position:fixed; left:0; right:0; z-index:7; background:var(--paper); border-bottom:2px solid var(--ink); max-height:70svh; overflow-y:auto; padding:0 var(--gutter); }
+.results { max-width:720px; margin:0 auto; }
 .results button, .results a { display:flex; width:100%; text-align:left; gap:12px; align-items:center; padding:12px 2px; border-bottom:1px solid var(--ink); text-decoration:none; min-height:56px; }
 .results img { width:36px; height:54px; object-fit:cover; }
 .results .t { font-weight:700; font-size:16px; }
 .results .a { font-size:14px; }
 .results .go { margin-left:auto; font-size:13px; font-weight:700; white-space:nowrap; }
-.inboxlink { display:inline-flex; align-items:center; gap:8px; margin-top:20px; font-weight:700; font-size:16px; text-decoration:none; min-height:44px; }
 .count { background:var(--ink); color:var(--paper); border-radius:999px; font-size:13px; min-width:22px; height:22px; padding:0 7px; display:inline-flex; align-items:center; justify-content:center; }
 
 /* ---------- group chat ---------- */
@@ -217,28 +225,55 @@ function fitHero(el) {
   }
   el.innerHTML = best.lines.map((l) => `<p class="line" style="font-size:${Math.floor(best.size)}px">${esc(l)}</p>`).join("");
 }
+function boardCols() { const w = innerWidth; return w < 600 ? 3 : w < 900 ? 4 : w < 1200 ? 5 : 7; }
+function drawBoard(force) {
+  const el = $("#board"); if (!el || !S.books) return;
+  const n = boardCols();
+  if (!force && el.dataset.n == n) return;
+  el.dataset.n = n;
+  const cols = Array.from({ length: n }, () => []);
+  S.books.forEach((b, i) => cols[i % n].push(coverCard(b)));   // fixed order, row by row: Blood Meridian is top-left
+  el.innerHTML = cols.map((c) => `<div class="col">${c.join("")}</div>`).join("");
+}
+function savedMe() { try { return JSON.parse(localStorage.getItem("br_me") || "null"); } catch (_) { return null; } }
+function peopleLine(b) {
+  const ppl = b.people || [];
+  if (!ppl.length) return "";
+  const me = S.me || savedMe();
+  const others = ppl.filter((p) => !me || p.id !== me.id);
+  const names = ppl.slice(0, 2).map((p) => (me && p.id === me.id ? "You" : p.name)).join(", ") + (ppl.length > 2 ? ` +${ppl.length - 2}` : "");
+  const near = me && me.state ? others.filter((p) => p.state === me.state).length : 0;
+  const alive = Date.now() - (b.last_at || 0) < 864e5;
+  return `<div class="pp">${alive ? `<span class="alive" title="Talked in the last 24 hours" aria-label="active today"></span>` : ""}${esc(names)}${near ? ` · <span class="nr">${near} near you</span>` : ""}</div>`;
+}
 function coverCard(b) {
-  const img = b.cover && b.cover.image
-    ? `<img src="${esc(b.cover.image)}" alt="${esc(b.title)} — ${esc(b.author)}, ${esc(b.cover.edition || "")}" loading="lazy" decoding="async">`
-    : `<div class="noimg"><b>${esc(b.title)}</b><span>${esc(b.author)}</span></div>`;
-  return `<a data-nav href="/b/${esc(b.id)}" aria-label="${esc(b.title)} by ${esc(b.author)}">${img}</a>`;
+  const c = b.cover;
+  const img = c && c.image
+    ? `<img src="${esc(c.image)}" ${c.w && c.h ? `width="${c.w}" height="${c.h}"` : ""} alt="${esc(b.title)} — ${esc(b.author)}, ${esc(c.edition || "")}" loading="lazy" decoding="async">`
+    : `<div class="noimg"><b>${esc(b.title)}</b></div>`;
+  const yr = c && c.is_first_edition && c.year ? ` · ${c.year}` : "";
+  return `<a data-nav href="/b/${esc(b.id)}" aria-label="${esc(b.title)} by ${esc(b.author)}">${img}<div class="label"><div class="ti">${esc(b.title)}</div><div class="au">${esc(b.author)}${yr}</div>${peopleLine(b)}</div></a>`;
 }
 async function renderHome() {
   document.title = "Read with community.";
   app.innerHTML = `<section class="screen home">
     <h1 class="hero" id="hero" aria-label="Read with community."></h1>
-    <nav class="shelf" id="shelf" aria-label="Five-star books"></nav>
-    <section class="below">
+    <nav class="board" id="board" aria-label="Five-star books"></nav>
+    <div class="findbar" id="findbar">
       <form class="search" role="search" onsubmit="return false"><input id="q" type="search" inputmode="search" autocomplete="off" placeholder="Search by title or author" aria-label="Search books by title or author"></form>
-      <div class="results" id="results"></div>
       <a data-nav class="inboxlink" href="/inbox">Inbox <span class="count" id="unread" hidden></span></a>
-    </section></section>`;
+    </div>
+    <div class="resultsbox" id="resultsbox" hidden><div class="results" id="results"></div></div>
+    </section>`;
   const hero = $("#hero");
   fitHero(hero);
   document.fonts && document.fonts.load('400 100px "Instrument Serif"').then(() => $("#hero") && fitHero($("#hero"))).catch(() => {});
-  window.onresize = () => $("#hero") && fitHero($("#hero"));
+  window.onresize = () => { $("#hero") && fitHero($("#hero")); drawBoard(); };
   if (!S.books) S.books = (await api("/v1/books")).books;
-  $("#shelf").innerHTML = S.books.map(coverCard).join("");
+  else api("/v1/books").then((d) => { S.books = d.books; drawBoard(true); }).catch(() => {});
+  drawBoard();
+  const fb = $("#findbar");
+  new IntersectionObserver(([e]) => { const on = !e.isIntersecting; fb.classList.toggle("on", on); fb.inert = !on; if (!on) { $("#resultsbox").hidden = true; } }).observe(hero);
   let t;
   $("#q").addEventListener("input", (e) => { clearTimeout(t); t = setTimeout(() => doSearch(e.target.value), 280); });
   api("/v1/dm").then((d) => { const u = $("#unread"); if (u && d.unread) { u.textContent = d.unread; u.hidden = false; } }).catch(() => {});
@@ -246,7 +281,9 @@ async function renderHome() {
 async function doSearch(q) {
   const box = $("#results");
   if (!box) return;
-  if (q.trim().length < 2) { box.innerHTML = ""; return; }
+  const rb = $("#resultsbox"); rb.style.top = $("#findbar").getBoundingClientRect().bottom + "px";
+  if (q.trim().length < 2) { box.innerHTML = ""; rb.hidden = true; return; }
+  rb.hidden = false;
   box.innerHTML = `<div class="empty">Searching…</div>`;
   const r = await api("/v1/search?q=" + encodeURIComponent(q)).catch(() => ({ local: [], openlibrary: [] }));
   if ($("#q").value !== q) return;
@@ -278,6 +315,7 @@ async function renderChat(id) {
     let d;
     try { d = await api(`/v1/books/${id}/chat`); } catch (e) { $("#thread").innerHTML = `<div class="empty">That group chat doesn't exist. <a data-nav href="/">Back to the books</a></div>`; return; }
     S.chat = d; S.me = d.me && d.me.byline ? d.me : S.me;
+    if (d.me && d.me.byline) { try { localStorage.setItem("br_me", JSON.stringify(d.me)); } catch (_) {} }
     drawChat(first);
     if (first) { first = false; loadDigest(); }
   };
@@ -440,7 +478,7 @@ function nameSheet(heldText) {
       if (ct.value.trim() && !picked) { err.hidden = false; err.textContent = "Pick your city from the list, or leave it blank."; return; }
       try {
         const r = await api("/v1/me", { method: "PUT", body: { first_name: first, last_name: last, city: picked ? picked.c : null, state: picked ? picked.s : null } });
-        S.me = r.me; sc.remove(); resolve(true);
+        S.me = r.me; try { localStorage.setItem("br_me", JSON.stringify(r.me)); } catch (_) {} sc.remove(); resolve(true);
       } catch (_) { err.hidden = false; err.textContent = "Couldn't save. Try again."; }
     };
   });

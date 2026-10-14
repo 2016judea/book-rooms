@@ -20,6 +20,8 @@ CREATE TABLE IF NOT EXISTS books (
   cover_edition TEXT,
   cover_is_first INTEGER,
   cover_fallback_reason TEXT,
+  cover_year INTEGER,              -- edition year of the pictured cover
+  cover_w INTEGER, cover_h INTEGER, -- pixel size, so tiles reserve their true aspect ratio
   openlibrary_work TEXT,
   preferred_editions TEXT,        -- JSON [{label,url}]
   shelf_rank INTEGER,             -- order on the covers row; null = not on the row

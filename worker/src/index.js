@@ -50,6 +50,7 @@ function bookOut(b) {
     cover: b.cover_image ? {
       image: b.cover_image, source_url: b.cover_source_url, edition: b.cover_edition,
       is_first_edition: !!b.cover_is_first, fallback_reason: b.cover_fallback_reason,
+      year: b.cover_year, w: b.cover_w, h: b.cover_h,
     } : null,
     preferred_editions: b.preferred_editions ? JSON.parse(b.preferred_editions) : [],
   };
@@ -298,7 +299,19 @@ export default {
       if (path === "/v1/health") return json({ ok: true, ai: aiOn(env) });
       if (path === "/v1/books" && req.method === "GET") {
         const r = await env.DB.prepare("SELECT * FROM books WHERE shelf_rank IS NOT NULL ORDER BY shelf_rank").all();
-        return json({ books: (r.results || []).map(bookOut) });
+        const ppl = await env.DB.prepare(
+          `SELECT m.book_id, u.id, u.first_name, u.last_initial, u.city, u.state, MAX(m.created_at) AS last_at
+             FROM messages m JOIN users u ON u.id = m.user_id
+            WHERE m.book_id IN (SELECT id FROM books WHERE shelf_rank IS NOT NULL) AND u.first_name IS NOT NULL
+            GROUP BY m.book_id, u.id ORDER BY last_at DESC`
+        ).all();
+        const byBook = {};
+        for (const p of ppl.results || []) {
+          const e = (byBook[p.book_id] ||= { people: [], last_at: 0 });
+          e.people.push({ id: p.id, name: `${p.first_name} ${p.last_initial}.`, city: p.city, state: p.state });
+          e.last_at = Math.max(e.last_at, p.last_at);
+        }
+        return json({ books: (r.results || []).map((b) => ({ ...bookOut(b), ...(byBook[b.id] || { people: [], last_at: 0 }) })) });
       }
       if (path === "/v1/search") return json(await search(env, url.searchParams.get("q")));
       let g;
