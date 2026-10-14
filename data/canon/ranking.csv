@@ -1,0 +1,797 @@
+rank,on_board,work,author,wikipedia_article,pageviews_12mo,window_start,window_end,ol_already_read,ol_want_to_read,ol_ratings,source
+1,1,Odyssey,Homer,Odyssey,8610635,20251001,20260930,12,149,1,Bloom appendix
+2,1,Wuthering Heights,Emily Brontë,Wuthering Heights,6697750,20251001,20260930,401,3083,301,Bloom appendix
+3,1,Frankenstein,Mary Wollstonecraft Shelley,Frankenstein,3190906,20251001,20260930,445,2065,228,Bloom appendix
+4,1,Iliad,Homer,Iliad,2795564,20251001,20260930,2,38,1,Bloom appendix
+5,1,Hamlet,William Shakespeare,Hamlet,1747593,20251001,20260930,322,1682,177,"Bloom appendix (Plays, expanded)"
+6,1,Pride and Prejudice,Jane Austen,Pride and Prejudice,1383578,20251001,20260930,592,6551,409,Bloom appendix
+7,1,Lolita,Vladimir Nabokov,Lolita,1362799,20251001,20260930,188,3079,114,Bloom appendix
+8,1,Blood Meridian,Cormac McCarthy,Blood Meridian,1338937,20251001,20260930,44,994,16,Bloom appendix
+9,1,The Great Gatsby,F. Scott Fitzgerald,The Great Gatsby,1317564,20251001,20260930,527,2641,252,Bloom appendix
+10,1,Don Quixote,Miguel de Cervantes,Don Quixote,1269930,20251001,20260930,1,0,1,Bloom appendix
+11,1,One Hundred Years of Solitude,Gabriel García Márquez,One Hundred Years of Solitude,1082033,20251001,20260930,2,9,2,Bloom appendix
+12,1,Ulysses,James Joyce,Ulysses (novel),1069286,20251001,20260930,35,686,18,Bloom appendix
+13,1,Paradise Lost,John Milton,Paradise Lost,1004915,20251001,20260930,62,663,38,Bloom appendix
+14,1,Les Misérables,Victor Hugo,Les Misérables,992640,20251001,20260930,107,886,59,Bloom appendix
+15,1,Moby-Dick,Herman Melville,Moby-Dick,982150,20251001,20260930,285,1705,194,Bloom appendix
+16,1,Brave New World,Aldous Huxley,Brave New World,947552,20251001,20260930,735,2670,482,Bloom appendix
+17,1,Jane Eyre,Charlotte Brontë,Jane Eyre,937424,20251001,20260930,298,1456,189,Bloom appendix
+18,1,The Picture of Dorian Gray,Oscar Wilde,The Picture of Dorian Gray,907987,20251001,20260930,338,1825,129,Bloom appendix
+19,1,Crime and Punishment,Fyodor Dostoevsky,Crime and Punishment,905204,20251001,20260930,0,6,1,Bloom appendix
+20,1,Beowulf,,Beowulf,903186,20251001,20260930,72,93,52,Bloom appendix
+21,1,Macbeth,William Shakespeare,Macbeth,885847,20251001,20260930,290,1097,151,"Bloom appendix (Plays, expanded)"
+22,1,Ramayana,,Ramayana,877370,20251001,20260930,24,429,18,Bloom appendix
+23,1,The Brothers Karamazov,Fyodor Dostoevsky,The Brothers Karamazov,871745,20251001,20260930,1,45,1,Bloom appendix
+24,1,The Catcher in the Rye,J. D. Salinger,The Catcher in the Rye,862582,20251001,20260930,583,2336,402,Bloom appendix
+25,1,Bhagavad-Gita,,Bhagavad Gita,856187,20251001,20260930,14,383,7,Bloom appendix
+26,1,The Divine Comedy,Dante,Divine Comedy,834922,20251001,20260930,1,0,1,Bloom appendix
+27,1,Mahabharata,,Mahabharata,834396,20251001,20260930,1,19,1,Bloom appendix
+28,1,Waiting for Godot,Samuel Beckett,Waiting for Godot,788380,20251001,20260930,0,0,0,Bloom appendix
+29,1,Aeneid,Virgil,Aeneid,782377,20251001,20260930,15,25,13,Bloom appendix
+30,1,The Stranger,Albert Camus,The Stranger (Camus novel),771971,20251001,20260930,1,0,1,Bloom appendix
+31,1,Little Women,Louisa May Alcott,Little Women,749653,20251001,20260930,249,2557,126,Bloom appendix
+32,1,A Midsummer Night's Dream,William Shakespeare,A Midsummer Night's Dream,720581,20251001,20260930,197,775,108,"Bloom appendix (Plays, expanded)"
+33,1,The Forsyte Saga,John Galsworthy,The Forsyte Saga,710997,20251001,20260930,0,6,0,Bloom appendix
+34,1,Death of a Salesman,Arthur Miller,Death of a Salesman,707701,20251001,20260930,116,565,70,Bloom appendix
+35,1,Dr. Jekyll and Mr. Hyde,Robert Louis Stevenson,Strange Case of Dr Jekyll and Mr Hyde,682149,20251001,20260930,297,1272,149,Bloom appendix
+36,1,A Tale of Two Cities,Charles Dickens,A Tale of Two Cities,680632,20251001,20260930,268,1264,206,Bloom appendix
+37,1,War and Peace,Leo Tolstoy,War and Peace,663022,20251001,20260930,73,748,43,Bloom appendix
+38,1,Othello,William Shakespeare,Othello,648309,20251001,20260930,89,454,42,"Bloom appendix (Plays, expanded)"
+39,1,The Grapes of Wrath,John Steinbeck,The Grapes of Wrath,639726,20251001,20260930,196,1033,110,Bloom appendix
+40,1,Anna Karenina,Leo Tolstoy,Anna Karenina,637096,20251001,20260930,1,1,1,Bloom appendix
+41,0,Gilgamesh,,Gilgamesh,622196,20251001,20260930,6,77,2,Bloom appendix
+42,0,Great Expectations,Charles Dickens,Great Expectations,550246,20251001,20260930,224,916,162,Bloom appendix
+43,0,A Streetcar Named Desire,Tennessee Williams,A Streetcar Named Desire,543808,20251001,20260930,73,318,36,Bloom appendix
+44,0,The Adventures of Huckleberry Finn,Mark Twain,Adventures of Huckleberry Finn,532083,20251001,20260930,1,10,1,Bloom appendix
+45,0,Treasure Island,Robert Louis Stevenson,Treasure Island,529244,20251001,20260930,198,991,104,Bloom appendix
+46,0,The Canterbury Tales,Geoffrey Chaucer,The Canterbury Tales,519146,20251001,20260930,62,393,33,Bloom appendix
+47,0,King Lear,William Shakespeare,King Lear,505220,20251001,20260930,52,363,21,"Bloom appendix (Plays, expanded)"
+48,0,Gravity's Rainbow,Thomas Pynchon,Gravity's Rainbow,495011,20251001,20260930,40,295,27,Bloom appendix
+49,0,Finnegans Wake,James Joyce,Finnegans Wake,491497,20251001,20260930,17,135,12,Bloom appendix
+50,0,In Search of Lost Time,Marcel Proust,In Search of Lost Time,490510,20251001,20260930,1,50,1,Bloom appendix
+51,0,The Tempest,William Shakespeare,The Tempest,480485,20251001,20260930,100,584,60,"Bloom appendix (Plays, expanded)"
+52,0,Middlemarch,George Eliot,Middlemarch,478964,20251001,20260930,51,310,27,Bloom appendix
+53,0,The Adventures of Oliver Twist,Charles Dickens,Oliver Twist,478910,20251001,20260930,0,0,0,Bloom appendix
+54,0,Twelfth Night,William Shakespeare,Twelfth Night,477516,20251001,20260930,55,244,34,"Bloom appendix (Plays, expanded)"
+55,0,David Copperfield,Charles Dickens,David Copperfield,477307,20251001,20260930,47,375,15,Bloom appendix
+56,0,Gulliver's Travels,Jonathan Swift,Gulliver's Travels,431455,20251001,20260930,146,775,89,Bloom appendix
+57,0,Much Ado About Nothing,William Shakespeare,Much Ado About Nothing,428982,20251001,20260930,33,218,12,"Bloom appendix (Plays, expanded)"
+58,0,The Left Hand of Darkness,Ursula K. LeGuin,The Left Hand of Darkness,421341,20251001,20260930,108,559,56,Bloom appendix
+59,0,The Prince,Niccolò Machiavelli,The Prince,416760,20251001,20260930,192,1802,116,Bloom appendix
+60,0,Things Fall Apart,Chinua Achebe,Things Fall Apart,398960,20251001,20260930,146,1732,96,Bloom appendix
+61,0,Hedda Gabler,Henrik Ibsen,Hedda Gabler,378518,20251001,20260930,3,9,0,Bloom appendix
+62,0,Emma,Jane Austen,Emma (novel),376852,20251001,20260930,144,1117,65,Bloom appendix
+63,0,The Idiot,Fyodor Dostoevsky,The Idiot,370952,20251001,20260930,5,19,2,Bloom appendix
+64,0,The Merchant of Venice,William Shakespeare,The Merchant of Venice,367659,20251001,20260930,107,413,57,"Bloom appendix (Plays, expanded)"
+65,0,The Sun Also Rises,Ernest Hemingway,The Sun Also Rises,366764,20251001,20260930,77,478,35,Bloom appendix
+66,0,The Taming of the Shrew,William Shakespeare,The Taming of the Shrew,360560,20251001,20260930,71,185,35,"Bloom appendix (Plays, expanded)"
+67,0,The Scarlet Letter,Nathaniel Hawthorne,The Scarlet Letter,359665,20251001,20260930,218,1006,133,Bloom appendix
+68,0,In Cold Blood,Truman Capote,In Cold Blood,340177,20251001,20260930,146,1164,99,Bloom appendix
+69,0,The Pilgrim's Progress,John Bunyan,The Pilgrim's Progress,330175,20251001,20260930,36,372,20,Bloom appendix
+70,0,Persuasion,Jane Austen,Persuasion (novel),320344,20251001,20260930,115,808,53,Bloom appendix
+71,0,The Sound and the Fury,William Faulkner,The Sound and the Fury,312402,20251001,20260930,23,233,8,Bloom appendix
+72,0,Pygmalion,George Bernard Shaw,Pygmalion (play),310314,20251001,20260930,64,233,50,Bloom appendix
+73,0,The Trial,Franz Kafka,The Trial,309104,20251001,20260930,0,1,0,Bloom appendix
+74,0,Metamorphoses,Ovid,Metamorphoses,297822,20251001,20260930,35,421,18,Bloom appendix
+75,0,Madame Bovary,Gustave Flaubert,Madame Bovary,297514,20251001,20260930,88,439,56,Bloom appendix
+76,0,The Decameron,Giovanni Boccaccio,The Decameron,293434,20251001,20260930,0,0,0,Bloom appendix
+77,0,As You Like It,William Shakespeare,As You Like It,279733,20251001,20260930,38,262,22,"Bloom appendix (Plays, expanded)"
+78,0,Tess of the D'Urbervilles,Thomas Hardy,Tess of the d'Urbervilles,278968,20251001,20260930,38,161,16,Bloom appendix
+79,0,Angels in America,Tony Kushner,Angels in America,274710,20251001,20260930,5,35,3,Bloom appendix
+80,0,Leviathan,Thomas Hobbes,Leviathan (Hobbes book),274141,20251001,20260930,30,339,16,Bloom appendix
+81,0,Walden,Henry David Thoreau,Walden,272462,20251001,20260930,70,466,36,Bloom appendix
+82,0,Mrs. Dalloway,Virginia Woolf,Mrs Dalloway,267674,20251001,20260930,78,543,52,Bloom appendix
+83,0,A Farewell to Arms,Ernest Hemingway,A Farewell to Arms,267022,20251001,20260930,91,493,61,Bloom appendix
+84,0,Egyptian Book of the Dead,,Book of the Dead,259873,20251001,20260930,0,25,0,Bloom appendix
+85,0,Cat's Cradle,"Kurt Vonnegut, Jr",Cat's Cradle,259873,20251001,20260930,166,409,107,Bloom appendix
+86,0,Mansfield Park,Jane Austen,Mansfield Park,257417,20251001,20260930,19,75,6,Bloom appendix
+87,0,My Brilliant Career,Miles (Stella) Franklin,My Brilliant Career,257122,20251001,20260930,3,16,1,Bloom appendix
+88,0,Julius Caesar,William Shakespeare,Julius Caesar (play),256909,20251001,20260930,106,586,58,"Bloom appendix (Plays, expanded)"
+89,0,Their Eyes Were Watching God,Zora Neale Hurston,Their Eyes Were Watching God,256856,20251001,20260930,94,461,50,Bloom appendix
+90,0,Candide,Voltaire,Candide,252631,20251001,20260930,150,446,88,Bloom appendix
+91,0,Oresteia,Aeschylus,Oresteia,251753,20251001,20260930,10,77,6,Bloom appendix
+92,0,The Gulag Archipelago,Aleksandr Solzhenitsyn,The Gulag Archipelago,249736,20251001,20260930,0,5,0,Bloom appendix
+93,0,The Magic Mountain,Thomas Mann,The Magic Mountain,248869,20251001,20260930,1,1,1,Bloom appendix
+94,0,Bleak House,Charles Dickens,Bleak House,248012,20251001,20260930,27,215,18,Bloom appendix
+95,0,The Unbearable Lightness of Being,Milan Kundera,The Unbearable Lightness of Being,243650,20251001,20260930,1,1,1,Bloom appendix
+96,0,Antigone,Sophocles,Antigone (Sophocles play),235154,20251001,20260930,38,92,23,Bloom appendix
+97,0,Far From the Madding Crowd,Thomas Hardy,Far from the Madding Crowd,230857,20251001,20260930,34,337,20,Bloom appendix
+98,0,The Glass Menagerie,Tennessee Williams,The Glass Menagerie,220359,20251001,20260930,100,301,72,Bloom appendix
+99,0,The Age of Innocence,Edith Wharton,The Age of Innocence,217211,20251001,20260930,64,567,48,Bloom appendix
+100,0,As I Lay Dying,William Faulkner,As I Lay Dying,216289,20251001,20260930,31,191,12,Bloom appendix
+101,0,The Crying of Lot 49,Thomas Pynchon,The Crying of Lot 49,215701,20251001,20260930,,,,Bloom appendix
+102,0,No Exit,Jean-Paul Sartre,No Exit,213073,20251001,20260930,,,,Bloom appendix
+103,0,Richard III,William Shakespeare,Richard III (play),211110,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+104,0,Invisible Man,Ralph Ellison,Invisible Man,203920,20251001,20260930,,,,Bloom appendix
+105,0,The Leopard,Giuseppe Tomasi di Lampedusa,The Leopard,203002,20251001,20260930,,,,Bloom appendix
+106,0,Titus Andronicus,William Shakespeare,Titus Andronicus,202463,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+107,0,Theogony,Hesiod,Theogony,196962,20251001,20260930,,,,Bloom appendix
+108,0,Pale Fire,Vladimir Nabokov,Pale Fire,195610,20251001,20260930,,,,Bloom appendix
+109,0,It Can't Happen Here,Sinclair Lewis,It Can't Happen Here,194507,20251001,20260930,,,,Bloom appendix
+110,0,The Sorrows of Young Werther,Johann Wolfgang von Goethe,The Sorrows of Young Werther,192764,20251001,20260930,,,,Bloom appendix
+111,0,Vanity Fair,William Makepeace Thackeray,Vanity Fair (novel),190348,20251001,20260930,,,,Bloom appendix
+112,0,Peer Gynt,Henrik Ibsen,Peer Gynt,188717,20251001,20260930,,,,Bloom appendix
+113,0,V,Thomas Pynchon,V.,183257,20251001,20260930,,,,Bloom appendix
+114,0,Dubliners,James Joyce,Dubliners,181728,20251001,20260930,,,,Bloom appendix
+115,0,The History of the Decline and Fall of the Roman Empire,Edward Gibbon,The History of the Decline and Fall of the Roman Empire,181426,20251001,20260930,,,,Bloom appendix
+116,0,The Faerie Queene,Edmund Spenser,The Faerie Queene,181176,20251001,20260930,,,,Bloom appendix
+117,0,To the Lighthouse,Virginia Woolf,To the Lighthouse,180374,20251001,20260930,,,,Bloom appendix
+118,0,Doctor Zhivago,Boris Pasternak,Doctor Zhivago (novel),176834,20251001,20260930,,,,Bloom appendix
+119,0,The Winter's Tale,William Shakespeare,The Winter's Tale,175908,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+120,0,Utopia,Sir Thomas More,Utopia (book),175021,20251001,20260930,,,,Bloom appendix
+121,0,Eugene Onegin,Aleksandr Pushkin,Eugene Onegin,171863,20251001,20260930,,,,Bloom appendix
+122,0,Solaris,Stanislaw Lem,Solaris (novel),171813,20251001,20260930,,,,Bloom appendix
+123,0,Long Day's Journey Into Night,Eugene O'Neill,Long Day's Journey into Night,171311,20251001,20260930,,,,Bloom appendix
+124,0,Orlando: A Biography,Virginia Woolf,Orlando: A Biography,169601,20251001,20260930,,,,Bloom appendix
+125,0,Portrait of the Artist as a Young Man,James Joyce,A Portrait of the Artist as a Young Man,167191,20251001,20260930,,,,Bloom appendix
+126,0,Ethics,Aristotle,Nicomachean Ethics,167012,20251001,20260930,,,,Bloom appendix
+127,0,Love in the Time of Cholera,Gabriel García Márquez,Love in the Time of Cholera,166957,20251001,20260930,,,,Bloom appendix
+128,0,Midnight's Children,Salman Rushdie,Midnight's Children,165346,20251001,20260930,,,,Bloom appendix
+129,0,Erewhon,Samuel Butler,Erewhon,162745,20251001,20260930,,,,Bloom appendix
+130,0,Coriolanus,William Shakespeare,Coriolanus,162615,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+131,0,Medea,Euripides,Medea (play),159895,20251001,20260930,,,,Bloom appendix
+132,0,Antony and Cleopatra,William Shakespeare,Antony and Cleopatra,158605,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+133,0,The Woman in White,Wilkie Collins,The Woman in White (novel),158175,20251001,20260930,,,,Bloom appendix
+134,0,Lysistrata,Aristophanes,Lysistrata,156571,20251001,20260930,,,,Bloom appendix
+135,0,Henry V,William Shakespeare,Henry V (play),156234,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+136,0,"Absalom, Absalom!",William Faulkner,"Absalom, Absalom!",154991,20251001,20260930,,,,Bloom appendix
+137,0,The Plague,Albert Camus,The Plague (novel),152204,20251001,20260930,,,,Bloom appendix
+138,0,Leaves of Grass,Walt Whitman,Leaves of Grass,151261,20251001,20260930,,,,Bloom appendix
+139,0,The Threepenny Opera,Bertolt Brecht,The Threepenny Opera,147979,20251001,20260930,,,,Bloom appendix
+140,0,Little Dorrit,Charles Dickens,Little Dorrit,147100,20251001,20260930,,,,Bloom appendix
+141,0,Tender is the Night,F. Scott Fitzgerald,Tender Is the Night,147097,20251001,20260930,,,,Bloom appendix
+142,0,The Rubaiyat of Omar Khayyam,Edward FitzGerald,Rubaiyat of Omar Khayyam,146862,20251001,20260930,,,,Bloom appendix
+143,0,The Second Sex,Simone de Beauvoir,The Second Sex,143417,20251001,20260930,,,,Bloom appendix
+144,0,City of God,Saint Augustine,The City of God,143173,20251001,20260930,,,,Bloom appendix
+145,0,Song of Solomon,Toni Morrison,Song of Solomon (novel),140057,20251001,20260930,,,,Bloom appendix
+146,0,The Awakening,Kate Chopin,The Awakening (Chopin novel),139897,20251001,20260930,,,,Bloom appendix
+147,0,"The Life and Opinions of Tristram Shandy, Gentleman",Laurence Sterne,"The Life and Opinions of Tristram Shandy, Gentleman",138992,20251001,20260930,,,,Bloom appendix
+148,0,The Iceman Cometh,Eugene O'Neill,The Iceman Cometh,138233,20251001,20260930,,,,Bloom appendix
+149,0,Bacchae,Euripides,The Bacchae,137411,20251001,20260930,,,,Bloom appendix
+150,0,Beyond Good and Evil,Friedrich Nietzsche,Beyond Good and Evil,136898,20251001,20260930,,,,Bloom appendix
+151,0,The Castle,Franz Kafka,The Castle (novel),135052,20251001,20260930,,,,Bloom appendix
+152,0,The Golden Ass,Apuleius,The Golden Ass,130354,20251001,20260930,,,,Bloom appendix
+153,0,The Comedy of Errors,William Shakespeare,The Comedy of Errors,129821,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+154,0,Howards End,E. M. Forster,Howards End,127660,20251001,20260930,,,,Bloom appendix
+155,0,A Passage to India,E. M. Forster,A Passage to India,127626,20251001,20260930,,,,Bloom appendix
+156,0,The Poetic Edda,,Poetic Edda,127447,20251001,20260930,,,,Bloom appendix
+157,0,The Song of Roland,,Song of Roland,126940,20251001,20260930,,,,Bloom appendix
+158,0,Fences,August Wilson,Fences (play),123770,20251001,20260930,,,,Bloom appendix
+159,0,R.U.R,Karel Capek,R.U.R.,123515,20251001,20260930,,,,Bloom appendix
+160,0,If on a Winter's Night a Traveler,Italo Calvino,If on a winter's night a traveler,122903,20251001,20260930,,,,Bloom appendix
+161,0,The Portrait of a Lady,Henry James,The Portrait of a Lady,122068,20251001,20260930,,,,Bloom appendix
+162,0,Jude the Obscure,Thomas Hardy,Jude the Obscure,121474,20251001,20260930,,,,Bloom appendix
+163,0,White Noise,Don DeLillo,White Noise (novel),121187,20251001,20260930,,,,Bloom appendix
+164,0,The Red and the Black,Stendhal,The Red and the Black,120122,20251001,20260930,,,,Bloom appendix
+165,0,Silas Marner,George Eliot,Silas Marner,117754,20251001,20260930,,,,Bloom appendix
+166,0,A Connecticut Yankee in King Arthur's Court,Mark Twain,A Connecticut Yankee in King Arthur's Court,117556,20251001,20260930,,,,Bloom appendix
+167,0,Satyricon,Petronius,Satyricon,116827,20251001,20260930,,,,Bloom appendix
+168,0,Troilus and Cressida,William Shakespeare,Troilus and Cressida,114047,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+169,0,Billy Budd,Herman Melville,Billy Budd,113555,20251001,20260930,,,,Bloom appendix
+170,0,"Henry IV, Part 1",William Shakespeare,"Henry IV, Part 1",113552,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+171,0,Richard II,William Shakespeare,Richard II (play),113162,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+172,0,Gargantua and Pantagruel,François Rabelais,Gargantua and Pantagruel,112226,20251001,20260930,,,,Bloom appendix
+173,0,Native Son,Richard Wright,Native Son,112167,20251001,20260930,,,,Bloom appendix
+174,0,Suttree,Cormac McCarthy,Suttree,111990,20251001,20260930,,,,Bloom appendix
+175,0,Orlando Furioso,Ludovico Ariosto,Orlando Furioso,109968,20251001,20260930,,,,Bloom appendix
+176,0,Under the Volcano,Malcolm Lowry,Under the Volcano,109876,20251001,20260930,,,,Bloom appendix
+177,0,Invisible Cities,Italo Calvino,Invisible Cities,109678,20251001,20260930,,,,Bloom appendix
+178,0,Tartuffe,Molière,Tartuffe,107665,20251001,20260930,,,,Bloom appendix
+179,0,The House of Mirth,Edith Wharton,The House of Mirth,107420,20251001,20260930,,,,Bloom appendix
+180,0,Romeo and Juliet,William Shakespeare,Characters in Romeo and Juliet,107174,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+181,0,Love's Labour's Lost,William Shakespeare,Love's Labour's Lost,107167,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+182,0,Portnoy's Complaint,Philip Roth,Portnoy's Complaint,106731,20251001,20260930,,,,Bloom appendix
+183,0,The Glass Bead Game (Magister Ludi),Hermann Hesse,The Glass Bead Game,106678,20251001,20260930,,,,Bloom appendix
+184,0,North and South,Elizabeth Gaskell,North and South (Gaskell novel),106218,20251001,20260930,,,,Bloom appendix
+185,0,Measure for Measure,William Shakespeare,Measure for Measure,103866,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+186,0,The Power and the Glory,Graham Greene,The Power and the Glory,101556,20251001,20260930,,,,Bloom appendix
+187,0,Villette,Charlotte Brontë,Villette (novel),100660,20251001,20260930,,,,Bloom appendix
+188,0,Don Juan,Lord Byron,Don Juan (poem),100638,20251001,20260930,,,,Bloom appendix
+189,0,Child of God,Cormac McCarthy,Child of God,100542,20251001,20260930,,,,Bloom appendix
+190,0,The Heart is a Lonely Hunter,Carson McCullers,The Heart Is a Lonely Hunter,100100,20251001,20260930,,,,Bloom appendix
+191,0,"The History of Tom Jones, a Foundling",Henry Fielding,"The History of Tom Jones, a Foundling",99479,20251001,20260930,,,,Bloom appendix
+192,0,Nausea,Jean-Paul Sartre,Nausea (novel),97920,20251001,20260930,,,,Bloom appendix
+193,0,Rhinoceros,Eugène Ionesco,Rhinoceros (play),95593,20251001,20260930,,,,Bloom appendix
+194,0,Hard Times,Charles Dickens,Hard Times (novel),95095,20251001,20260930,,,,Bloom appendix
+195,0,All the King's Men,Robert Penn Warren,All the King's Men,92907,20251001,20260930,,,,Bloom appendix
+196,0,Our Mutual Friend,Charles Dickens,Our Mutual Friend,92894,20251001,20260930,,,,Bloom appendix
+197,0,The Merry Wives of Windsor,William Shakespeare,The Merry Wives of Windsor,92184,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+198,0,Nicholas Nickleby,Charles Dickens,Nicholas Nickleby,91810,20251001,20260930,,,,Bloom appendix
+199,0,Cymbeline,William Shakespeare,Cymbeline,91732,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+200,0,The Narrative of Arthur Gordon Pym,Edgar Allan Poe,The Narrative of Arthur Gordon Pym of Nantucket,91703,20251001,20260930,,,,Bloom appendix
+201,0,Kim,Rudyard Kipling,Kim (novel),90625,20251001,20260930,,,,Bloom appendix
+202,0,Ficciones,Jorge Luis Borges,Ficciones,90051,20251001,20260930,,,,Bloom appendix
+203,0,Lord Jim,Joseph Conrad,Lord Jim,89583,20251001,20260930,,,,Bloom appendix
+204,0,Nostromo,Joseph Conrad,Nostromo,89359,20251001,20260930,,,,Bloom appendix
+205,0,My Ántonia,Willa Cather,My Ántonia,89020,20251001,20260930,,,,Bloom appendix
+206,0,The Fall,Albert Camus,The Fall (Camus novel),87555,20251001,20260930,,,,Bloom appendix
+207,0,Kidnapped,Robert Louis Stevenson,Kidnapped (novel),86006,20251001,20260930,,,,Bloom appendix
+208,0,Joe Turner's Come and Gone,August Wilson,Joe Turner's Come and Gone,85910,20251001,20260930,,,,Bloom appendix
+209,0,One Day in the Life of Ivan Denisovich,Aleksandr Solzhenitsyn,One Day in the Life of Ivan Denisovich,85741,20251001,20260930,,,,Bloom appendix
+210,0,The Red Badge of Courage,Stephen Crane,The Red Badge of Courage,84802,20251001,20260930,,,,Bloom appendix
+211,0,The Mystery of Edwin Drood,Charles Dickens,The Mystery of Edwin Drood,84474,20251001,20260930,,,,Bloom appendix
+212,0,Endgame,Samuel Beckett,Endgame (play),84310,20251001,20260930,,,,Bloom appendix
+213,0,The Tin Drum,Günter Grass,The Tin Drum,82173,20251001,20260930,,,,Bloom appendix
+214,0,Ethan Frome,Edith Wharton,Ethan Frome,81814,20251001,20260930,,,,Bloom appendix
+215,0,The Secret Agent,Joseph Conrad,The Secret Agent,81600,20251001,20260930,,,,Bloom appendix
+216,0,Fathers and Sons,Ivan Turgenev,Fathers and Sons (novel),81487,20251001,20260930,,,,Bloom appendix
+217,0,Wise Blood,Flannery O'Connor,Wise Blood,81360,20251001,20260930,,,,Bloom appendix
+218,0,Sons and Lovers,D. H. Lawrence,Sons and Lovers,79848,20251001,20260930,,,,Bloom appendix
+219,0,Mother Courage and Her Children,Bertolt Brecht,Mother Courage and Her Children,79814,20251001,20260930,,,,Bloom appendix
+220,0,The Executioner's Song,Norman Mailer,The Executioner's Song,79638,20251001,20260930,,,,Bloom appendix
+221,0,The Man Without Qualities,Robert Musil,The Man Without Qualities,79296,20251001,20260930,,,,Bloom appendix
+222,0,The Two Gentlemen of Verona,William Shakespeare,The Two Gentlemen of Verona,77903,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+223,0,The Mill on the Floss,George Eliot,The Mill on the Floss,76593,20251001,20260930,,,,Bloom appendix
+224,0,The Misanthrope,Molière,The Misanthrope,76561,20251001,20260930,,,,Bloom appendix
+225,0,All's Well That Ends Well,William Shakespeare,All's Well That Ends Well,76423,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+226,0,The Duchess of Malfi,John Webster,The Duchess of Malfi,75179,20251001,20260930,,,,Bloom appendix
+227,0,Moll Flanders,Daniel Defoe,Moll Flanders,74793,20251001,20260930,,,,Bloom appendix
+228,0,Parzival,Wolfram von Eschenbach,Parzival,74592,20251001,20260930,,,,Bloom appendix
+229,0,The Book of Disquiet,Fernando Pessoa,The Book of Disquiet,74568,20251001,20260930,,,,Bloom appendix
+230,0,The Mayor of Casterbridge,Thomas Hardy,The Mayor of Casterbridge,72048,20251001,20260930,,,,Bloom appendix
+231,0,The Moonstone,Wilkie Collins,The Moonstone,71160,20251001,20260930,,,,Bloom appendix
+232,0,The Birth of Tragedy,Friedrich Nietzsche,The Birth of Tragedy,71156,20251001,20260930,,,,Bloom appendix
+233,0,What is to Be Done?,Nikolay Chernyshevsky,What Is to Be Done? (novel),69992,20251001,20260930,,,,Bloom appendix
+234,0,Prometheus Bound,Aeschylus,Prometheus Bound,68110,20251001,20260930,,,,Bloom appendix
+235,0,Jesus' Son,Denis Johnson,Jesus' Son (short story collection),67689,20251001,20260930,,,,Bloom appendix
+236,0,Oblomov,Ivan Goncharov,Oblomov,67103,20251001,20260930,,,,Bloom appendix
+237,0,Daniel Deronda,George Eliot,Daniel Deronda,66747,20251001,20260930,,,,Bloom appendix
+238,0,The Anatomy of Melancholy,Robert Burton,The Anatomy of Melancholy,66695,20251001,20260930,,,,Bloom appendix
+239,0,The Waves,Virginia Woolf,The Waves,66565,20251001,20260930,,,,Bloom appendix
+240,0,Nana,Émile Zola,Nana (novel),65700,20251001,20260930,,,,Bloom appendix
+241,0,Germinal,Émile Zola,Germinal (novel),64418,20251001,20260930,,,,Bloom appendix
+242,0,The Golden Notebook,Doris Lessing,The Golden Notebook,64377,20251001,20260930,,,,Bloom appendix
+243,0,Brighton Rock,Graham Greene,Brighton Rock (novel),64038,20251001,20260930,,,,Bloom appendix
+244,0,Hopscotch,Julio Cortázar,Hopscotch (Cortázar novel),63592,20251001,20260930,,,,Bloom appendix
+245,0,The Cantos,Ezra Pound,The Cantos,63459,20251001,20260930,,,,Bloom appendix
+246,0,The Return of the Native,Thomas Hardy,The Return of the Native,63009,20251001,20260930,,,,Bloom appendix
+247,0,'Tis Pity She's a Whore,John Ford,'Tis Pity She's a Whore,62971,20251001,20260930,,,,Bloom appendix
+248,0,Doctor Faustus,Thomas Mann,Doctor Faustus (novel),62201,20251001,20260930,,,,Bloom appendix
+249,0,Light in August,William Faulkner,Light in August,60592,20251001,20260930,,,,Bloom appendix
+250,0,On Liberty,John Stuart Mill,On Liberty,60242,20251001,20260930,,,,Bloom appendix
+251,0,The Frogs,Aristophanes,The Frogs,60121,20251001,20260930,,,,Bloom appendix
+252,0,The Rebel,Albert Camus,The Rebel (book),58849,20251001,20260930,,,,Bloom appendix
+253,0,An American Tragedy,Theodore Dreiser,An American Tragedy,58632,20251001,20260930,,,,Bloom appendix
+254,0,Appointment in Samarra,John O'Hara,Appointment in Samarra,58408,20251001,20260930,,,,Bloom appendix
+255,0,The Lover,Marguerite Duras,The Lover (Duras novel),58170,20251001,20260930,,,,Bloom appendix
+256,0,Waverley,Sir Walter Scott,Waverley (novel),57672,20251001,20260930,,,,Bloom appendix
+257,0,Manon Lescaut,Abbé Prévost,Manon Lescaut,57049,20251001,20260930,,,,Bloom appendix
+258,0,Kristin Lavransdatter,Sigrid Undset,Kristin Lavransdatter,56608,20251001,20260930,,,,Bloom appendix
+259,0,Paradise Regained,John Milton,Paradise Regained,56525,20251001,20260930,,,,Bloom appendix
+260,0,A Hero of Our Time,Mikhail Lermontov,A Hero of Our Time,56030,20251001,20260930,,,,Bloom appendix
+261,0,Electra,Sophocles,Electra (Sophocles play),55964,20251001,20260930,,,,Bloom appendix
+262,0,Oedipus at Colonus,Sophocles,Oedipus at Colonus,55891,20251001,20260930,,,,Bloom appendix
+263,0,The Recognitions,William Gaddis,The Recognitions,54558,20251001,20260930,,,,Bloom appendix
+264,0,"Pericles, Prince of Tyre",William Shakespeare,"Pericles, Prince of Tyre",54368,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+265,0,The Moon and Sixpence,W. Somerset Maugham,The Moon and Sixpence,54221,20251001,20260930,,,,Bloom appendix
+266,0,The Prelude,William Wordsworth,The Prelude,54007,20251001,20260930,,,,Bloom appendix
+267,0,The Betrothed,Alessandro Manzoni,The Betrothed,53958,20251001,20260930,,,,Bloom appendix
+268,0,Martin Chuzzlewit,Charles Dickens,Martin Chuzzlewit,53578,20251001,20260930,,,,Bloom appendix
+269,0,Spring Awakening,Frank Wedekind,Spring Awakening (play),53456,20251001,20260930,,,,Bloom appendix
+270,0,The Bridge on the Drina,Ivo Andric,The Bridge on the Drina,52795,20251001,20260930,,,,Bloom appendix
+271,0,American Buffalo,David Mamet,American Buffalo (play),52743,20251001,20260930,,,,Bloom appendix
+272,0,A Handful of Dust,Evelyn Waugh,A Handful of Dust,52598,20251001,20260930,,,,Bloom appendix
+273,0,Women in Love,D. H. Lawrence,Women in Love,52317,20251001,20260930,,,,Bloom appendix
+274,0,Timon of Athens,William Shakespeare,Timon of Athens,51948,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+275,0,Amerika,Franz Kafka,Amerika (novel),51857,20251001,20260930,,,,Bloom appendix
+276,0,Henry VIII,William Shakespeare,Henry VIII (play),51686,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+277,0,Georgics,Virgil,Georgics,51586,20251001,20260930,,,,Bloom appendix
+278,0,The Third Policeman,Flann O'Brien,The Third Policeman,51522,20251001,20260930,,,,Bloom appendix
+279,0,"Henry VI, Part 1",William Shakespeare,"Henry VI, Part 1",51184,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+280,0,King John,William Shakespeare,King John (play),50762,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+281,0,Pamela,Samuel Richardson,"Pamela; or, Virtue Rewarded",50542,20251001,20260930,,,,Bloom appendix
+282,0,Narcissus and Goldmund,Hermann Hesse,Narcissus and Goldmund,50440,20251001,20260930,,,,Bloom appendix
+283,0,The Rainbow,D. H. Lawrence,The Rainbow,49874,20251001,20260930,,,,Bloom appendix
+284,0,Sanctuary,William Faulkner,Sanctuary (Faulkner novel),49350,20251001,20260930,,,,Bloom appendix
+285,0,The Varieties of Religious Experience,William James,The Varieties of Religious Experience,49258,20251001,20260930,,,,Bloom appendix
+286,0,Libra,Don DeLillo,Libra (novel),48975,20251001,20260930,,,,Bloom appendix
+287,0,The Sheltering Sky,Paul Bowles,The Sheltering Sky,48814,20251001,20260930,,,,Bloom appendix
+288,0,Salammbô,Gustave Flaubert,Salammbô,48600,20251001,20260930,,,,Bloom appendix
+289,0,Berlin Alexanderplatz,Alfred Döblin,Berlin Alexanderplatz,48459,20251001,20260930,,,,Bloom appendix
+290,0,Miss Julie,August Strindberg,Miss Julie,48375,20251001,20260930,,,,Bloom appendix
+291,0,Labyrinths,Jorge Luis Borges,Labyrinths (short story collection),48159,20251001,20260930,,,,Bloom appendix
+292,0,The Witches of Eastwick,John Updike,The Witches of Eastwick,48129,20251001,20260930,,,,Bloom appendix
+293,0,Babbitt,Sinclair Lewis,Babbitt (novel),47795,20251001,20260930,,,,Bloom appendix
+294,0,The Lady from the Sea,Henrik Ibsen,The Lady from the Sea,47498,20251001,20260930,,,,Bloom appendix
+295,0,Woyzeck,Georg Büchner,Woyzeck,47054,20251001,20260930,,,,Bloom appendix
+296,0,Confessions of an English Opium Eater,Thomas De Quincey,Confessions of an English Opium-Eater,46975,20251001,20260930,,,,Bloom appendix
+297,0,Riddley Walker,Russell Hoban,Riddley Walker,46892,20251001,20260930,,,,Bloom appendix
+298,0,Eclogues,Virgil,Eclogues,46606,20251001,20260930,,,,Bloom appendix
+299,0,The Caucasian Chalk Circle,Bertolt Brecht,The Caucasian Chalk Circle,46338,20251001,20260930,,,,Bloom appendix
+300,0,Clarissa,Samuel Richardson,"Clarissa; or, The History of a Young Lady",46110,20251001,20260930,,,,Bloom appendix
+301,0,The Good Soldier,Ford Madox Ford,The Good Soldier,45812,20251001,20260930,,,,Bloom appendix
+302,0,Melmoth the Wanderer,Charles Maturin,Melmoth the Wanderer,45513,20251001,20260930,,,,Bloom appendix
+303,0,Hunger,Knut Hamsun,Hunger (Hamsun novel),45489,20251001,20260930,,,,Bloom appendix
+304,0,Reflections on the Revolution in France,Edmund Burke,Reflections on the Revolution in France,45382,20251001,20260930,,,,Bloom appendix
+305,0,The Spanish Tragedy,Thomas Kyd,The Spanish Tragedy,45349,20251001,20260930,,,,Bloom appendix
+306,0,The Heart of Midlothian,Sir Walter Scott,The Heart of Midlothian,45253,20251001,20260930,,,,Bloom appendix
+307,0,The Assemblywomen,Aristophanes,Assemblywomen,44921,20251001,20260930,,,,Bloom appendix
+308,0,Areopagitica,John Milton,Areopagitica,44842,20251001,20260930,,,,Bloom appendix
+309,0,The Day of the Locust,Nathanael West,The Day of the Locust,44722,20251001,20260930,,,,Bloom appendix
+310,0,The Master Builder,Henrik Ibsen,The Master Builder,44530,20251001,20260930,,,,Bloom appendix
+311,0,The Clouds,Aristophanes,The Clouds,44460,20251001,20260930,,,,Bloom appendix
+312,0,The Moviegoer,Walker Percy,The Moviegoer,43901,20251001,20260930,,,,Bloom appendix
+313,0,The Rivals,Richard Brinsley Sheridan,The Rivals,43817,20251001,20260930,,,,Bloom appendix
+314,0,She Stoops to Conquer,Oliver Goldsmith,She Stoops to Conquer,43190,20251001,20260930,,,,Bloom appendix
+315,0,Alexandria Quartet,Lawrence Durrell,The Alexandria Quartet,42722,20251001,20260930,,,,Bloom appendix
+316,0,Memoirs of Hadrian,Marguerite Yourcenar,Memoirs of Hadrian,42116,20251001,20260930,,,,Bloom appendix
+317,0,A House for Mr. Biswas,V. S. Naipaul,A House for Mr Biswas,42035,20251001,20260930,,,,Bloom appendix
+318,0,The Visit,Friedrich Dürrenmatt,The Visit (play),42006,20251001,20260930,,,,Bloom appendix
+319,0,The Mosquito Coast,Paul Theroux,The Mosquito Coast (novel),41696,20251001,20260930,,,,Bloom appendix
+320,0,Cranford,Elizabeth Gaskell,Cranford (novel),41654,20251001,20260930,,,,Bloom appendix
+321,0,The Heart of the Matter,Graham Greene,The Heart of the Matter,41465,20251001,20260930,,,,Bloom appendix
+322,0,"Henry IV, Part 2",William Shakespeare,"Henry IV, Part 2",41283,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+323,0,Saint Joan,George Bernard Shaw,Saint Joan (play),41276,20251001,20260930,,,,Bloom appendix
+324,0,Vile Bodies,Evelyn Waugh,Vile Bodies,41249,20251001,20260930,,,,Bloom appendix
+325,0,The Government Inspector,Nikolay Gogol,The Government Inspector,40937,20251001,20260930,,,,Bloom appendix
+326,0,Dombey and Son,Charles Dickens,Dombey and Son,40760,20251001,20260930,,,,Bloom appendix
+327,0,Sentimental Education,Gustave Flaubert,Sentimental Education,40354,20251001,20260930,,,,Bloom appendix
+328,0,The Guide,R. K. Narayan,The Guide,40046,20251001,20260930,,,,Bloom appendix
+329,0,The Plough and the Stars,Sean O'Casey,The Plough and the Stars,40022,20251001,20260930,,,,Bloom appendix
+330,0,The Custom of the Country,Edith Wharton,The Custom of the Country,39766,20251001,20260930,,,,Bloom appendix
+331,0,The Black Jacobins,C. L. R. James,The Black Jacobins,39749,20251001,20260930,,,,Bloom appendix
+332,0,Le Grand Meaulnes,Alain-Fournier,Le Grand Meaulnes,39604,20251001,20260930,,,,Bloom appendix
+333,0,In Praise of Folly,Erasmus,In Praise of Folly,39285,20251001,20260930,,,,Bloom appendix
+334,0,Spoon River Anthology,Edgar Lee Masters,Spoon River Anthology,39254,20251001,20260930,,,,Bloom appendix
+335,0,Pensées,Blaise Pascal,Pensées,39151,20251001,20260930,,,,Bloom appendix
+336,0,The Radetzky March,Joseph Roth,Radetzky March (novel),39107,20251001,20260930,,,,Bloom appendix
+337,0,The Way of the World,William Congreve,The Way of the World,38685,20251001,20260930,,,,Bloom appendix
+338,0,The Golden Bowl,Henry James,The Golden Bowl,38264,20251001,20260930,,,,Bloom appendix
+339,0,The Compleat Angler,Izaak Walton,The Compleat Angler,38199,20251001,20260930,,,,Bloom appendix
+340,0,Adam Bede,George Eliot,Adam Bede,38162,20251001,20260930,,,,Bloom appendix
+341,0,News from Nowhere,William Morris,News from Nowhere,37911,20251001,20260930,,,,Bloom appendix
+342,0,Sartor Resartus,Thomas Carlyle,Sartor Resartus,37904,20251001,20260930,,,,Bloom appendix
+343,0,The Violent Bear It Away,Flannery O'Connor,The Violent Bear It Away,37736,20251001,20260930,,,,Bloom appendix
+344,0,The Birds,Aristophanes,The Birds (play),37499,20251001,20260930,,,,Bloom appendix
+345,0,The Vicar of Wakefield,Oliver Goldsmith,The Vicar of Wakefield,37020,20251001,20260930,,,,Bloom appendix
+346,0,Troilus and Criseyde,Geoffrey Chaucer,Troilus and Criseyde,36978,20251001,20260930,,,,Bloom appendix
+347,0,The Baron in the Trees,Italo Calvino,The Baron in the Trees,36716,20251001,20260930,,,,Bloom appendix
+348,0,The Book of the City of Ladies,Christine de Pisan,The Book of the City of Ladies,36411,20251001,20260930,,,,Bloom appendix
+349,0,Joseph and His Brothers,Thomas Mann,Joseph and His Brothers,36333,20251001,20260930,,,,Bloom appendix
+350,0,A Voyage to Arcturus,David Lindsay,A Voyage to Arcturus,36295,20251001,20260930,,,,Bloom appendix
+351,0,Lazarillo de Tormes,,Lazarillo de Tormes,36221,20251001,20260930,,,,Bloom appendix
+352,0,The Charterhouse of Parma,Stendhal,The Charterhouse of Parma,36203,20251001,20260930,,,,Bloom appendix
+353,0,Herzog,Saul Bellow,Herzog (novel),36184,20251001,20260930,,,,Bloom appendix
+354,0,Mao II,Don DeLillo,Mao II,36141,20251001,20260930,,,,Bloom appendix
+355,0,Ajax,Sophocles,Ajax (play),36115,20251001,20260930,,,,Bloom appendix
+356,0,"Little, Big",John Crowley,"Little, Big",35761,20251001,20260930,,,,Bloom appendix
+357,0,Wilhelm Meister's Apprenticeship,Johann Wolfgang von Goethe,Wilhelm Meister's Apprenticeship,35609,20251001,20260930,,,,Bloom appendix
+358,0,The Private Memoirs and Confessions of a Justified Sinner,James Hogg,The Private Memoirs and Confessions of a Justified Sinner,35544,20251001,20260930,,,,Bloom appendix
+359,0,"Winesburg, Ohio",Sherwood Anderson,"Winesburg, Ohio",35420,20251001,20260930,,,,Bloom appendix
+360,0,Duino Elegies,Rainer Maria Rilke,Duino Elegies,34858,20251001,20260930,,,,Bloom appendix
+361,0,Persians,Aeschylus,The Persians,34603,20251001,20260930,,,,Bloom appendix
+362,0,Pharsalia,Lucan,Pharsalia,34584,20251001,20260930,,,,Bloom appendix
+363,0,Black Boy,Richard Wright,Black Boy,34196,20251001,20260930,,,,Bloom appendix
+364,0,The Wings of the Dove,Henry James,The Wings of the Dove,33909,20251001,20260930,,,,Bloom appendix
+365,0,The Way We Live Now,Anthony Trollope,The Way We Live Now,33834,20251001,20260930,,,,Bloom appendix
+366,0,The Homecoming,Harold Pinter,The Homecoming,33725,20251001,20260930,,,,Bloom appendix
+367,0,Our Lady of the Flowers,Jean Genet,Our Lady of the Flowers,33722,20251001,20260930,,,,Bloom appendix
+368,0,Travesties,Tom Stoppard,Travesties,33198,20251001,20260930,,,,Bloom appendix
+369,0,The Adventures of Augie March,Saul Bellow,The Adventures of Augie March,33069,20251001,20260930,,,,Bloom appendix
+370,0,Parade's End,Ford Madox Ford,Parade's End,32918,20251001,20260930,,,,Bloom appendix
+371,0,The Two Noble Kinsmen,William Shakespeare,The Two Noble Kinsmen,32640,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+372,0,Evelina,Fanny Burney,Evelina,32600,20251001,20260930,,,,Bloom appendix
+373,0,The Way of All Flesh,Samuel Butler,The Way of All Flesh,32565,20251001,20260930,,,,Bloom appendix
+374,0,Sister Carrie,Theodore Dreiser,Sister Carrie,32382,20251001,20260930,,,,Bloom appendix
+375,0,The Bald Soprano,Eugène Ionesco,The Bald Soprano,32239,20251001,20260930,,,,Bloom appendix
+376,0,L'Assommoir,Émile Zola,L'Assommoir,32025,20251001,20260930,,,,Bloom appendix
+377,0,Two Years Before the Mast,"Richard Henry Dana, Jr.",Two Years Before the Mast,32007,20251001,20260930,,,,Bloom appendix
+378,0,The Garden of Eden,Ernest Hemingway,The Garden of Eden (novel),32005,20251001,20260930,,,,Bloom appendix
+379,0,Speed-the-Plow,David Mamet,Speed-the-Plow,31905,20251001,20260930,,,,Bloom appendix
+380,0,No Longer at Ease,Chinua Achebe,No Longer at Ease,31805,20251001,20260930,,,,Bloom appendix
+381,0,Samson Agonistes,John Milton,Samson Agonistes,31772,20251001,20260930,,,,Bloom appendix
+382,0,Arrow of God,Chinua Achebe,Arrow of God,31447,20251001,20260930,,,,Bloom appendix
+383,0,Life is a Dream,Pedro Calderón de la Barca,Life Is a Dream,31429,20251001,20260930,,,,Bloom appendix
+384,0,Moralia,Plutarch,Moralia,31401,20251001,20260930,,,,Bloom appendix
+385,0,Let Us Now Praise Famous Men,James Agee,Let Us Now Praise Famous Men,31257,20251001,20260930,,,,Bloom appendix
+386,0,Pudd'nhead Wilson,Mark Twain,Pudd'nhead Wilson,31032,20251001,20260930,,,,Bloom appendix
+387,0,The Book of the Courtier,Baldassare Castiglione,The Book of the Courtier,30898,20251001,20260930,,,,Bloom appendix
+388,0,The Palliser Novels,Anthony Trollope,Palliser novels,30656,20251001,20260930,,,,Bloom appendix
+389,0,The Miser,Molière,The Miser,30303,20251001,20260930,,,,Bloom appendix
+390,0,Apologia pro Vita Sua,John Henry Newman,Apologia Pro Vita Sua,30235,20251001,20260930,,,,Bloom appendix
+391,0,The Sketch Book,Washington Irving,"The Sketch Book of Geoffrey Crayon, Gent.",30015,20251001,20260930,,,,Bloom appendix
+392,0,Alcestis,Euripides,Alcestis (play),29699,20251001,20260930,,,,Bloom appendix
+393,0,Juno and the Paycock,Sean O'Casey,Juno and the Paycock,29621,20251001,20260930,,,,Bloom appendix
+394,0,Dracula,Bram Stoker,Castle Dracula,29292,20251001,20260930,,,,Bloom appendix
+395,0,The Imaginary Invalid,Molière,The Imaginary Invalid,28987,20251001,20260930,,,,Bloom appendix
+396,0,War with the Newts,Karel Capek,War with the Newts,28866,20251001,20260930,,,,Bloom appendix
+397,0,The Well at the World's End,William Morris,The Well at the World's End,28705,20251001,20260930,,,,Bloom appendix
+398,0,Them,Joyce Carol Oates,Them (novel),28451,20251001,20260930,,,,Bloom appendix
+399,0,On the Sublime,"""Longinus""",On the Sublime,28205,20251001,20260930,,,,Bloom appendix
+400,0,Hippolytus,Euripides,Hippolytus (play),28114,20251001,20260930,,,,Bloom appendix
+401,0,The Deerslayers,James Fenimore Cooper,The Deerslayer,28056,20251001,20260930,,,,Bloom appendix
+402,0,The Aleph and Other Stories,Jorge Luis Borges,The Aleph and Other Stories,27494,20251001,20260930,,,,Bloom appendix
+403,0,The White Devil,John Webster,The White Devil,27399,20251001,20260930,,,,Bloom appendix
+404,0,Point Counter Point,Aldous Huxley,Point Counter Point,27126,20251001,20260930,,,,Bloom appendix
+405,0,Lycidas,John Milton,Lycidas,27005,20251001,20260930,,,,Bloom appendix
+406,0,The Ambassadors,Henry James,The Ambassadors (novel),26769,20251001,20260930,,,,Bloom appendix
+407,0,Major Barbara,George Bernard Shaw,Major Barbara,26730,20251001,20260930,,,,Bloom appendix
+408,0,An Apology for Poetry,Sir Philip Sidney,An Apology for Poetry,26726,20251001,20260930,,,,Bloom appendix
+409,0,The Bostonians,Henry James,The Bostonians,26443,20251001,20260930,,,,Bloom appendix
+410,0,Jerusalem Delivered,Torquato Tasso,Jerusalem Delivered,26270,20251001,20260930,,,,Bloom appendix
+411,0,Mary Barton,Elizabeth Gaskell,Mary Barton,26216,20251001,20260930,,,,Bloom appendix
+412,0,The Periodic Table,Primo Levi,The Periodic Table (short story collection),26099,20251001,20260930,,,,Bloom appendix
+413,0,Cyclops,Euripides,Cyclops (play),26033,20251001,20260930,,,,Bloom appendix
+414,0,Nature,Ralph Waldo Emerson,Nature (essay),25732,20251001,20260930,,,,Bloom appendix
+415,0,A Bend in the River,V. S. Naipaul,A Bend in the River,25595,20251001,20260930,,,,Bloom appendix
+416,0,Joseph Andrews,Henry Fielding,Joseph Andrews,25474,20251001,20260930,,,,Bloom appendix
+417,0,The Labyrinth of Solitude,Octavio Paz,The Labyrinth of Solitude,25019,20251001,20260930,,,,Bloom appendix
+418,0,Surfacing,Margaret Atwood,Surfacing (novel),24945,20251001,20260930,,,,Bloom appendix
+419,0,Yvain: The Knight of the Lion,Chrétien de Troyes,"Yvain, the Knight of the Lion",24919,20251001,20260930,,,,Bloom appendix
+420,0,Mumbo Jumbo,Ishmael Reed,Mumbo Jumbo (novel),24831,20251001,20260930,,,,Bloom appendix
+421,0,The Countess of Pembroke's Arcadia,Sir Philip Sidney,The Countess of Pembroke's Arcadia,24733,20251001,20260930,,,,Bloom appendix
+422,0,"Henry VI, Part 3",William Shakespeare,"Henry VI, Part 3",24714,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+423,0,Orlando Innamorato,Matteo Maria Boiardo,Orlando Innamorato,24339,20251001,20260930,,,,Bloom appendix
+424,0,"Henry VI, Part 2",William Shakespeare,"Henry VI, Part 2",24121,20251001,20260930,,,,"Bloom appendix (Plays, expanded)"
+425,0,The Hamlet,William Faulkner,The Hamlet,23732,20251001,20260930,,,,Bloom appendix
+426,0,The Cid,Pierre Corneille,Le Cid,23655,20251001,20260930,,,,Bloom appendix
+427,0,Helen,Euripides,Helen (play),23608,20251001,20260930,,,,Bloom appendix
+428,0,Hecuba,Euripides,Hecuba (play),23392,20251001,20260930,,,,Bloom appendix
+429,0,A Tale of a Tub,Jonathan Swift,A Tale of a Tub,23352,20251001,20260930,,,,Bloom appendix
+430,0,The Caretaker,Harold Pinter,The Caretaker (play),23256,20251001,20260930,,,,Bloom appendix
+431,0,Zadig,Voltaire,Zadig,23245,20251001,20260930,,,,Bloom appendix
+432,0,Operation Shylock,Philip Roth,Operation Shylock,23062,20251001,20260930,,,,Bloom appendix
+433,0,Elective Affinities,Johann Wolfgang von Goethe,Elective Affinities,23042,20251001,20260930,,,,Bloom appendix
+434,0,Summer and Smoke,Tennessee Williams,Summer and Smoke,22853,20251001,20260930,,,,Bloom appendix
+435,0,Ironweed,William Kennedy,Ironweed (novel),22788,20251001,20260930,,,,Bloom appendix
+436,0,The Woodlanders,Thomas Hardy,The Woodlanders,22753,20251001,20260930,,,,Bloom appendix
+437,0,The Cancer Ward,Aleksandr Solzhenitsyn,Cancer Ward,22336,20251001,20260930,,,,Bloom appendix
+438,0,Midaq Alley,Najib Mahfuz,Midaq Alley (novel),22184,20251001,20260930,,,,Bloom appendix
+439,0,Scoop,Evelyn Waugh,Scoop (novel),22136,20251001,20260930,,,,Bloom appendix
+440,0,Miss Lonelyhearts,Nathanael West,Miss Lonelyhearts,22066,20251001,20260930,,,,Bloom appendix
+441,0,The Ballad of the Sad Cafe,Carson McCullers,The Ballad of the Sad Café,21827,20251001,20260930,,,,Bloom appendix
+442,0,A Journal of the Plague Year,Daniel Defoe,A Journal of the Plague Year,21573,20251001,20260930,,,,Bloom appendix
+443,0,Lilith,George Macdonald,Lilith (novel),21562,20251001,20260930,,,,Bloom appendix
+444,0,The Dybbuk,S. Ansky,The Dybbuk,21419,20251001,20260930,,,,Bloom appendix
+445,0,Orestes,Euripides,Orestes (play),21401,20251001,20260930,,,,Bloom appendix
+446,0,In Parenthesis,David Jones,In Parenthesis,21309,20251001,20260930,,,,Bloom appendix
+447,0,Effi Briest,Theodor Fontane,Effi Briest,21252,20251001,20260930,,,,Bloom appendix
+448,0,Voss,Patrick White,Voss (novel),21198,20251001,20260930,,,,Bloom appendix
+449,0,Unto This Last,John Ruskin,Unto This Last,21081,20251001,20260930,,,,Bloom appendix
+450,0,Astrophel and Stella,Sir Philip Sidney,Astrophel and Stella,21046,20251001,20260930,,,,Bloom appendix
+451,0,A Sentimental Journey Through France and Italy,Laurence Sterne,A Sentimental Journey Through France and Italy,21023,20251001,20260930,,,,Bloom appendix
+452,0,Representative Men,Ralph Waldo Emerson,Representative Men,21019,20251001,20260930,,,,Bloom appendix
+453,0,Eugénie Grandet,Honoré de Balzac,Eugénie Grandet,21007,20251001,20260930,,,,Bloom appendix
+454,0,Lincoln,Gore Vidal,Lincoln (novel),20972,20251001,20260930,,,,Bloom appendix
+455,0,Mary Stuart,Friedrich Schiller,Mary Stuart (Schiller play),20962,20251001,20260930,,,,Bloom appendix
+456,0,La Celestina,Fernando de Rojas,La Celestina,20955,20251001,20260930,,,,Bloom appendix
+457,0,The Cossacks,Leo Tolstoy,The Cossacks (novel),20919,20251001,20260930,,,,Bloom appendix
+458,0,Oscar and Lucinda,Peter Carey,Oscar and Lucinda,20729,20251001,20260930,,,,Bloom appendix
+459,0,The Heptameron,Marguerite de Navarre,Heptaméron,20700,20251001,20260930,,,,Bloom appendix
+460,0,Illuminations,Walter Benjamin,Illuminations (poetry collection),20637,20251001,20260930,,,,Bloom appendix
+461,0,Tristes Tropiques,Claude Lévi-Strauss,Tristes Tropiques,20527,20251001,20260930,,,,Bloom appendix
+462,0,The Country Wife,William Wycherley,The Country Wife,20512,20251001,20260930,,,,Bloom appendix
+463,0,Paterson,William Carlos Williams,Paterson (poem),20473,20251001,20260930,,,,Bloom appendix
+464,0,The Toilers of the Sea,Victor Hugo,Toilers of the Sea,20346,20251001,20260930,,,,Bloom appendix
+465,0,The Education of Henry Adams,Henry Adams,The Education of Henry Adams,20343,20251001,20260930,,,,Bloom appendix
+466,0,Galileo,Bertolt Brecht,Life of Galileo,20148,20251001,20260930,,,,Bloom appendix
+467,0,The Immoralist,Andre Gide,The Immoralist,20099,20251001,20260930,,,,Bloom appendix
+468,0,The Marble Faun,Nathaniel Hawthorne,The Marble Faun,20022,20251001,20260930,,,,Bloom appendix
+469,0,Nathan the Wise,Gotthold Lessing,Nathan the Wise,20021,20251001,20260930,,,,Bloom appendix
+470,0,The Obscene Bird of Night,José Donoso,The Obscene Bird of Night,19964,20251001,20260930,,,,Bloom appendix
+471,0,The Sot-Weed Factor,John Barth,The Sot-Weed Factor (novel),19653,20251001,20260930,,,,Bloom appendix
+472,0,The Trickster of Seville,Tirso de Molina,The Trickster of Seville and the Stone Guest,19630,20251001,20260930,,,,Bloom appendix
+473,0,The Robbers,Friedrich Schiller,The Robbers,19586,20251001,20260930,,,,Bloom appendix
+474,0,Eureka,Edgar Allan Poe,Eureka: A Prose Poem,19515,20251001,20260930,,,,Bloom appendix
+475,0,The War of the End of the World,Mario Vargas Llosa,The War of the End of the World,19216,20251001,20260930,,,,Bloom appendix
+476,0,Twenty Love Poems and a Song of Despair,Pablo Neruda,Twenty Love Poems and a Song of Despair,19213,20251001,20260930,,,,Bloom appendix
+477,0,The Fixer,Bernard Malamud,The Fixer (novel),19204,20251001,20260930,,,,Bloom appendix
+478,0,The Street of Crocodiles,Bruno Schulz,The Street of Crocodiles,19190,20251001,20260930,,,,Bloom appendix
+479,0,The Death of Virgil,Hermann Broch,The Death of Virgil,19164,20251001,20260930,,,,Bloom appendix
+480,0,The Servant of Two Masters,Carlo Goldoni,The Servant of Two Masters,19148,20251001,20260930,,,,Bloom appendix
+481,0,Heroides,Ovid,Heroides,18928,20251001,20260930,,,,Bloom appendix
+482,0,Murphy,Samuel Beckett,Murphy (novel),18823,20251001,20260930,,,,Bloom appendix
+483,0,The Master of Ballantrae,Robert Louis Stevenson,The Master of Ballantrae,18782,20251001,20260930,,,,Bloom appendix
+484,0,Pincher Martin,William Golding,Pincher Martin,18674,20251001,20260930,,,,Bloom appendix
+485,0,The Thief's Journal,Jean Genet,The Thief's Journal,18444,20251001,20260930,,,,Bloom appendix
+486,0,The Berlin Stories,Christopher Isherwood,The Berlin Stories,18422,20251001,20260930,,,,Bloom appendix
+487,0,A Month in the Country,Ivan Turgenev,A Month in the Country (play),18292,20251001,20260930,,,,Bloom appendix
+488,0,The Siege of Krishnapur,J. G. Farrell,The Siege of Krishnapur,18146,20251001,20260930,,,,Bloom appendix
+489,0,Antigone,Jean Anouilh,Antigone (Anouilh play),17978,20251001,20260930,,,,Bloom appendix
+490,0,The City of the Sun,Tommaso Campanella,The City of the Sun,17869,20251001,20260930,,,,Bloom appendix
+491,0,"Confessions of Felix Krull, Confidence Man",Thomas Mann,Confessions of Felix Krull,17563,20251001,20260930,,,,Bloom appendix
+492,0,Philoctetes,Sophocles,Philoctetes (Sophocles play),17491,20251001,20260930,,,,Bloom appendix
+493,0,Cousin Bette,Honoré de Balzac,Cousin Bette,17473,20251001,20260930,,,,Bloom appendix
+494,0,The Chairs,Eugène Ionesco,The Chairs,17412,20251001,20260930,,,,Bloom appendix
+495,0,The Balcony,Jean Genet,The Balcony,17379,20251001,20260930,,,,Bloom appendix
+496,0,The Stones of Venice,John Ruskin,The Stones of Venice (book),17158,20251001,20260930,,,,Bloom appendix
+497,0,Hudibras,Samuel Butler,Hudibras,17085,20251001,20260930,,,,Bloom appendix
+498,0,Religio Medici,Sir Thomas Browne,Religio Medici,17004,20251001,20260930,,,,Bloom appendix
+499,0,The Deserted Village,Oliver Goldsmith,The Deserted Village,17000,20251001,20260930,,,,Bloom appendix
+500,0,The Changeling,Thomas Middleton and William Rowley,The Changeling (play),16973,20251001,20260930,,,,Bloom appendix
+501,0,Cane,Jean Toomer,Cane (novel),16957,20251001,20260930,,,,Bloom appendix
+502,0,The Knights,Aristophanes,The Knights,16864,20251001,20260930,,,,Bloom appendix
+503,0,The Deptford Trilogy,Robertson Davies,The Deptford Trilogy,16662,20251001,20260930,,,,Bloom appendix
+504,0,The Making of Americans,Gertrude Stein,The Making of Americans,16597,20251001,20260930,,,,Bloom appendix
+505,0,Boris Godunov,Aleksandr Pushkin,Boris Godunov (play),16571,20251001,20260930,,,,Bloom appendix
+506,0,The Wasps,Aristophanes,The Wasps,16416,20251001,20260930,,,,Bloom appendix
+507,0,Mount Analogue,René Daumal,Mount Analogue,16308,20251001,20260930,,,,Bloom appendix
+508,0,The Palm-Wine Drinkard and His Dead Palm-Wine Tapster in the Dead's Town,Amos Tutuola,The Palm-Wine Drinkard,16292,20251001,20260930,,,,Bloom appendix
+509,0,Andromache,Euripides,Andromache (play),16175,20251001,20260930,,,,Bloom appendix
+510,0,Women of Trachis,Sophocles,Women of Trachis,15859,20251001,20260930,,,,Bloom appendix
+511,0,Castle Rackrent,Maria Edgeworth,Castle Rackrent,15716,20251001,20260930,,,,Bloom appendix
+512,0,The Odyssey: A Modern Sequel,Nikos Kazantzakis,The Odyssey: A Modern Sequel,15704,20251001,20260930,,,,Bloom appendix
+513,0,The Sonnets to Orpheus,Rainer Maria Rilke,Sonnets to Orpheus,15576,20251001,20260930,,,,Bloom appendix
+514,0,"The Mandrake, a Comedy",Niccolò Machiavelli,The Mandrake,15447,20251001,20260930,,,,Bloom appendix
+515,0,A Grain of Wheat,Wa Thiong'o Ngugi,A Grain of Wheat,15441,20251001,20260930,,,,Bloom appendix
+516,0,Woodcutters,Thomas Bernhard,Woodcutters (novel),15272,20251001,20260930,,,,Bloom appendix
+517,0,Between the Acts,Virginia Woolf,Between the Acts,15268,20251001,20260930,,,,Bloom appendix
+518,0,The Foundation Pit,Andrei Platonov,The Foundation Pit,15235,20251001,20260930,,,,Bloom appendix
+519,0,Dog Soldiers,Robert Stone,Dog Soldiers (novel),15146,20251001,20260930,,,,Bloom appendix
+520,0,The Ring and the Book,Robert Browning,The Ring and the Book,14927,20251001,20260930,,,,Bloom appendix
+521,0,Brand,Henrik Ibsen,Brand (play),14915,20251001,20260930,,,,Bloom appendix
+522,0,Under Western Eyes,Joseph Conrad,Under Western Eyes (novel),14755,20251001,20260930,,,,Bloom appendix
+523,0,Tender Buttons,Gertrude Stein,Tender Buttons (book),14662,20251001,20260930,,,,Bloom appendix
+524,0,Don Carlos,Friedrich Schiller,Don Carlos (play),14653,20251001,20260930,,,,Bloom appendix
+525,0,Puck of Pook's Hill,Rudyard Kipling,Puck of Pook's Hill,14626,20251001,20260930,,,,Bloom appendix
+526,0,The Revenger's Tragedy,Cyril Tourneur,The Revenger's Tragedy,14590,20251001,20260930,,,,Bloom appendix
+527,0,Terra Nostra,Carlos Fuentes,Terra Nostra (novel),14575,20251001,20260930,,,,Bloom appendix
+528,0,The Dance of Death,August Strindberg,The Dance of Death (Strindberg play),14571,20251001,20260930,,,,Bloom appendix
+529,0,Young Törless,Robert Musil,The Confusions of Young Törless,14314,20251001,20260930,,,,Bloom appendix
+530,0,Robinson Crusoe,Daniel Defoe,The Farther Adventures of Robinson Crusoe,14269,20251001,20260930,,,,Bloom appendix
+531,0,Heartbreak House,George Bernard Shaw,Heartbreak House,14266,20251001,20260930,,,,Bloom appendix
+532,0,Zuleika Dobson,Max Beerbohm,Zuleika Dobson,14202,20251001,20260930,,,,Bloom appendix
+533,0,The Sleepwalkers,Hermann Broch,The Sleepwalkers (Broch novel),14113,20251001,20260930,,,,Bloom appendix
+534,0,Becket,Jean Anouilh,Becket,14104,20251001,20260930,,,,Bloom appendix
+535,0,Jubilate Agno,Christopher Smart,Jubilate Agno,14020,20251001,20260930,,,,Bloom appendix
+536,0,A Defence of Poetry,Percy Bysshe Shelley,A Defence of Poetry,13824,20251001,20260930,,,,Bloom appendix
+537,0,Seven Against Thebes,Aeschylus,Seven Against Thebes (play),13629,20251001,20260930,,,,Bloom appendix
+538,0,Principles of a New Science,Giambattista Vico,The New Science,13611,20251001,20260930,,,,Bloom appendix
+539,0,The Book of Daniel,E. L. Doctorow,The Book of Daniel (novel),13541,20251001,20260930,,,,Bloom appendix
+540,0,Day of the Owl,Leonardo Sciascia,The Day of the Owl,13529,20251001,20260930,,,,Bloom appendix
+541,0,Angels,Denis Johnson,Angels (novel),13455,20251001,20260930,,,,Bloom appendix
+542,0,Barabbas,Pär Lagerkvist,Barabbas (novel),13393,20251001,20260930,,,,Bloom appendix
+543,0,Victory,Joseph Conrad,Victory (novel),13374,20251001,20260930,,,,Bloom appendix
+544,0,Baltasar and Blimunda,José Saramago,Baltasar and Blimunda,13363,20251001,20260930,,,,Bloom appendix
+545,0,Sanatorium Under the Sign of the Hourglass,Bruno Schulz,Sanatorium Under the Sign of the Hourglass,13357,20251001,20260930,,,,Bloom appendix
+546,0,The Adventures of Roderick Random,Tobias Smollett,The Adventures of Roderick Random,13284,20251001,20260930,,,,Bloom appendix
+547,0,Seize the Day,Saul Bellow,Seize the Day (novel),13241,20251001,20260930,,,,Bloom appendix
+548,0,Italian Journey,Johann Wolfgang von Goethe,Italian Journey,12994,20251001,20260930,,,,Bloom appendix
+549,0,The Octopus,Frank Norris,The Octopus: A Story of California,12967,20251001,20260930,,,,Bloom appendix
+550,0,The Kingdom of This World,Alejo Carpentier,The Kingdom of This World,12958,20251001,20260930,,,,Bloom appendix
+551,0,The Passion,Jeanette Winterson,The Passion (novel),12941,20251001,20260930,,,,Bloom appendix
+552,0,When We Dead Awaken,Henrik Ibsen,When We Dead Awaken,12748,20251001,20260930,,,,Bloom appendix
+553,0,A Dream Play,August Strindberg,A Dream Play,12639,20251001,20260930,,,,Bloom appendix
+554,0,Ion,Euripides,Ion (play),12399,20251001,20260930,,,,Bloom appendix
+555,0,Seven Gothic Tales,Isak Dinesen,Seven Gothic Tales,12379,20251001,20260930,,,,Bloom appendix
+556,0,Saved,Edward Bond,Saved (play),12374,20251001,20260930,,,,Bloom appendix
+557,0,Foe,J. M. Coetzee,Foe (Coetzee novel),12202,20251001,20260930,,,,Bloom appendix
+558,0,Omensetter's Luck,William H. Gass,Omensetter's Luck,12201,20251001,20260930,,,,Bloom appendix
+559,0,Cassandra,Christa Wolf,Cassandra (novel),12012,20251001,20260930,,,,Bloom appendix
+560,0,Heat and Dust,Ruth Prawer Jhabvala,Heat and Dust,11823,20251001,20260930,,,,Bloom appendix
+561,0,A Vision,William Butler Yeats,A Vision,11787,20251001,20260930,,,,Bloom appendix
+562,0,Danton's Death,Georg Büchner,Danton's Death,11408,20251001,20260930,,,,Bloom appendix
+563,0,King Jesus,Robert Graves,King Jesus (novel),11308,20251001,20260930,,,,Bloom appendix
+564,0,The School for Wives,Molière,The School for Wives,11301,20251001,20260930,,,,Bloom appendix
+565,0,August 1914,Aleksandr Solzhenitsyn,August 1914 (novel),11238,20251001,20260930,,,,Bloom appendix
+566,0,The Counterlife,Philip Roth,The Counterlife,11227,20251001,20260930,,,,Bloom appendix
+567,0,The Women of Brewster Place,Gloria Naylor,The Women of Brewster Place (novel),11128,20251001,20260930,,,,Bloom appendix
+568,0,The Black Spider,Jeremias Gotthelf,The Black Spider,11119,20251001,20260930,,,,Bloom appendix
+569,0,The Devil's Elixir,E. T. A. Hoffmann,The Devil's Elixirs,11005,20251001,20260930,,,,Bloom appendix
+570,0,Ancient Evenings,Norman Mailer,Ancient Evenings,10952,20251001,20260930,,,,Bloom appendix
+571,0,The Man of Mode,Sir George Etherege,The Man of Mode,10947,20251001,20260930,,,,Bloom appendix
+572,0,Watt,Samuel Beckett,Watt (novel),10933,20251001,20260930,,,,Bloom appendix
+573,0,Three Lives,Gertrude Stein,Three Lives (book),10886,20251001,20260930,,,,Bloom appendix
+574,0,At the Back of the North Wind,George Macdonald,At the Back of the North Wind,10836,20251001,20260930,,,,Bloom appendix
+575,0,Sir Charles Grandison,Samuel Richardson,The History of Sir Charles Grandison,10816,20251001,20260930,,,,Bloom appendix
+576,0,The Expedition of Humphry Clinker,Tobias Smollett,The Expedition of Humphry Clinker,10806,20251001,20260930,,,,Bloom appendix
+577,0,Egmont,Johann Wolfgang von Goethe,Egmont (play),10624,20251001,20260930,,,,Bloom appendix
+578,0,Old Mortality,Sir Walter Scott,Old Mortality,10405,20251001,20260930,,,,Bloom appendix
+579,0,The Garden of Cyrus,Sir Thomas Browne,The Garden of Cyrus,10373,20251001,20260930,,,,Bloom appendix
+580,0,Blue of Noon,Georges Bataille,Blue of Noon,10362,20251001,20260930,,,,Bloom appendix
+581,0,The Man Who Loved Children,Christina Stead,The Man Who Loved Children,10309,20251001,20260930,,,,Bloom appendix
+582,0,The Sense of an Ending,Frank Kermode,The Sense of an Ending: Studies in the Theory of Fiction,10246,20251001,20260930,,,,Bloom appendix
+583,0,Modern Painters,John Ruskin,Modern Painters,10065,20251001,20260930,,,,Bloom appendix
+584,0,No Name,Wilkie Collins,No Name (novel),10007,20251001,20260930,,,,Bloom appendix
+585,0,The Unfortunate Traveller,Thomas Nashe,The Unfortunate Traveller,9927,20251001,20260930,,,,Bloom appendix
+586,0,A Grammar of Assent,John Henry Newman,Grammar of Assent,9849,20251001,20260930,,,,Bloom appendix
+587,0,Wolf Solent,John Cowper Powys,Wolf Solent,9839,20251001,20260930,,,,Bloom appendix
+588,0,Clarel,Herman Melville,Clarel,9741,20251001,20260930,,,,Bloom appendix
+589,0,A Glastonbury Romance,John Cowper Powys,A Glastonbury Romance,9498,20251001,20260930,,,,Bloom appendix
+590,0,Where I'm Calling From,Raymond Carver,Where I'm Calling From: New and Selected Stories,9494,20251001,20260930,,,,Bloom appendix
+591,0,Pseudolus,Plautus,Pseudolus,9440,20251001,20260930,,,,Bloom appendix
+592,0,New Grub Street,George Gissing,New Grub Street,9425,20251001,20260930,,,,Bloom appendix
+593,0,Corydon,Andre Gide,Corydon (book),9392,20251001,20260930,,,,Bloom appendix
+594,0,Call It Sleep,Henry Roth,Call It Sleep,9355,20251001,20260930,,,,Bloom appendix
+595,0,Pan,Knut Hamsun,Pan (Hamsun novel),9350,20251001,20260930,,,,Bloom appendix
+596,0,"If Not Now, When?",Primo Levi,"If Not Now, When? (novel)",9314,20251001,20260930,,,,Bloom appendix
+597,0,Wallenstein,Friedrich Schiller,Wallenstein (trilogy of plays),9192,20251001,20260930,,,,Bloom appendix
+598,0,The History of Henry Esmond,William Makepeace Thackeray,The History of Henry Esmond,9120,20251001,20260930,,,,Bloom appendix
+599,0,The Old Wives' Tale,Arnold Bennett,The Old Wives' Tale,9095,20251001,20260930,,,,Bloom appendix
+600,0,Rameau's Nephew,Denis Diderot,Rameau's Nephew,9037,20251001,20260930,,,,Bloom appendix
+601,0,Put Out More Flags,Evelyn Waugh,Put Out More Flags,8903,20251001,20260930,,,,Bloom appendix
+602,0,The Princess Casamassima,Henry James,The Princess Casamassima,8810,20251001,20260930,,,,Bloom appendix
+603,0,The Professor's House,Willa Cather,The Professor's House,8781,20251001,20260930,,,,Bloom appendix
+604,0,Light Years,James Salter,Light Years (novel),8735,20251001,20260930,,,,Bloom appendix
+605,0,The Father,August Strindberg,The Father (Strindberg play),8720,20251001,20260930,,,,Bloom appendix
+606,0,The Earthly Paradise,William Morris,The Earthly Paradise,8666,20251001,20260930,,,,Bloom appendix
+607,0,Thaïs,Anatole France,Thaïs (novel),8609,20251001,20260930,,,,Bloom appendix
+608,0,Antic Hay,Aldous Huxley,Antic Hay,8596,20251001,20260930,,,,Bloom appendix
+609,0,Fiskadoro,Denis Johnson,Fiskadoro,8596,20251001,20260930,,,,Bloom appendix
+610,0,Heracles,Euripides,Children of Heracles,8586,20251001,20260930,,,,Bloom appendix
+611,0,The Shadow of a Gunman,Sean O'Casey,The Shadow of a Gunman,8546,20251001,20260930,,,,Bloom appendix
+612,0,Emperor and Galilean,Henrik Ibsen,Emperor and Galilean,8505,20251001,20260930,,,,Bloom appendix
+613,0,Men of Maize,Miguel Angel Asturias,Men of Maize,8465,20251001,20260930,,,,Bloom appendix
+614,0,Dreamtigers (The Maker),Jorge Luis Borges,Dreamtigers,8345,20251001,20260930,,,,Bloom appendix
+615,0,Adolphe,Benjamin Constant,Adolphe,8295,20251001,20260930,,,,Bloom appendix
+616,0,The Dalkey Archive,Flann O'Brien,The Dalkey Archive,8127,20251001,20260930,,,,Bloom appendix
+617,0,The Time of the Doves,Merce Rodoreda,The Time of the Doves,8084,20251001,20260930,,,,Bloom appendix
+618,0,Back to Methuselah,George Bernard Shaw,Back to Methuselah,7989,20251001,20260930,,,,Bloom appendix
+619,0,The Rise of Silas Lapham,William Dean Howells,The Rise of Silas Lapham,7961,20251001,20260930,,,,Bloom appendix
+620,0,The Piazza Tales,Herman Melville,The Piazza Tales,7914,20251001,20260930,,,,Bloom appendix
+621,0,The Changing Light at Sandover,James Merrill,The Changing Light at Sandover,7903,20251001,20260930,,,,Bloom appendix
+622,0,Explosion in a Cathedral,Alejo Carpentier,Explosion in a Cathedral,7878,20251001,20260930,,,,Bloom appendix
+623,0,The Lesson,Eugène Ionesco,The Lesson,7758,20251001,20260930,,,,Bloom appendix
+624,0,Locus Solus,Raymond Roussel,Locus Solus,7671,20251001,20260930,,,,Bloom appendix
+625,0,The Well-Beloved,Thomas Hardy,The Well-Beloved,7601,20251001,20260930,,,,Bloom appendix
+626,0,The Baphomet,Pierre Klossowski,The Baphomet,7592,20251001,20260930,,,,Bloom appendix
+627,0,The Hive,Camilo José Cela,The Hive (Cela novel),7460,20251001,20260930,,,,Bloom appendix
+628,0,The Egoist,George Meredith,The Egoist (novel),7434,20251001,20260930,,,,Bloom appendix
+629,0,The Erasers,Alain Robbe-Grillet,The Erasers,7405,20251001,20260930,,,,Bloom appendix
+630,0,The Floating Opera,John Barth,The Floating Opera,7381,20251001,20260930,,,,Bloom appendix
+631,0,Weir of Hermiston,Robert Louis Stevenson,Weir of Hermiston,7304,20251001,20260930,,,,Bloom appendix
+632,0,Canto General,Pablo Neruda,Canto General,7261,20251001,20260930,,,,Bloom appendix
+633,0,Love for Love,William Congreve,Love for Love,7244,20251001,20260930,,,,Bloom appendix
+634,0,Amphitryon,Plautus,Amphitryon (Plautus play),7235,20251001,20260930,,,,Bloom appendix
+635,0,Penguin Island,Anatole France,Penguin Island (novel),7225,20251001,20260930,,,,Bloom appendix
+636,0,Spring and All,William Carlos Williams,Spring and All,7209,20251001,20260930,,,,Bloom appendix
+637,0,An Imaginary Life,David Malouf,An Imaginary Life,7162,20251001,20260930,,,,Bloom appendix
+638,0,The Eunuch,Terence,Eunuchus,7152,20251001,20260930,,,,Bloom appendix
+639,0,The Ghost Sonata,August Strindberg,The Ghost Sonata,7152,20251001,20260930,,,,Bloom appendix
+640,0,Lorenzaccio,Alfred de Musset,Lorenzaccio,7142,20251001,20260930,,,,Bloom appendix
+641,0,I'm Not Stiller,Max Frisch,I'm Not Stiller,7105,20251001,20260930,,,,Bloom appendix
+642,0,Britannicus,Jean Racine,Britannicus (play),7099,20251001,20260930,,,,Bloom appendix
+643,0,Paradiso,José Lezama Lima,Paradiso (novel),7050,20251001,20260930,,,,Bloom appendix
+644,0,Marius the Epicurean,Walter Pater,Marius the Epicurean,7004,20251001,20260930,,,,Bloom appendix
+645,0,The Recruiting Officer,George Farquhar,The Recruiting Officer,6961,20251001,20260930,,,,Bloom appendix
+646,0,How It Is,Samuel Beckett,How It Is,6906,20251001,20260930,,,,Bloom appendix
+647,0,Zuckerman Bound: A Trilogy and Epilogue,Philip Roth,Zuckerman Bound,6824,20251001,20260930,,,,Bloom appendix
+648,0,The New Arabian Nights,Robert Louis Stevenson,New Arabian Nights,6767,20251001,20260930,,,,Bloom appendix
+649,0,My Life as a Man,Philip Roth,My Life as a Man,6698,20251001,20260930,,,,Bloom appendix
+650,0,The Blue Octavo Notebook,Franz Kafka,The Blue Octavo Notebooks,6677,20251001,20260930,,,,Bloom appendix
+651,0,Nightmare Abbey,Thomas Love Peacock,Nightmare Abbey,6597,20251001,20260930,,,,Bloom appendix
+652,0,A Lost Lady,Willa Cather,A Lost Lady,6560,20251001,20260930,,,,Bloom appendix
+653,0,Venice Preserv'd,Thomas Otway,Venice Preserv'd,6509,20251001,20260930,,,,Bloom appendix
+654,0,The End of the Road,John Barth,The End of the Road,6477,20251001,20260930,,,,Bloom appendix
+655,0,Satan in Goray,Isaac Bashevis Singer,Satan in Goray,6444,20251001,20260930,,,,Bloom appendix
+656,0,A Tomb for Boris Davidovich,Danilo Kis,A Tomb for Boris Davidovich,6437,20251001,20260930,,,,Bloom appendix
+657,0,Hermann and Dorothea,Johann Wolfgang von Goethe,Hermann and Dorothea,6426,20251001,20260930,,,,Bloom appendix
+658,0,La Regenta,Leopoldo Alas (Clarín),La regenta,6366,20251001,20260930,,,,Bloom appendix
+659,0,Riders in the Chariot,Patrick White,Riders in the Chariot,6359,20251001,20260930,,,,Bloom appendix
+660,0,Redgauntlet,Sir Walter Scott,Redgauntlet,6351,20251001,20260930,,,,Bloom appendix
+661,0,The Book of Ebenezer Le Page,G. B. Edwards,The Book of Ebenezer Le Page,6218,20251001,20260930,,,,Bloom appendix
+662,0,The Twelve and Other Poems,Aleksandr Blok,The Twelve (poem),6118,20251001,20260930,,,,Bloom appendix
+663,0,A Dance of the Forest,Wole Soyinka,A Dance of the Forests,6108,20251001,20260930,,,,Bloom appendix
+664,0,The Cannibal,John Hawkes,The Cannibal (Hawkes novel),6047,20251001,20260930,,,,Bloom appendix
+665,0,The Words,Jean-Paul Sartre,The Words (book),5850,20251001,20260930,,,,Bloom appendix
+666,0,The Dead Father,Donald Barthelme,The Dead Father,5849,20251001,20260930,,,,Bloom appendix
+667,0,Dichtung und Wahrheit,Johann Wolfgang von Goethe,Dichtung und Wahrheit,5826,20251001,20260930,,,,Bloom appendix
+668,0,The Rebel Angels,Robertson Davies,The Rebel Angels,5812,20251001,20260930,,,,Bloom appendix
+669,0,Saint Genet,Jean-Paul Sartre,Saint Genet,5728,20251001,20260930,,,,Bloom appendix
+670,0,Brief Lives,John Aubrey,Brief Lives,5413,20251001,20260930,,,,Bloom appendix
+671,0,On the Eve,Ivan Turgenev,On the Eve,5394,20251001,20260930,,,,Bloom appendix
+672,0,Friday,Michel Tournier,"Friday, or, The Other Island",5383,20251001,20260930,,,,Bloom appendix
+673,0,Loving,Henry Green,Loving (novel),5350,20251001,20260930,,,,Bloom appendix
+674,0,To Damascus,August Strindberg,To Damascus,5348,20251001,20260930,,,,Bloom appendix
+675,0,Sylvie,Gérard de Nerval,Sylvie (novel),5300,20251001,20260930,,,,Bloom appendix
+676,0,Billiards at Half-Past Nine,Heinrich Böll,Billiards at Half-Past Nine,5283,20251001,20260930,,,,Bloom appendix
+677,0,The Anathemata,David Jones,The Anathemata,5254,20251001,20260930,,,,Bloom appendix
+678,0,The Conduct of Life,Ralph Waldo Emerson,The Conduct of Life,5181,20251001,20260930,,,,Bloom appendix
+679,0,Streamers,David Rabe,Streamers (play),5138,20251001,20260930,,,,Bloom appendix
+680,0,South Wind,Norman Douglas,South Wind (novel),5127,20251001,20260930,,,,Bloom appendix
+681,0,The Power of Darkness,Leo Tolstoy,The Power of Darkness,5068,20251001,20260930,,,,Bloom appendix
+682,0,A Cool Million,Nathanael West,A Cool Million,4998,20251001,20260930,,,,Bloom appendix
+683,0,Bullet Park,John Cheever,Bullet Park,4943,20251001,20260930,,,,Bloom appendix
+684,0,World's Fair,E. L. Doctorow,World's Fair (novel),4935,20251001,20260930,,,,Bloom appendix
+685,0,The Brothers Ashkenazi,Israel Joshua Singer,The Brothers Ashkenazi,4851,20251001,20260930,,,,Bloom appendix
+686,0,The Flounder,Günter Grass,The Flounder,4765,20251001,20260930,,,,Bloom appendix
+687,0,t zero,Italo Calvino,T zero,4745,20251001,20260930,,,,Bloom appendix
+688,0,The Horseman on the Roof,Jean Giono,The Horseman on the Roof (novel),4738,20251001,20260930,,,,Bloom appendix
+689,0,Illywhacker,Peter Carey,Illywhacker,4715,20251001,20260930,,,,Bloom appendix
+690,0,Bab Ballads,W. S. Gilbert,Bab Ballads,4708,20251001,20260930,,,,Bloom appendix
+691,0,Blow-up and Other Stories,Julio Cortázar,Blow-Up and Other Stories,4690,20251001,20260930,,,,Bloom appendix
+692,0,Green Henry,Gottfried Keller,Green Henry,4676,20251001,20260930,,,,Bloom appendix
+693,0,Mont Saint-Michel and Chartres,Henry Adams,Mont Saint Michel and Chartres,4550,20251001,20260930,,,,Bloom appendix
+694,0,The Awkward Age,Henry James,The Awkward Age,4470,20251001,20260930,,,,Bloom appendix
+695,0,Nocturnes for the King of Naples,Edmund White,Nocturnes for the King of Naples,4455,20251001,20260930,,,,Bloom appendix
+696,0,Roman Elegies,Johann Wolfgang von Goethe,Roman Elegies,4452,20251001,20260930,,,,Bloom appendix
+697,0,Orley Farm,Anthony Trollope,Orley Farm (novel),4435,20251001,20260930,,,,Bloom appendix
+698,0,First Love,Ivan Turgenev,First Love (Turgenev novella),4314,20251001,20260930,,,,Bloom appendix
+699,0,The Traveller,Oliver Goldsmith,The Traveller (poem),4246,20251001,20260930,,,,Bloom appendix
+700,0,The Good Apprentice,Iris Murdoch,The Good Apprentice,4193,20251001,20260930,,,,Bloom appendix
+701,0,Imaginary Conversations,William Savage Landor,Imaginary Conversations,4096,20251001,20260930,,,,Bloom appendix
+702,0,Patriotic Gore,Edmund Wilson,Patriotic Gore,4060,20251001,20260930,,,,Bloom appendix
+703,0,Holy Dying,Jeremy Taylor,Holy Living and Holy Dying,4047,20251001,20260930,,,,Bloom appendix
+704,0,The Investigation,Stanislaw Lem,The Investigation,4023,20251001,20260930,,,,Bloom appendix
+705,0,The Barsetshire Novels,Anthony Trollope,Barsetshire,3994,20251001,20260930,,,,Bloom appendix
+706,0,Paroles,Jacques Prévert,Paroles,3970,20251001,20260930,,,,Bloom appendix
+707,0,Louis Lambert,Honoré de Balzac,Louis Lambert (novel),3952,20251001,20260930,,,,Bloom appendix
+708,0,Man in the Holocene,Max Frisch,Man in the Holocene,3876,20251001,20260930,,,,Bloom appendix
+709,0,Party Going,Henry Green,Party Going,3783,20251001,20260930,,,,Bloom appendix
+710,0,Immensee,Theodor Storm,Immensee (novella),3769,20251001,20260930,,,,Bloom appendix
+711,0,The Malcontent,John Marston,The Malcontent,3765,20251001,20260930,,,,Bloom appendix
+712,0,Ursule Mirouet,Honoré de Balzac,Ursule Mirouët,3759,20251001,20260930,,,,Bloom appendix
+713,0,Station Island,Seamus Heaney,Station Island (poetry collection),3749,20251001,20260930,,,,Bloom appendix
+714,0,Patrimony,Philip Roth,Patrimony: A True Story,3745,20251001,20260930,,,,Bloom appendix
+715,0,Nothing Like the Sun,Anthony Burgess,Nothing Like the Sun: A Story of Shakespeare's Love Life,3739,20251001,20260930,,,,Bloom appendix
+716,0,Specimen Days,Walt Whitman,Specimen Days,3636,20251001,20260930,,,,Bloom appendix
+717,0,Family,Natalia Ginzburg,Family Lexicon,3616,20251001,20260930,,,,Bloom appendix
+718,0,Delta Wedding,Eudora Welty,Delta Wedding,3607,20251001,20260930,,,,Bloom appendix
+719,0,Envy,Yury Olesha,Envy (novel),3491,20251001,20260930,,,,Bloom appendix
+720,0,Memoirs of a Midget,Walter De la Mare,Memoirs of a Midget,3474,20251001,20260930,,,,Bloom appendix
+721,0,Pelle the Conqueror,Martin Andersen Nexø,Pelle the Conqueror (novel),3449,20251001,20260930,,,,Bloom appendix
+722,0,Studies in Classic American Literature,D. H. Lawrence,Studies in Classic American Literature,3419,20251001,20260930,,,,Bloom appendix
+723,0,New Poems: First Part and Other Part,Rainer Maria Rilke,New Poems,3379,20251001,20260930,,,,Bloom appendix
+724,0,William Shakespeare,Victor Hugo,William Shakespeare (essay),3371,20251001,20260930,,,,Bloom appendix
+725,0,Mastro-Don Gesualdo,Giovanni Verga,Mastro-don Gesualdo,3356,20251001,20260930,,,,Bloom appendix
+726,0,The Dyer's Hand,W. H. Auden,The Dyer's Hand,3264,20251001,20260930,,,,Bloom appendix
+727,0,House with the Green Shutters,George Douglas Brown,The House with the Green Shutters,3257,20251001,20260930,,,,Bloom appendix
+728,0,How German Is It,Walter Abish,How German Is It,3223,20251001,20260930,,,,Bloom appendix
+729,0,The Damnation of Theron Ware,Harold Frederic,The Damnation of Theron Ware,3131,20251001,20260930,,,,Bloom appendix
+730,0,The Big Sea,Langston Hughes,The Big Sea,3101,20251001,20260930,,,,Bloom appendix
+731,0,Residence on Earth,Pablo Neruda,Residence on Earth,3061,20251001,20260930,,,,Bloom appendix
+732,0,Death in the Woods and Other Stories,Sherwood Anderson,Death in the Woods,3051,20251001,20260930,,,,Bloom appendix
+733,0,Horace,Pierre Corneille,Horace (play),3039,20251001,20260930,,,,Bloom appendix
+734,0,A Fringe of Leaves,Patrick White,A Fringe of Leaves,3033,20251001,20260930,,,,Bloom appendix
+735,0,Field Work,Seamus Heaney,Field Work (poetry collection),3017,20251001,20260930,,,,Bloom appendix
+736,0,Running Dog,Don DeLillo,Running Dog,2987,20251001,20260930,,,,Bloom appendix
+737,0,Polyeucte,Pierre Corneille,Polyeucte,2979,20251001,20260930,,,,Bloom appendix
+738,0,Advertisements for Myself,Norman Mailer,Advertisements for Myself,2968,20251001,20260930,,,,Bloom appendix
+739,0,Alphabetical Africa,Walter Abish,Alphabetical Africa,2917,20251001,20260930,,,,Bloom appendix
+740,0,Second Skin,John Hawkes,Second Skin (novel),2914,20251001,20260930,,,,Bloom appendix
+741,0,Forty Stories,Donald Barthelme,Forty Stories,2901,20251001,20260930,,,,Bloom appendix
+742,0,Indian Summer,Adalbert Stifter,Indian Summer (Stifter novel),2889,20251001,20260930,,,,Bloom appendix
+743,0,Lazarus Laughed,Eugene O'Neill,Lazarus Laughed,2856,20251001,20260930,,,,Bloom appendix
+744,0,The Ponder Heart,Eudora Welty,The Ponder Heart,2790,20251001,20260930,,,,Bloom appendix
+745,0,A New Way to Pay Old Debts,Philip Massinger,A New Way to Pay Old Debts,2775,20251001,20260930,,,,Bloom appendix
+746,0,The Rise of David Levinsky,Abraham Cahan,The Rise of David Levinsky,2769,20251001,20260930,,,,Bloom appendix
+747,0,Cinna,Pierre Corneille,Cinna (play),2732,20251001,20260930,,,,Bloom appendix
+748,0,The Frigate Pallada,Ivan Goncharov,"Frigate ""Pallada""",2708,20251001,20260930,,,,Bloom appendix
+749,0,Badenheim 1939,Aharon Appelfeld,Badenheim 1939,2677,20251001,20260930,,,,Bloom appendix
+750,0,Soledades,Luis de Góngora,Soledades,2673,20251001,20260930,,,,Bloom appendix
+751,0,School for Husbands,Molière,The School for Husbands,2643,20251001,20260930,,,,Bloom appendix
+752,0,The Plain Dealer,William Wycherley,The Plain Dealer (play),2608,20251001,20260930,,,,Bloom appendix
+753,0,The Chimeras,Gérard de Nerval,The Chimeras,2587,20251001,20260930,,,,Bloom appendix
+754,0,Remembrance of Things Past,Marcel Proust,Remembrance of Things Past (play),2537,20251001,20260930,,,,Bloom appendix
+755,0,Eurydice,Jean Anouilh,Eurydice (Anouilh play),2533,20251001,20260930,,,,Bloom appendix
+756,0,The Long March,William Styron,The Long March (novel),2528,20251001,20260930,,,,Bloom appendix
+757,0,Something I've Been Meaning to Tell You,Alice Munro,Something I've Been Meaning to Tell You,2455,20251001,20260930,,,,Bloom appendix
+758,0,France and England in North America,Francis Parkman,France and England in North America,2440,20251001,20260930,,,,Bloom appendix
+759,0,Flow Chart,John Ashbery,Flow Chart (poem),2333,20251001,20260930,,,,Bloom appendix
+760,0,The Mayor of Zalamea,Pedro Calderón de la Barca,The Mayor of Zalamea,2305,20251001,20260930,,,,Bloom appendix
+761,0,Seven Men and Two Others,Max Beerbohm,Seven Men,2207,20251001,20260930,,,,Bloom appendix
+762,0,Amédée,Eugène Ionesco,"Amédée, or How to Get Rid of It",2205,20251001,20260930,,,,Bloom appendix
+763,0,Bruno's Dream,Iris Murdoch,Bruno's Dream,2189,20251001,20260930,,,,Bloom appendix
+764,0,Babylon Revisited and Other Stories,F. Scott Fitzgerald,Babylon Revisited and Other Stories,2164,20251001,20260930,,,,Bloom appendix
+765,0,A Song to David,Christopher Smart,A Song to David,2137,20251001,20260930,,,,Bloom appendix
+766,0,Equal Danger,Leonardo Sciascia,Equal Danger,2119,20251001,20260930,,,,Bloom appendix
+767,0,Coup de Grace,Marguerite Yourcenar,Coup de Grâce (novel),2077,20251001,20260930,,,,Bloom appendix
+768,0,1934,Alberto Moravia,1934 (novel),1965,20251001,20260930,,,,Bloom appendix
+769,0,Barbarian Odes,Giosué Carducci,Barbarian Odes,1839,20251001,20260930,,,,Bloom appendix
+770,0,On Wings of Song,Thomas M. Disch,On Wings of Song (novel),1738,20251001,20260930,,,,Bloom appendix
+771,0,The Playmaker,Thomas Keneally,The Playmaker (novel),1718,20251001,20260930,,,,Bloom appendix
+772,0,Slow Homecoming,Peter Handke,Slow Homecoming,1682,20251001,20260930,,,,Bloom appendix
+773,0,The Robber Bridegroom,Eudora Welty,The Robber Bridegroom (novella),1638,20251001,20260930,,,,Bloom appendix
+774,0,A Flag for Sunrise,Robert Stone,A Flag for Sunrise,1597,20251001,20260930,,,,Bloom appendix
+775,0,A Modern Instance,William Dean Howells,A Modern Instance,1591,20251001,20260930,,,,Bloom appendix
+776,0,Largo Desolato,Vaclav Havel,Largo desolato,1500,20251001,20260930,,,,Bloom appendix
+777,0,A Change of Skin,Carlos Fuentes,A Change of Skin,1470,20251001,20260930,,,,Bloom appendix
+778,0,A Lesson from Aloes,Athol Fugard,A Lesson from Aloes,1445,20251001,20260930,,,,Bloom appendix
+779,0,Gryll Grange,Thomas Love Peacock,Gryll Grange,1271,20251001,20260930,,,,Bloom appendix
+780,0,A Perfect Peace,Amos Oz,A Perfect Peace,1271,20251001,20260930,,,,Bloom appendix
+781,0,Victims of Duty,Eugène Ionesco,Victims of Duty,1217,20251001,20260930,,,,Bloom appendix
+782,0,Manifestoes of Surrealism,André Breton,Manifestoes of Surrealism,1151,20251001,20260930,,,,Bloom appendix
+783,0,The Fool,Edward Bond,The Fool (play),1098,20251001,20260930,,,,Bloom appendix
+784,0,Past Continuous,Yaakov Shabtai,Past Continuous,1051,20251001,20260930,,,,Bloom appendix
+785,0,The Regrets,Joachim Du Bellay,The Regrets,1020,20251001,20260930,,,,Bloom appendix
+786,0,Barren Ground,Ellen Glasgow,Barren Ground (novel),971,20251001,20260930,,,,Bloom appendix
+787,0,Rodogune,Pierre Corneille,Rodogune,883,20251001,20260930,,,,Bloom appendix
+788,0,Cards of Identity,Nigel Dennis,Cards of Identity,877,20251001,20260930,,,,Bloom appendix
+789,0,"Spain, Take This Cup from Me",César Vallejo,"Spain, take this cup from me",856,20251001,20260930,,,,Bloom appendix
+790,0,Don Juan,Molière,Don Juan (Molière play),827,20251001,20260930,,,,Bloom appendix
+791,0,Hotel Lautréamont,John Ashbery,Hotel Lautréamont,791,20251001,20260930,,,,Bloom appendix
+792,0,Modern Baptists,James Wilcox,Modern Baptists,732,20251001,20260930,,,,Bloom appendix
+793,0,A Late Divorce,A. B. Yehoshua,A Late Divorce,706,20251001,20260930,,,,Bloom appendix
+794,0,Nicomède,Pierre Corneille,Nicomède,561,20251001,20260930,,,,Bloom appendix
+795,0,The Little Disturbances of Man,Grace Paley,The Little Disturbances of Man,536,20251001,20260930,,,,Bloom appendix
+796,0,The One Day,Donald Hall,The One Day,477,20251001,20260930,,,,Bloom appendix

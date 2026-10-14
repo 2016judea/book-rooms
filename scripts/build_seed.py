@@ -99,17 +99,37 @@ def hbc_cover(slug):
     return None
 
 
-def ol_search(title, author):
+def ol_search(title, author, many=False):
+    """The canonical Open Library work: the most-edition work whose author matches.
+    Translated works live under their original title (Don Quijote, Ἰλιάς), which the q=
+    search finds; a non-Latin author name is accepted on that query alone."""
+    import unicodedata
+    fold = lambda t: unicodedata.normalize("NFKD", t or "").encode("ascii", "ignore").decode().lower()
     short = re.split(r"[:(]", title)[0]
     short = re.sub(r",?\s*or,?\s.*$", "", short, flags=re.I).strip()
-    last = author.split()[-1]
-    for params in ({"title": short, "author": last}, {"q": f"{short} {last}"}, {"q": short}):
-        params.update({"fields": "key,title,first_publish_year,edition_count,author_name", "limit": 5})
+    last = fold(author.split()[-1]) if author else ""
+    from difflib import SequenceMatcher
+    stop = {"the", "and", "with", "from", "into", "that", "this", "part"}
+    toks = lambda t: [w for w in re.findall(r"[a-z]{4,}", fold(t)) if w not in stop]
+    near = lambda xs, ys: any(SequenceMatcher(None, x, y).ratio() >= 0.8 for x in xs for y in ys)
+    qt = toks(short) or [fold(short)]
+    nonlatin = lambda t: bool(re.search(r"[^\W\d_]", t or "")) and not re.search(r"[a-z]", fold(t))
+    cands = []
+    queries = [(({"title": short, "author": last} if last else {"title": short}), "editions"), ({"q": f"{short} {last}".strip()}, None)]
+    for i, (params, sort) in enumerate(queries):
+        params.update({"fields": "key,title,first_publish_year,edition_count,author_name", "limit": 8 if sort else 5})
+        if sort:
+            params["sort"] = sort
         s = get("https://openlibrary.org/search.json?" + urllib.parse.urlencode(params))
-        docs = [d for d in (s or {}).get("docs", []) if last.lower() in " ".join(d.get("author_name", [])).lower()]
-        if docs:
-            return max(docs[:3], key=lambda d: d.get("edition_count") or 0)
-    return None
+        for d in (s or {}).get("docs", []):
+            names = " ".join(d.get("author_name", []))
+            author_ok = (not last) or near([last], re.findall(r"[a-z]{3,}", fold(names))) or (i == 1 and nonlatin(names))
+            dt = d.get("title") or ""
+            title_ok = near(qt, toks(dt)) or fold(short) == fold(dt) or (i == 1 and nonlatin(dt))
+            if author_ok and title_ok:
+                cands.append(d)
+    cands.sort(key=lambda d: -(d.get("edition_count") or 0))
+    return cands if many else (cands[0] if cands else None)
 
 
 def ol_cover(title, author, published):
@@ -117,18 +137,37 @@ def ol_cover(title, author, published):
     which is often wrong). An edition counts as the first edition only if it is
     dated that year and is in English or carries no language (translations fall
     through to the imprint order)."""
-    work = ol_search(title, author)
-    if not work:
+    works = ol_search(title, author, many=True)
+    if not works:
         return None, None
+    for work in works[:4]:
+        found = _cover_for_work(work, title, published)
+        if found[0]:
+            return found
+    return _cover_for_work(works[0], title, published)
+
+
+def _cover_for_work(work, title, published):
     eds = get(f"https://openlibrary.org{work['key']}/editions.json?limit=500") or {}
-    entries = [e for e in eds.get("entries", []) if e.get("covers") and e["covers"][0] > 0]
+    tn = lambda t: re.sub(r"^(the|a|an) ", "", re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip())
+    want = {tn(re.sub(r",?\s*or,?\s.*$", "", re.split(r"[:(]", title)[0], flags=re.I)), tn(work.get("title"))} - {""}
+    junk = re.compile(r"study guide|summary|sparknotes|cliffs|analysis|companion|notes on|workbook|coloring|adaptation", re.I)
+    def same_work(e):
+        # an edition must carry the work's own title: Open Library attaches stray
+        # editions (a Clarendon Hamlet under The Odyssey, SuperSummary guides) to works
+        et = tn(e.get("title"))
+        if junk.search((e.get("title") or "") + " " + " ".join(e.get("publishers", []))):
+            return False
+        return any(w and (w in et or et in w) and len(et) >= 3 for w in want)
+    entries = [e for e in eds.get("entries", []) if e.get("covers") and (e["covers"][0] or 0) > 0 and same_work(e)]
     for e in entries:
         e["_year"] = year_of(e.get("publish_date"))
         e["_pub"] = ", ".join(e.get("publishers", []))
         langs = [l["key"] for l in e.get("languages", [])]
         e["_eng"] = (not langs) or "/languages/eng" in langs
     dated = sorted([e for e in entries if e["_year"] and e["_eng"]], key=lambda e: e["_year"])
-    meta = {"openlibrary_work": work["key"], "first_published": published or work.get("first_publish_year")}
+    published = published or work.get("first_publish_year")
+    meta = {"openlibrary_work": work["key"], "first_published": published}
 
     def pack(e, first, reason, imprint=None):
         cid = e["covers"][0]

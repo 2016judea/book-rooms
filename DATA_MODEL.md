@@ -38,6 +38,16 @@ direct_thread 1─* direct_message
 | unit_count | how many chapters, so "ch. 9 of 23" means something |
 | openlibrary_work | where the metadata came from, so it can be checked |
 
+### canon_rank (data/canon/ranking.csv)
+| field | question it answers |
+|---|---|
+| work, author | which work of the canon |
+| source | why it's in the pool: Bloom's *The Western Canon* (1994) appendix, or Aidan's five-star by one of Bloom's 26 central authors |
+| wikipedia_article | which article was counted (the work's, never the author's) |
+| pageviews_12mo, window_start, window_end | how much people look it up today, which is the board order |
+| ol_already_read, ol_want_to_read | secondary signal: how many Open Library readers have it |
+| rank, on_board | where it sits; the top 40 hang on the landing board |
+
 ### cover
 | field | question it answers |
 |---|---|

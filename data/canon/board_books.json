@@ -1,0 +1,275 @@
+[
+ {
+  "id": "the-odyssey",
+  "rank": 1,
+  "title": "The Odyssey",
+  "new": false
+ },
+ {
+  "id": "wuthering-heights",
+  "rank": 2,
+  "title": "Wuthering Heights",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "frankenstein",
+  "rank": 3,
+  "title": "Frankenstein",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "iliad",
+  "rank": 4,
+  "title": "Iliad",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "hamlet",
+  "rank": 5,
+  "title": "Hamlet",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "pride-and-prejudice",
+  "rank": 6,
+  "title": "Pride and Prejudice",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "lolita",
+  "rank": 7,
+  "title": "Lolita",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "blood-meridian",
+  "rank": 8,
+  "title": "Blood Meridian, or, the Evening Redness in the West",
+  "new": false
+ },
+ {
+  "id": "the-great-gatsby",
+  "rank": 9,
+  "title": "The Great Gatsby",
+  "new": false
+ },
+ {
+  "id": "don-quixote",
+  "rank": 10,
+  "title": "Don Quixote",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "one-hundred-years-of-solitude",
+  "rank": 11,
+  "title": "One Hundred Years of Solitude",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "ulysses",
+  "rank": 12,
+  "title": "Ulysses",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "paradise-lost",
+  "rank": 13,
+  "title": "Paradise Lost",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "les-mis-rables",
+  "rank": 14,
+  "title": "Les Misérables",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "moby-dick-or-the-whale",
+  "rank": 15,
+  "title": "Moby-Dick or, The Whale",
+  "new": false
+ },
+ {
+  "id": "brave-new-world",
+  "rank": 16,
+  "title": "Brave New World",
+  "new": false
+ },
+ {
+  "id": "jane-eyre",
+  "rank": 17,
+  "title": "Jane Eyre",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "the-picture-of-dorian-gray",
+  "rank": 18,
+  "title": "The Picture of Dorian Gray",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "crime-and-punishment",
+  "rank": 19,
+  "title": "Crime and Punishment",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "beowulf",
+  "rank": 20,
+  "title": "Beowulf",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "macbeth",
+  "rank": 21,
+  "title": "Macbeth",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "ramayana",
+  "rank": 22,
+  "title": "Ramayana",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "the-brothers-karamazov",
+  "rank": 23,
+  "title": "The Brothers Karamazov",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "the-catcher-in-the-rye",
+  "rank": 24,
+  "title": "The Catcher in the Rye",
+  "new": false
+ },
+ {
+  "id": "bhagavad-gita",
+  "rank": 25,
+  "title": "Bhagavad Gita",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "divine-comedy",
+  "rank": 26,
+  "title": "Divine Comedy",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "mahabharata",
+  "rank": 27,
+  "title": "Mahabharata",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "waiting-for-godot",
+  "rank": 28,
+  "title": "Waiting for Godot",
+  "new": true,
+  "cover": "none"
+ },
+ {
+  "id": "aeneid",
+  "rank": 29,
+  "title": "Aeneid",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "the-stranger",
+  "rank": 30,
+  "title": "The Stranger (Camus novel)",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "little-women",
+  "rank": 31,
+  "title": "Little Women",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "a-midsummer-night-s-dream",
+  "rank": 32,
+  "title": "A Midsummer Night's Dream",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "the-forsyte-saga",
+  "rank": 33,
+  "title": "The Forsyte Saga",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "death-of-a-salesman",
+  "rank": 34,
+  "title": "Death of a Salesman",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "strange-case-of-dr-jekyll-and-mr-hyde",
+  "rank": 35,
+  "title": "Strange Case of Dr Jekyll and Mr Hyde",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "a-tale-of-two-cities",
+  "rank": 36,
+  "title": "A Tale of Two Cities",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "war-and-peace",
+  "rank": 37,
+  "title": "War and Peace",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "othello",
+  "rank": 38,
+  "title": "Othello",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "the-grapes-of-wrath",
+  "rank": 39,
+  "title": "The Grapes of Wrath",
+  "new": false
+ },
+ {
+  "id": "anna-karenina",
+  "rank": 40,
+  "title": "Anna Karenina",
+  "new": true,
+  "cover": "fallback"
+ }
+]

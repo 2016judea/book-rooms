@@ -1,0 +1,332 @@
+{
+ "signal": "English Wikipedia pageviews, user agents, all access, monthly sum",
+ "window": [
+  "20251001",
+  "20260930"
+ ],
+ "cutoff": 40,
+ "generated": "2026-10-14",
+ "pool": "Bloom, The Western Canon (1994) appendix + Aidan's five-stars by Bloom's 26 central authors",
+ "board": [
+  {
+   "rank": 1,
+   "work": "Odyssey",
+   "author": "Homer",
+   "article": "Odyssey",
+   "views": 8610635,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 2,
+   "work": "Wuthering Heights",
+   "author": "Emily Brontë",
+   "article": "Wuthering Heights",
+   "views": 6697750,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 3,
+   "work": "Frankenstein",
+   "author": "Mary Wollstonecraft Shelley",
+   "article": "Frankenstein",
+   "views": 3190906,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 4,
+   "work": "Iliad",
+   "author": "Homer",
+   "article": "Iliad",
+   "views": 2795564,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 5,
+   "work": "Hamlet",
+   "author": "William Shakespeare",
+   "article": "Hamlet",
+   "views": 1747593,
+   "source": "Bloom appendix (Plays, expanded)"
+  },
+  {
+   "rank": 6,
+   "work": "Pride and Prejudice",
+   "author": "Jane Austen",
+   "article": "Pride and Prejudice",
+   "views": 1383578,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 7,
+   "work": "Lolita",
+   "author": "Vladimir Nabokov",
+   "article": "Lolita",
+   "views": 1362799,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 8,
+   "work": "Blood Meridian",
+   "author": "Cormac McCarthy",
+   "article": "Blood Meridian",
+   "views": 1338937,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 9,
+   "work": "The Great Gatsby",
+   "author": "F. Scott Fitzgerald",
+   "article": "The Great Gatsby",
+   "views": 1317564,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 10,
+   "work": "Don Quixote",
+   "author": "Miguel de Cervantes",
+   "article": "Don Quixote",
+   "views": 1269930,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 11,
+   "work": "One Hundred Years of Solitude",
+   "author": "Gabriel García Márquez",
+   "article": "One Hundred Years of Solitude",
+   "views": 1082033,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 12,
+   "work": "Ulysses",
+   "author": "James Joyce",
+   "article": "Ulysses (novel)",
+   "views": 1069286,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 13,
+   "work": "Paradise Lost",
+   "author": "John Milton",
+   "article": "Paradise Lost",
+   "views": 1004915,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 14,
+   "work": "Les Misérables",
+   "author": "Victor Hugo",
+   "article": "Les Misérables",
+   "views": 992640,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 15,
+   "work": "Moby-Dick",
+   "author": "Herman Melville",
+   "article": "Moby-Dick",
+   "views": 982150,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 16,
+   "work": "Brave New World",
+   "author": "Aldous Huxley",
+   "article": "Brave New World",
+   "views": 947552,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 17,
+   "work": "Jane Eyre",
+   "author": "Charlotte Brontë",
+   "article": "Jane Eyre",
+   "views": 937424,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 18,
+   "work": "The Picture of Dorian Gray",
+   "author": "Oscar Wilde",
+   "article": "The Picture of Dorian Gray",
+   "views": 907987,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 19,
+   "work": "Crime and Punishment",
+   "author": "Fyodor Dostoevsky",
+   "article": "Crime and Punishment",
+   "views": 905204,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 20,
+   "work": "Beowulf",
+   "author": null,
+   "article": "Beowulf",
+   "views": 903186,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 21,
+   "work": "Macbeth",
+   "author": "William Shakespeare",
+   "article": "Macbeth",
+   "views": 885847,
+   "source": "Bloom appendix (Plays, expanded)"
+  },
+  {
+   "rank": 22,
+   "work": "Ramayana",
+   "author": null,
+   "article": "Ramayana",
+   "views": 877370,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 23,
+   "work": "The Brothers Karamazov",
+   "author": "Fyodor Dostoevsky",
+   "article": "The Brothers Karamazov",
+   "views": 871745,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 24,
+   "work": "The Catcher in the Rye",
+   "author": "J. D. Salinger",
+   "article": "The Catcher in the Rye",
+   "views": 862582,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 25,
+   "work": "Bhagavad-Gita",
+   "author": null,
+   "article": "Bhagavad Gita",
+   "views": 856187,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 26,
+   "work": "The Divine Comedy",
+   "author": "Dante",
+   "article": "Divine Comedy",
+   "views": 834922,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 27,
+   "work": "Mahabharata",
+   "author": null,
+   "article": "Mahabharata",
+   "views": 834396,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 28,
+   "work": "Waiting for Godot",
+   "author": "Samuel Beckett",
+   "article": "Waiting for Godot",
+   "views": 788380,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 29,
+   "work": "Aeneid",
+   "author": "Virgil",
+   "article": "Aeneid",
+   "views": 782377,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 30,
+   "work": "The Stranger",
+   "author": "Albert Camus",
+   "article": "The Stranger (Camus novel)",
+   "views": 771971,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 31,
+   "work": "Little Women",
+   "author": "Louisa May Alcott",
+   "article": "Little Women",
+   "views": 749653,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 32,
+   "work": "A Midsummer Night's Dream",
+   "author": "William Shakespeare",
+   "article": "A Midsummer Night's Dream",
+   "views": 720581,
+   "source": "Bloom appendix (Plays, expanded)"
+  },
+  {
+   "rank": 33,
+   "work": "The Forsyte Saga",
+   "author": "John Galsworthy",
+   "article": "The Forsyte Saga",
+   "views": 710997,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 34,
+   "work": "Death of a Salesman",
+   "author": "Arthur Miller",
+   "article": "Death of a Salesman",
+   "views": 707701,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 35,
+   "work": "Dr. Jekyll and Mr. Hyde",
+   "author": "Robert Louis Stevenson",
+   "article": "Strange Case of Dr Jekyll and Mr Hyde",
+   "views": 682149,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 36,
+   "work": "A Tale of Two Cities",
+   "author": "Charles Dickens",
+   "article": "A Tale of Two Cities",
+   "views": 680632,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 37,
+   "work": "War and Peace",
+   "author": "Leo Tolstoy",
+   "article": "War and Peace",
+   "views": 663022,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 38,
+   "work": "Othello",
+   "author": "William Shakespeare",
+   "article": "Othello",
+   "views": 648309,
+   "source": "Bloom appendix (Plays, expanded)"
+  },
+  {
+   "rank": 39,
+   "work": "The Grapes of Wrath",
+   "author": "John Steinbeck",
+   "article": "The Grapes of Wrath",
+   "views": 639726,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 40,
+   "work": "Anna Karenina",
+   "author": "Leo Tolstoy",
+   "article": "Anna Karenina",
+   "views": 637096,
+   "source": "Bloom appendix"
+  }
+ ]
+}
