@@ -4,3 +4,4 @@ node_modules/
 .wrangler/
 .vercel/
 data/admin_token.txt
+worker/seed.sql
