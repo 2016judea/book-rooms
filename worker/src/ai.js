@@ -57,8 +57,10 @@ export async function buildDigest(env, book, msgs) {
     "fact about the book yourself, never add your own opinion, never summarise the plot. A disagreement " +
     "needs at least two readers taking different positions; if there are none, return an empty list. " +
     "Return at most 3, the liveliest first. Each question is one short line a reader would say. Each " +
-    "side is one short line, starting with the reader's first name. Cite the ids of the messages behind it.";
-  const lines = msgs.map((m) => `[${m.id}] ${m.first_name} ${m.last_initial}.: ${m.body.slice(0, 1200)}`).join("\n");
+    "side is one short line, starting with the reader's name exactly as shown (first name and last initial, never the reader number). Cite the ids of the messages behind it.";
+  const readerNo = new Map();
+  msgs.forEach((m) => readerNo.has(m.user_id) || readerNo.set(m.user_id, readerNo.size + 1));
+  const lines = msgs.map((m) => `[${m.id}] ${m.first_name} ${m.last_initial}. (reader ${readerNo.get(m.user_id)}): ${m.body.slice(0, 1200)}`).join("\n");
   const user = `Book: ${book.title} by ${book.author}.\n\nChat:\n${lines}`;
   const out = await structured(env, system, user, {
     type: "object",

@@ -14,13 +14,13 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23000'/%3E%3Cpath d='M8 9h16v14H8z' fill='%23fff'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
 <script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)}</script><script defer src="/_vercel/insights/script.js"></script>
 <style>
 /* Black and white is the UX (Aidan, 2026-10-14). Covers are the only colour. */
 :root { --ink:#000; --paper:#fff; --gutter:16px;
   --sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --serif: "Playfair Display", Georgia, "Times New Roman", serif; color-scheme: light; }
+  --serif: "Instrument Serif", Georgia, "Times New Roman", serif; color-scheme: light; }
 * { box-sizing: border-box; }
 html, body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--sans); -webkit-text-size-adjust:100%; }
 body { overflow-x:hidden; }
@@ -30,14 +30,14 @@ a { color:inherit; }
 .screen { min-height:100svh; }
 
 /* ---------- home: 40 / 60 ---------- */
-.hero { height:40svh; padding:0 var(--gutter); display:flex; flex-direction:column; justify-content:space-evenly; overflow:hidden; }
-.hero .line { font-family:var(--serif); font-weight:800; line-height:.86; letter-spacing:-.02em; white-space:nowrap; margin:0; }
+.hero { height:40svh; margin:0; padding:0 var(--gutter); display:flex; flex-direction:column; justify-content:space-evenly; overflow:hidden; }
+.hero .line { font-family:var(--serif); font-weight:400; line-height:.9; letter-spacing:-.01em; white-space:nowrap; margin:0; }
 .shelf { height:60svh; display:flex; overflow-x:auto; overflow-y:hidden; scroll-snap-type:x mandatory; scrollbar-width:none; background:var(--ink); overscroll-behavior-x:contain; }
 .shelf::-webkit-scrollbar { display:none; }
 .shelf a { flex:0 0 auto; height:100%; scroll-snap-align:start; display:block; text-decoration:none; position:relative; }
 .shelf img { height:100%; width:auto; display:block; }
 .shelf .noimg { height:100%; aspect-ratio:2/3; background:var(--ink); color:var(--paper); display:flex; flex-direction:column; justify-content:flex-end; padding:20px; border-right:1px solid var(--paper); }
-.shelf .noimg b { font-family:var(--serif); font-size:28px; line-height:1.05; }
+.shelf .noimg b { font-family:var(--serif); font-weight:400; font-size:32px; line-height:1.05; }
 .shelf .noimg span { font-size:15px; margin-top:8px; }
 .below { padding:20px var(--gutter) 48px; max-width:720px; margin:0 auto; }
 .search { display:flex; align-items:center; border:2px solid var(--ink); border-radius:999px; padding:0 6px 0 18px; height:52px; }
@@ -58,7 +58,7 @@ a { color:inherit; }
 .bar .title { text-align:center; min-width:0; padding:6px 0; display:flex; flex-direction:column; align-items:center; }
 .bar .title img { height:30px; width:auto; margin-bottom:3px; }
 .bar .title b { font-size:16px; display:block; max-width:100%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-.bar .title span { font-size:12px; }
+.bar .title span { font-size:12px; display:block; max-width:100%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 .bar .act { height:44px; font-size:13px; font-weight:700; padding-right:12px; text-align:right; }
 .where { display:flex; justify-content:center; padding:8px var(--gutter); border-bottom:1px solid var(--ink); }
 .where button { font-size:14px; font-weight:700; border:1px solid var(--ink); border-radius:999px; padding:6px 14px; min-height:36px; }
@@ -96,8 +96,8 @@ a { color:inherit; }
 .spacer { height:72px; }
 
 /* ---------- sheets ---------- */
-.scrim { position:fixed; inset:0; background:rgba(0,0,0,.5); z-index:20; display:flex; align-items:flex-end; justify-content:center; }
-.sheet { background:var(--paper); width:100%; max-width:520px; border-radius:20px 20px 0 0; padding:20px var(--gutter) calc(20px + env(safe-area-inset-bottom)); max-height:92svh; overflow-y:auto; animation:up .22s ease-out; }
+.scrim { position:fixed; inset:0; background:transparent; z-index:20; display:flex; align-items:flex-end; justify-content:center; }
+.sheet { background:var(--paper); width:100%; max-width:520px; border-radius:20px 20px 0 0; border:2px solid var(--ink); border-bottom:0; padding:20px var(--gutter) calc(20px + env(safe-area-inset-bottom)); max-height:92svh; overflow-y:auto; animation:up .22s ease-out; }
 @keyframes up { from { transform:translateY(100%); } to { transform:none; } }
 .sheet h2 { font-size:20px; margin:0 0 4px; }
 .sheet p.held { border:1px solid var(--ink); border-radius:16px; padding:10px 14px; font-size:15px; margin:12px 0; max-height:6em; overflow:hidden; white-space:pre-wrap; }
@@ -112,7 +112,7 @@ a { color:inherit; }
 .sug button { display:block; width:100%; text-align:left; padding:12px 14px; font-size:16px; border-top:1px solid var(--ink); min-height:44px; }
 .sug button:first-child { border-top:0; }
 input[type=range] { width:100%; accent-color:#000; height:44px; }
-.poslabel { text-align:center; font-size:28px; font-weight:800; font-family:var(--serif); margin:8px 0; }
+.poslabel { text-align:center; font-size:34px; font-weight:400; font-family:var(--serif); margin:8px 0; }
 .toast { position:fixed; left:50%; bottom:96px; transform:translateX(-50%); background:var(--ink); color:var(--paper); padding:10px 16px; border-radius:999px; font-size:14px; z-index:30; }
 .draft { font-size:10px; font-weight:800; letter-spacing:.08em; border:1px solid var(--ink); padding:0 4px; margin-left:6px; vertical-align:middle; }
 .inbox .row { display:block; text-decoration:none; padding:14px 0; border-bottom:1px solid var(--ink); }
@@ -196,8 +196,8 @@ function route() {
   const p = location.pathname;
   let m;
   if ((m = /^\/b\/([a-z0-9-]+)\/?$/.exec(p))) return renderChat(m[1]);
-  if ((m = /^\/dm\/([a-z0-9]+)\/?$/.exec(p))) return renderDM(m[1]);
   if (p === "/dm/new") return renderDM(null);
+  if ((m = /^\/dm\/([a-z0-9]+)\/?$/.exec(p))) return renderDM(m[1]);
   if (p === "/inbox") return renderInbox();
   return renderHome();
 }
@@ -208,12 +208,12 @@ function fitHero(el) {
   const layouts = [[words.join(" ")], ["Read with", "community."], words];
   const W = el.clientWidth - 32, H = el.clientHeight;
   const ctx = document.createElement("canvas").getContext("2d");
-  ctx.font = '800 100px "Playfair Display", Georgia, serif';
+  ctx.font = '400 100px "Instrument Serif", Georgia, serif';
   let best = null;
   for (const lines of layouts) {
-    const wmax = Math.max(...lines.map((l) => ctx.measureText(l).width)) / 100 * 0.98; // em, with -.02em tracking
-    const size = Math.min(W / wmax, H / (lines.length * 0.86 + 0.08));
-    if (!best || size > best.size) best = { lines, size };
+    const wmax = Math.max(...lines.map((l) => ctx.measureText(l).width)) / 100 * 0.99; // em, with -.01em tracking
+    const size = Math.min(W / wmax, H / (lines.length * 0.9 + 0.12));
+    if (!best || size > best.size * 1.02 || (size >= best.size * 0.98 && lines.length > best.lines.length)) best = { lines, size: Math.max(size, best ? Math.min(best.size, size) : size) };
   }
   el.innerHTML = best.lines.map((l) => `<p class="line" style="font-size:${Math.floor(best.size)}px">${esc(l)}</p>`).join("");
 }
@@ -235,7 +235,7 @@ async function renderHome() {
     </section></section>`;
   const hero = $("#hero");
   fitHero(hero);
-  document.fonts && document.fonts.ready.then(() => fitHero(hero));
+  document.fonts && document.fonts.load('400 100px "Instrument Serif"').then(() => $("#hero") && fitHero($("#hero"))).catch(() => {});
   window.onresize = () => $("#hero") && fitHero($("#hero"));
   if (!S.books) S.books = (await api("/v1/books")).books;
   $("#shelf").innerHTML = S.books.map(coverCard).join("");
