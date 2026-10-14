@@ -48,227 +48,227 @@
   "cover": "fallback"
  },
  {
-  "id": "blood-meridian",
+  "id": "epic-of-gilgamesh",
   "rank": 8,
+  "title": "Epic of Gilgamesh",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "blood-meridian",
+  "rank": 9,
   "title": "Blood Meridian, or, the Evening Redness in the West",
   "new": false
  },
  {
   "id": "the-great-gatsby",
-  "rank": 9,
+  "rank": 10,
   "title": "The Great Gatsby",
   "new": false
  },
  {
   "id": "don-quixote",
-  "rank": 10,
+  "rank": 11,
   "title": "Don Quixote",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "one-hundred-years-of-solitude",
-  "rank": 11,
+  "rank": 12,
   "title": "One Hundred Years of Solitude",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "ulysses",
-  "rank": 12,
+  "rank": 13,
   "title": "Ulysses",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "paradise-lost",
-  "rank": 13,
+  "rank": 14,
   "title": "Paradise Lost",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "les-mis-rables",
-  "rank": 14,
+  "rank": 15,
   "title": "Les Misérables",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "moby-dick-or-the-whale",
-  "rank": 15,
+  "rank": 16,
   "title": "Moby-Dick or, The Whale",
   "new": false
  },
  {
   "id": "brave-new-world",
-  "rank": 16,
+  "rank": 17,
   "title": "Brave New World",
   "new": false
  },
  {
   "id": "jane-eyre",
-  "rank": 17,
+  "rank": 18,
   "title": "Jane Eyre",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "the-picture-of-dorian-gray",
-  "rank": 18,
+  "rank": 19,
   "title": "The Picture of Dorian Gray",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "crime-and-punishment",
-  "rank": 19,
+  "rank": 20,
   "title": "Crime and Punishment",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "beowulf",
-  "rank": 20,
+  "rank": 21,
   "title": "Beowulf",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "macbeth",
-  "rank": 21,
+  "rank": 22,
   "title": "Macbeth",
   "new": true,
   "cover": "fallback"
  },
  {
-  "id": "ramayana",
-  "rank": 22,
-  "title": "Ramayana",
-  "new": true,
-  "cover": "fallback"
- },
- {
   "id": "the-brothers-karamazov",
-  "rank": 23,
+  "rank": 24,
   "title": "The Brothers Karamazov",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "the-catcher-in-the-rye",
-  "rank": 24,
+  "rank": 25,
   "title": "The Catcher in the Rye",
   "new": false
  },
  {
-  "id": "bhagavad-gita",
-  "rank": 25,
-  "title": "Bhagavad Gita",
-  "new": true,
-  "cover": "fallback"
- },
- {
   "id": "divine-comedy",
-  "rank": 26,
+  "rank": 27,
   "title": "Divine Comedy",
   "new": true,
   "cover": "fallback"
  },
  {
-  "id": "mahabharata",
-  "rank": 27,
-  "title": "Mahabharata",
-  "new": true,
-  "cover": "fallback"
- },
- {
   "id": "waiting-for-godot",
-  "rank": 28,
+  "rank": 29,
   "title": "Waiting for Godot",
   "new": true,
   "cover": "none"
  },
  {
   "id": "aeneid",
-  "rank": 29,
+  "rank": 30,
   "title": "Aeneid",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "the-stranger",
-  "rank": 30,
+  "rank": 31,
   "title": "The Stranger (Camus novel)",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "little-women",
-  "rank": 31,
+  "rank": 32,
   "title": "Little Women",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "a-midsummer-night-s-dream",
-  "rank": 32,
+  "rank": 33,
   "title": "A Midsummer Night's Dream",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "the-forsyte-saga",
-  "rank": 33,
+  "rank": 34,
   "title": "The Forsyte Saga",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "death-of-a-salesman",
-  "rank": 34,
+  "rank": 35,
   "title": "Death of a Salesman",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "strange-case-of-dr-jekyll-and-mr-hyde",
-  "rank": 35,
+  "rank": 36,
   "title": "Strange Case of Dr Jekyll and Mr Hyde",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "a-tale-of-two-cities",
-  "rank": 36,
+  "rank": 37,
   "title": "A Tale of Two Cities",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "war-and-peace",
-  "rank": 37,
+  "rank": 38,
   "title": "War and Peace",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "othello",
-  "rank": 38,
+  "rank": 39,
   "title": "Othello",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "the-grapes-of-wrath",
-  "rank": 39,
+  "rank": 40,
   "title": "The Grapes of Wrath",
   "new": false
  },
  {
   "id": "anna-karenina",
-  "rank": 40,
+  "rank": 41,
   "title": "Anna Karenina",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "great-expectations",
+  "rank": 42,
+  "title": "Great Expectations",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "a-streetcar-named-desire",
+  "rank": 43,
+  "title": "A Streetcar Named Desire",
   "new": true,
   "cover": "fallback"
  }

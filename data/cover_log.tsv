@@ -92,6 +92,7 @@ iliad	fallback	no first-edition image found; fell back to Penguin Classics	Pengu
 hamlet	fallback	no first-edition or preferred-imprint image; earliest English edition with a cover	Oxford At The Clarendon Press, 1950-01-01	canon board
 pride-and-prejudice	fallback	no first-edition or preferred-imprint image; earliest English edition with a cover	Nelson Doubleday, 1813	canon board
 lolita	fallback	no first-edition image found; fell back to Vintage International	Vintage International, 1989-03	canon board
+epic-of-gilgamesh	fallback	no first-edition image found; fell back to Penguin Classics	Penguin Classics, December 30, 1960	canon board
 don-quixote	fallback	no first-edition image found; fell back to Penguin Classics	Penguin Books, 1950	canon board
 one-hundred-years-of-solitude	fallback	no first-edition or preferred-imprint image; earliest English edition with a cover	A Bard Book, 1971	canon board
 ulysses	fallback	no first-edition image found; fell back to Vintage International	Vintage International, 1990-06	canon board
@@ -102,11 +103,8 @@ the-picture-of-dorian-gray	fallback	no first-edition or preferred-imprint image;
 crime-and-punishment	fallback	no first-edition image found; fell back to Penguin Classics	Penguin Classics, 1958	canon board
 beowulf	fallback	no first-edition image found; fell back to Penguin Classics	Penguin Classics, May 30, 1957	canon board
 macbeth	fallback	no first-edition image found; fell back to Penguin Classics	Penguin Books, Penguin Press, 2015	canon board
-ramayana	fallback	no first-edition or preferred-imprint image; earliest English edition with a cover	J.M. Dent & sons, ltd., E.P. Dutton & co., 1929	canon board
 the-brothers-karamazov	fallback	no first-edition image found; fell back to Penguin Classics	Penguin Books, 1982	canon board
-bhagavad-gita	fallback	no first-edition or preferred-imprint image; earliest English edition with a cover	The Marcel Rodd co., 1944	canon board
 divine-comedy	fallback	no first-edition or preferred-imprint image; earliest English edition with a cover	unknown publisher, 1806	canon board
-mahabharata	fallback	no first-edition or preferred-imprint image; earliest English edition with a cover	Penguin Group India, 2010	canon board
 waiting-for-godot	none			canon board
 aeneid	fallback	no first-edition or preferred-imprint image; earliest English edition with a cover	Franklin Classics Trade Press, Oct 26, 2018	canon board
 the-stranger	fallback	no first-edition image found; fell back to Vintage International	Vintage International, 1959	canon board
@@ -119,3 +117,5 @@ a-tale-of-two-cities	fallback	no first-edition or preferred-imprint image; earli
 war-and-peace	fallback	no first-edition image found; fell back to Penguin Classics	Penguin Classics, July 29, 1982	canon board
 othello	fallback	no first-edition or preferred-imprint image; earliest English edition with a cover	Hurd & Houghton, 1869	canon board
 anna-karenina	fallback	no first-edition or preferred-imprint image; earliest English edition with a cover	unknown publisher, 1956	canon board
+great-expectations	fallback	no first-edition or preferred-imprint image; earliest English edition with a cover	Books, 1868	canon board
+a-streetcar-named-desire	fallback	no first-edition or preferred-imprint image; earliest English edition with a cover	New Directions, 1947	canon board

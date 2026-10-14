@@ -66,6 +66,14 @@
   },
   {
    "rank": 8,
+   "work": "Gilgamesh",
+   "author": null,
+   "article": "Epic of Gilgamesh",
+   "views": 1357552,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 9,
    "work": "Blood Meridian",
    "author": "Cormac McCarthy",
    "article": "Blood Meridian",
@@ -73,7 +81,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 9,
+   "rank": 10,
    "work": "The Great Gatsby",
    "author": "F. Scott Fitzgerald",
    "article": "The Great Gatsby",
@@ -81,7 +89,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 10,
+   "rank": 11,
    "work": "Don Quixote",
    "author": "Miguel de Cervantes",
    "article": "Don Quixote",
@@ -89,7 +97,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 11,
+   "rank": 12,
    "work": "One Hundred Years of Solitude",
    "author": "Gabriel García Márquez",
    "article": "One Hundred Years of Solitude",
@@ -97,7 +105,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 12,
+   "rank": 13,
    "work": "Ulysses",
    "author": "James Joyce",
    "article": "Ulysses (novel)",
@@ -105,7 +113,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 13,
+   "rank": 14,
    "work": "Paradise Lost",
    "author": "John Milton",
    "article": "Paradise Lost",
@@ -113,7 +121,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 14,
+   "rank": 15,
    "work": "Les Misérables",
    "author": "Victor Hugo",
    "article": "Les Misérables",
@@ -121,7 +129,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 15,
+   "rank": 16,
    "work": "Moby-Dick",
    "author": "Herman Melville",
    "article": "Moby-Dick",
@@ -129,7 +137,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 16,
+   "rank": 17,
    "work": "Brave New World",
    "author": "Aldous Huxley",
    "article": "Brave New World",
@@ -137,7 +145,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 17,
+   "rank": 18,
    "work": "Jane Eyre",
    "author": "Charlotte Brontë",
    "article": "Jane Eyre",
@@ -145,7 +153,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 18,
+   "rank": 19,
    "work": "The Picture of Dorian Gray",
    "author": "Oscar Wilde",
    "article": "The Picture of Dorian Gray",
@@ -153,7 +161,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 19,
+   "rank": 20,
    "work": "Crime and Punishment",
    "author": "Fyodor Dostoevsky",
    "article": "Crime and Punishment",
@@ -161,7 +169,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 20,
+   "rank": 21,
    "work": "Beowulf",
    "author": null,
    "article": "Beowulf",
@@ -169,7 +177,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 21,
+   "rank": 22,
    "work": "Macbeth",
    "author": "William Shakespeare",
    "article": "Macbeth",
@@ -177,15 +185,7 @@
    "source": "Bloom appendix (Plays, expanded)"
   },
   {
-   "rank": 22,
-   "work": "Ramayana",
-   "author": null,
-   "article": "Ramayana",
-   "views": 877370,
-   "source": "Bloom appendix"
-  },
-  {
-   "rank": 23,
+   "rank": 24,
    "work": "The Brothers Karamazov",
    "author": "Fyodor Dostoevsky",
    "article": "The Brothers Karamazov",
@@ -193,7 +193,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 24,
+   "rank": 25,
    "work": "The Catcher in the Rye",
    "author": "J. D. Salinger",
    "article": "The Catcher in the Rye",
@@ -201,15 +201,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 25,
-   "work": "Bhagavad-Gita",
-   "author": null,
-   "article": "Bhagavad Gita",
-   "views": 856187,
-   "source": "Bloom appendix"
-  },
-  {
-   "rank": 26,
+   "rank": 27,
    "work": "The Divine Comedy",
    "author": "Dante",
    "article": "Divine Comedy",
@@ -217,15 +209,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 27,
-   "work": "Mahabharata",
-   "author": null,
-   "article": "Mahabharata",
-   "views": 834396,
-   "source": "Bloom appendix"
-  },
-  {
-   "rank": 28,
+   "rank": 29,
    "work": "Waiting for Godot",
    "author": "Samuel Beckett",
    "article": "Waiting for Godot",
@@ -233,7 +217,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 29,
+   "rank": 30,
    "work": "Aeneid",
    "author": "Virgil",
    "article": "Aeneid",
@@ -241,7 +225,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 30,
+   "rank": 31,
    "work": "The Stranger",
    "author": "Albert Camus",
    "article": "The Stranger (Camus novel)",
@@ -249,7 +233,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 31,
+   "rank": 32,
    "work": "Little Women",
    "author": "Louisa May Alcott",
    "article": "Little Women",
@@ -257,7 +241,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 32,
+   "rank": 33,
    "work": "A Midsummer Night's Dream",
    "author": "William Shakespeare",
    "article": "A Midsummer Night's Dream",
@@ -265,7 +249,7 @@
    "source": "Bloom appendix (Plays, expanded)"
   },
   {
-   "rank": 33,
+   "rank": 34,
    "work": "The Forsyte Saga",
    "author": "John Galsworthy",
    "article": "The Forsyte Saga",
@@ -273,7 +257,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 34,
+   "rank": 35,
    "work": "Death of a Salesman",
    "author": "Arthur Miller",
    "article": "Death of a Salesman",
@@ -281,7 +265,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 35,
+   "rank": 36,
    "work": "Dr. Jekyll and Mr. Hyde",
    "author": "Robert Louis Stevenson",
    "article": "Strange Case of Dr Jekyll and Mr Hyde",
@@ -289,7 +273,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 36,
+   "rank": 37,
    "work": "A Tale of Two Cities",
    "author": "Charles Dickens",
    "article": "A Tale of Two Cities",
@@ -297,7 +281,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 37,
+   "rank": 38,
    "work": "War and Peace",
    "author": "Leo Tolstoy",
    "article": "War and Peace",
@@ -305,7 +289,7 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 38,
+   "rank": 39,
    "work": "Othello",
    "author": "William Shakespeare",
    "article": "Othello",
@@ -313,7 +297,7 @@
    "source": "Bloom appendix (Plays, expanded)"
   },
   {
-   "rank": 39,
+   "rank": 40,
    "work": "The Grapes of Wrath",
    "author": "John Steinbeck",
    "article": "The Grapes of Wrath",
@@ -321,12 +305,48 @@
    "source": "Bloom appendix"
   },
   {
-   "rank": 40,
+   "rank": 41,
    "work": "Anna Karenina",
    "author": "Leo Tolstoy",
    "article": "Anna Karenina",
    "views": 637096,
    "source": "Bloom appendix"
+  },
+  {
+   "rank": 42,
+   "work": "Great Expectations",
+   "author": "Charles Dickens",
+   "article": "Great Expectations",
+   "views": 550246,
+   "source": "Bloom appendix"
+  },
+  {
+   "rank": 43,
+   "work": "A Streetcar Named Desire",
+   "author": "Tennessee Williams",
+   "article": "A Streetcar Named Desire",
+   "views": 543808,
+   "source": "Bloom appendix"
+  }
+ ],
+ "excluded": [
+  {
+   "rank": 23,
+   "article": "Ramayana",
+   "views": 877370,
+   "reason": "Sanskrit epic (ancient India); listed by Bloom for its influence on the West, not a western work"
+  },
+  {
+   "rank": 26,
+   "article": "Bhagavad Gita",
+   "views": 856187,
+   "reason": "Sanskrit scripture (ancient India); listed by Bloom for its influence on the West, not a western work"
+  },
+  {
+   "rank": 28,
+   "article": "Mahabharata",
+   "views": 834396,
+   "reason": "Sanskrit epic (ancient India); listed by Bloom for its influence on the West, not a western work"
   }
  ]
 }

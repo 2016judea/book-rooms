@@ -22,6 +22,13 @@ CACHE = os.path.join(ROOT, "data", "cache", "canon")
 os.makedirs(CACHE, exist_ok=True)
 UA = {"User-Agent": "book-rooms/0.1 (https://read-with-community.vercel.app; aidanjude2016@gmail.com)"}
 BOARD_SIZE = 40
+# Bloom's appendix lists these "because of their influence on the Western canon" (p. 531);
+# they are not western works, and the board is "western canon" (Aidan, 2026-10-14).
+EXCLUDE = {
+    "Ramayana": "Sanskrit epic (ancient India); listed by Bloom for its influence on the West, not a western work",
+    "Bhagavad Gita": "Sanskrit scripture (ancient India); listed by Bloom for its influence on the West, not a western work",
+    "Mahabharata": "Sanskrit epic (ancient India); listed by Bloom for its influence on the West, not a western work",
+}
 CENTRAL = ["Shakespeare", "Dante", "Chaucer", "Cervantes", "Montaigne", "Molière", "Milton", "Samuel Johnson",
            "Goethe", "Wordsworth", "Jane Austen", "Whitman", "Emily Dickinson", "Charles Dickens", "George Eliot",
            "Tolstoy", "Ibsen", "Freud", "Proust", "James Joyce", "Virginia Woolf", "Kafka", "Borges", "Neruda",
@@ -65,6 +72,9 @@ WORKY = re.compile(r"novel|play|poem|poetry|epic|book|novella|story|stories|essa
 BAD_DESC = re.compile(r"film|movie|television|tv series|miniseries|song|album|band|video game|character|city|capital|municipality|country|genre|king|ruler|deity|\bwar\b|battle|footballer|actor|actress|opera|ballet|musical", re.I)
 
 
+PERSON = re.compile(r"\b(ruler|protagonist|hero|heroine|figure|deity|god|goddess|character|king|queen|emperor|poet|writer|philosopher)\b", re.I)
+
+
 def norm(s):
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
     s = re.sub(r"\s*\(.*?\)\s*", " ", s)          # drop "(novel)", "(play)"
@@ -96,6 +106,8 @@ def resolve(work, author):
             continue  # "(film)", "(character)", "(whale)"
         if BAD_DESC.search(desc) and not WORKY.search(desc):
             continue
+        if PERSON.search(desc):
+            continue  # "Sumerian ruler and protagonist of the Epic of Gilgamesh" is the hero, not the work
         nt = norm(t)
         title_ok = nt == w or (min(len(nt), len(w)) > 5 and (nt in w or w in nt))
         if not title_ok:
@@ -165,9 +177,12 @@ def main():
         if o["article"] and (o["article"] not in best or o["source"].startswith("Aidan")):
             best[o["article"]] = {**best.get(o["article"], {}), **o} if o["source"].startswith("Aidan") else o
     ranked = sorted(best.values(), key=lambda o: -o["views"])
+    board_n = 0
     for i, o in enumerate(ranked):
         o["rank"] = i + 1
-        o["on_board"] = i < BOARD_SIZE
+        o["excluded"] = EXCLUDE.get(o["article"], "")
+        o["on_board"] = not o["excluded"] and board_n < BOARD_SIZE
+        board_n += o["on_board"]
         o["ol_already_read"] = o["ol_want_to_read"] = o["ol_ratings"] = ""
         if i < 100:
             try:
@@ -178,19 +193,22 @@ def main():
     d = os.path.join(ROOT, "data", "canon")
     with open(os.path.join(d, "ranking.csv"), "w", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["rank", "on_board", "work", "author", "wikipedia_article", "pageviews_12mo", "window_start",
+        w.writerow(["rank", "on_board", "excluded_reason", "work", "author", "wikipedia_article", "pageviews_12mo", "window_start",
                     "window_end", "ol_already_read", "ol_want_to_read", "ol_ratings", "source"])
         for o in ranked:
-            w.writerow([o["rank"], int(o["on_board"]), o["work"], o["author"] or "", o["article"], o["views"], start, end,
+            w.writerow([o["rank"], int(o["on_board"]), o["excluded"], o["work"], o["author"] or "", o["article"], o["views"], start, end,
                         o["ol_already_read"], o["ol_want_to_read"], o["ol_ratings"], o["source"]])
     with open(os.path.join(d, "skipped.tsv"), "w") as f:
         f.write("work\tauthor\treason\n" + "".join(f"{a}\t{b}\t{c}\n" for a, b, c in skipped))
     json.dump({"signal": "English Wikipedia pageviews, user agents, all access, monthly sum",
                "window": [start, end], "cutoff": BOARD_SIZE, "generated": today.isoformat(),
                "pool": "Bloom, The Western Canon (1994) appendix + Aidan's five-stars by Bloom's 26 central authors",
-               "board": [{k: o[k] for k in ("rank", "work", "author", "article", "views", "source")} for o in ranked[:BOARD_SIZE]]},
+               "board": [{k: o[k] for k in ("rank", "work", "author", "article", "views", "source")} for o in ranked if o["on_board"]],
+               "excluded": [{"rank": o["rank"], "article": o["article"], "views": o["views"], "reason": o["excluded"]} for o in ranked if o["excluded"]]},
               open(os.path.join(d, "board.json"), "w"), indent=1, ensure_ascii=False)
-    for o in ranked[:BOARD_SIZE]:
+    with open(os.path.join(d, "excluded.tsv"), "w") as f:
+        f.write("rank\twikipedia_article\tpageviews_12mo\treason\n" + "".join(f"{o['rank']}\t{o['article']}\t{o['views']}\t{o['excluded']}\n" for o in ranked if o["excluded"]))
+    for o in [o for o in ranked if o["on_board"]]:
         print(o["rank"], o["views"], o["article"], "|", o["author"], file=sys.stderr)
     for o in ranked:
         if "Blood Meridian" in o["work"]:
