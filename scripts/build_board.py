@@ -26,11 +26,25 @@ def dims(path):
     return (int(w.group(1)), int(h.group(1))) if w and h else (None, None)
 
 
+def hashed(img):
+    import hashlib
+    if not img or not img.startswith("/covers/"):
+        return img
+    f = os.path.join(ROOT, "public", img.lstrip("/").split("?")[0])
+    return img.split("?")[0] + "?v=" + hashlib.sha1(open(f, "rb").read()).hexdigest()[:8] if os.path.exists(f) else img
+
+
+def review_text(raw):
+    import html as h
+    t = re.sub(r"<br\s*/?>", "\n", raw or ""); t = re.sub(r"<[^>]+>", "", t); t = h.unescape(t)
+    return re.sub(r"\n{3,}", "\n\n", t).strip()
+
+
 def main():
     board = json.load(open(os.path.join(ROOT, "data/canon/board.json")))["board"]
     seed = json.load(open(os.path.join(ROOT, "data/seed.json")))["books"]
     def last(a): return norm(a or "").split()[-1] if a else ""
-    existing = {(norm(re.sub(r",?\s*or,?\s.*$", "", re.split(r"[:(]", b["title"])[0], flags=re.I)), last(b["author"])): b for b in seed}
+    existing = {(norm(re.sub(r"(,\s*or,?|\s+or,)\s.*$", "", re.split(r"[:(]", b["title"])[0], flags=re.I)), last(b["author"])): b for b in seed}
     now = int(time.time() * 1000)
     sql = ["UPDATE books SET shelf_rank = NULL;"]
     log_rows, out = [], []
@@ -47,7 +61,7 @@ def main():
             cover, _ = seed_mod.ol_cover(title, author, -1)
             if cover and seed_mod.download(cover["image_url"], os.path.join(ROOT, "public", "covers", slug + ".jpg")):
                 w, h = dims(os.path.join(ROOT, "public", "covers", slug + ".jpg"))
-                sql.append(f"UPDATE books SET cover_image = {q('/covers/' + slug + '.jpg')}, cover_source_url = {q(cover['source_url'])},"
+                sql.append(f"UPDATE books SET cover_image = {q(hashed('/covers/' + slug + '.jpg'))}, cover_source_url = {q(cover['source_url'])},"
                            f" cover_edition = {q(cover['edition'])}, cover_is_first = 0, cover_fallback_reason = {q(cover['fallback_reason'])},"
                            f" cover_w = {q(w)}, cover_h = {q(h)} WHERE id = {q(slug)};")
                 log_rows.append((slug, "fallback", cover["fallback_reason"] or "", cover["edition"], "canon board"))
@@ -65,7 +79,7 @@ def main():
         if cover:
             dest = os.path.join(ROOT, "public", "covers", slug + ".jpg")
             if seed_mod.download(cover["image_url"], dest):
-                img = f"/covers/{slug}.jpg"; w, h = dims(dest)
+                img = hashed(f"/covers/{slug}.jpg"); w, h = dims(dest)
                 d = os.path.join(ROOT, "data", "covers", slug); os.makedirs(d, exist_ok=True)
                 opt = "1-first-edition" if cover["is_first_edition"] else "1-" + re.sub(r"[^a-z0-9]+", "-", (cover.get("imprint") or "earliest-with-cover"))
                 with open(os.path.join(d, "sources.csv"), "w", newline="") as f:
@@ -89,6 +103,34 @@ def main():
               " cover_year = excluded.cover_year, cover_w = excluded.cover_w, cover_h = excluded.cover_h;")
         out.append({"id": slug, "rank": e["rank"], "title": title, "new": True, "cover": status})
         print(e["rank"], slug, status, (cover or {}).get("edition", ""), file=sys.stderr)
+    # Aidan's own Goodreads review, verbatim, in every board chat for a book he has read
+    # (any rating). Five-stars were seeded by seed_sql.py and are left alone. No review, no message.
+    from email.utils import parsedate_to_datetime
+    reads = json.load(open(os.path.expanduser("~/Desktop/writing-topology/data/personal_corpus/goodreads_reads.json")))
+    five = {b["id"] for b in seed}
+    seeded = empty = 0
+    for e, o in zip(board, out):
+        if not e.get("read"):
+            continue
+        m = re.match(r'goodreads "(.*?)" by (.*?), read (.*?)(?: \[|$)', e["read_match"])
+        g = next((r for r in reads if m and r["title"] == m.group(1) and r["author"] == m.group(2)), None)
+        body = review_text((g or {}).get("review"))
+        if o["id"] in five:
+            seeded += bool(next((b for b in seed if b["id"] == o["id"] and b.get("review")), None)); empty += not next((b for b in seed if b["id"] == o["id"] and b.get("review")), None)
+            continue
+        sql.append(f"DELETE FROM messages WHERE user_id = 'aidanj' AND source = 'goodreads' AND book_id = {q(o['id'])};")
+        if not body:
+            empty += 1
+            continue
+        try:
+            when = int(parsedate_to_datetime(g["read_date"]).timestamp() * 1000)
+        except Exception:
+            when = int(time.time() * 1000) - 86400000 * 365 * 2  # undated read: older than any live chat
+        ref = "Aidan's Goodreads review, read " + (g.get("read_date") or str(g.get("read_year") or "undated"))
+        sql.append("INSERT INTO messages (book_id,user_id,body,is_review,author_position,spoils_to,spoils_to_source,source,source_ref,created_at) VALUES ("
+                   + ",".join(q(v) for v in [o["id"], "aidanj", body, 1, 100, 100, "author_position", "goodreads", ref, when]) + ");")
+        seeded += 1
+    print(f"board chats seeded with his review: {seeded}; empty: {empty + sum(1 for e in board if not e.get('read'))}", file=sys.stderr)
     open(os.path.join(ROOT, "worker", "board.sql"), "w").write("\n".join(sql) + "\n")
     # cover log: keep the five-star rows, replace the canon rows
     logp = os.path.join(ROOT, "data", "cover_log.tsv")

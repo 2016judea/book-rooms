@@ -74,201 +74,389 @@
   "cover": "fallback"
  },
  {
-  "id": "one-hundred-years-of-solitude",
-  "rank": 12,
-  "title": "One Hundred Years of Solitude",
+  "id": "romeo-and-juliet",
+  "rank": 13,
+  "title": "Romeo and Juliet",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "ulysses",
-  "rank": 13,
+  "rank": 15,
   "title": "Ulysses",
   "new": true,
   "cover": "fallback"
  },
  {
-  "id": "paradise-lost",
-  "rank": 14,
-  "title": "Paradise Lost",
-  "new": true,
-  "cover": "fallback"
- },
- {
-  "id": "les-mis-rables",
-  "rank": 15,
-  "title": "Les Misérables",
-  "new": true,
-  "cover": "fallback"
- },
- {
   "id": "moby-dick-or-the-whale",
-  "rank": 16,
+  "rank": 18,
   "title": "Moby-Dick or, The Whale",
   "new": false
  },
  {
   "id": "brave-new-world",
-  "rank": 17,
+  "rank": 19,
   "title": "Brave New World",
   "new": false
  },
  {
   "id": "jane-eyre",
-  "rank": 18,
+  "rank": 20,
   "title": "Jane Eyre",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "the-picture-of-dorian-gray",
-  "rank": 19,
+  "rank": 21,
   "title": "The Picture of Dorian Gray",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "crime-and-punishment",
-  "rank": 20,
+  "rank": 22,
   "title": "Crime and Punishment",
   "new": true,
   "cover": "fallback"
  },
  {
-  "id": "beowulf",
-  "rank": 21,
-  "title": "Beowulf",
-  "new": true,
-  "cover": "fallback"
- },
- {
-  "id": "macbeth",
-  "rank": 22,
-  "title": "Macbeth",
+  "id": "a-christmas-carol",
+  "rank": 23,
+  "title": "A Christmas Carol",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "the-brothers-karamazov",
-  "rank": 24,
+  "rank": 27,
   "title": "The Brothers Karamazov",
   "new": true,
   "cover": "fallback"
  },
  {
   "id": "the-catcher-in-the-rye",
-  "rank": 25,
+  "rank": 28,
   "title": "The Catcher in the Rye",
   "new": false
  },
  {
-  "id": "divine-comedy",
-  "rank": 27,
-  "title": "Divine Comedy",
-  "new": true,
-  "cover": "fallback"
- },
- {
-  "id": "waiting-for-godot",
-  "rank": 29,
-  "title": "Waiting for Godot",
-  "new": true,
-  "cover": "none"
- },
- {
-  "id": "aeneid",
-  "rank": 30,
-  "title": "Aeneid",
-  "new": true,
-  "cover": "fallback"
- },
- {
   "id": "the-stranger",
-  "rank": 31,
+  "rank": 34,
   "title": "The Stranger (Camus novel)",
   "new": true,
   "cover": "fallback"
  },
  {
-  "id": "little-women",
-  "rank": 32,
-  "title": "Little Women",
-  "new": true,
-  "cover": "fallback"
- },
- {
-  "id": "a-midsummer-night-s-dream",
-  "rank": 33,
-  "title": "A Midsummer Night's Dream",
-  "new": true,
-  "cover": "fallback"
- },
- {
-  "id": "the-forsyte-saga",
-  "rank": 34,
-  "title": "The Forsyte Saga",
-  "new": true,
-  "cover": "fallback"
- },
- {
-  "id": "death-of-a-salesman",
-  "rank": 35,
-  "title": "Death of a Salesman",
-  "new": true,
-  "cover": "fallback"
- },
- {
-  "id": "strange-case-of-dr-jekyll-and-mr-hyde",
-  "rank": 36,
-  "title": "Strange Case of Dr Jekyll and Mr Hyde",
-  "new": true,
-  "cover": "fallback"
- },
- {
-  "id": "a-tale-of-two-cities",
-  "rank": 37,
-  "title": "A Tale of Two Cities",
-  "new": true,
-  "cover": "fallback"
- },
- {
-  "id": "war-and-peace",
-  "rank": 38,
-  "title": "War and Peace",
-  "new": true,
-  "cover": "fallback"
- },
- {
-  "id": "othello",
-  "rank": 39,
-  "title": "Othello",
-  "new": true,
-  "cover": "fallback"
- },
- {
   "id": "the-grapes-of-wrath",
-  "rank": 40,
+  "rank": 43,
   "title": "The Grapes of Wrath",
   "new": false
  },
  {
-  "id": "anna-karenina",
-  "rank": 41,
-  "title": "Anna Karenina",
+  "id": "adventures-of-huckleberry-finn",
+  "rank": 47,
+  "title": "Adventures of Huckleberry Finn",
   "new": true,
   "cover": "fallback"
  },
  {
-  "id": "great-expectations",
-  "rank": 42,
-  "title": "Great Expectations",
+  "id": "the-prince",
+  "rank": 63,
+  "title": "The Prince",
   "new": true,
   "cover": "fallback"
  },
  {
-  "id": "a-streetcar-named-desire",
-  "rank": 43,
-  "title": "A Streetcar Named Desire",
+  "id": "emma",
+  "rank": 66,
+  "title": "Emma",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "the-sun-also-rises",
+  "rank": 69,
+  "title": "The Sun Also Rises",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "the-taming-of-the-shrew",
+  "rank": 70,
+  "title": "The Taming of the Shrew",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "the-sound-and-the-fury",
+  "rank": 76,
+  "title": "The Sound and the Fury",
+  "new": false
+ },
+ {
+  "id": "the-trial",
+  "rank": 78,
+  "title": "The Trial",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "madame-bovary",
+  "rank": 80,
+  "title": "Madame Bovary",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "walden",
+  "rank": 86,
+  "title": "Walden",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "a-farewell-to-arms",
+  "rank": 88,
+  "title": "A Farewell to Arms",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "julius-caesar",
+  "rank": 93,
+  "title": "Julius Caesar",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "the-age-of-innocence",
+  "rank": 104,
+  "title": "The Age of Innocence",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "as-i-lay-dying",
+  "rank": 105,
+  "title": "As I Lay Dying",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "the-crying-of-lot-49",
+  "rank": 106,
+  "title": "The Crying of Lot 49",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "the-death-of-ivan-ilyich",
+  "rank": 117,
+  "title": "The Death of Ivan Ilyich",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "dubliners",
+  "rank": 119,
+  "title": "Dubliners",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "to-the-lighthouse",
+  "rank": 122,
+  "title": "To the Lighthouse",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "a-portrait-of-the-artist-as-a-young-man",
+  "rank": 130,
+  "title": "A Portrait of the Artist as a Young Man",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "absalom-absalom",
+  "rank": 141,
+  "title": "Absalom, Absalom!",
+  "new": false
+ },
+ {
+  "id": "the-plague",
+  "rank": 142,
+  "title": "The Plague",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "tender-is-the-night",
+  "rank": 146,
+  "title": "Tender Is the Night",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "beyond-good-and-evil",
+  "rank": 155,
+  "title": "Beyond Good and Evil",
+  "new": false
+ },
+ {
+  "id": "white-noise",
+  "rank": 169,
+  "title": "White Noise",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "suttree",
+  "rank": 181,
+  "title": "Suttree",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "under-the-volcano",
+  "rank": 183,
+  "title": "Under the Volcano",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "invisible-cities",
+  "rank": 184,
+  "title": "Invisible Cities",
+  "new": true,
+  "cover": "none"
+ },
+ {
+  "id": "north-and-south",
+  "rank": 190,
+  "title": "North and South (Gaskell novel)",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "the-power-and-the-glory",
+  "rank": 193,
+  "title": "The Power and the Glory",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "child-of-god",
+  "rank": 195,
+  "title": "Child of God",
+  "new": false
+ },
+ {
+  "id": "the-fall",
+  "rank": 213,
+  "title": "The Fall",
+  "new": false
+ },
+ {
+  "id": "the-birth-of-tragedy",
+  "rank": 239,
+  "title": "The Birth of Tragedy",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "jesus-son",
+  "rank": 242,
+  "title": "Jesus’ Son",
+  "new": false
+ },
+ {
+  "id": "the-waves",
+  "rank": 246,
+  "title": "The Waves",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "light-in-august",
+  "rank": 256,
+  "title": "Light in August",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "the-moviegoer",
+  "rank": 316,
+  "title": "The Moviegoer",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "the-violent-bear-it-away",
+  "rank": 347,
+  "title": "The Violent Bear It Away",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "1984",
+  "rank": 396,
+  "title": "1984",
+  "new": false
+ },
+ {
+  "id": "mythology",
+  "rank": 398,
+  "title": "Mythology",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "point-counter-point",
+  "rank": 409,
+  "title": "Point Counter Point",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "the-hamlet",
+  "rank": 430,
+  "title": "The Hamlet",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "angels",
+  "rank": 544,
+  "title": "Angels",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "omensetter-s-luck",
+  "rank": 561,
+  "title": "Omensetter's Luck",
+  "new": false
+ },
+ {
+  "id": "babylon-revisited-and-other-stories",
+  "rank": 779,
+  "title": "Babylon Revisited and Other Stories",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "complete-poems",
+  "rank": 819,
+  "title": "Complete Poems",
+  "new": true,
+  "cover": "fallback"
+ },
+ {
+  "id": "sanctuary",
+  "rank": 825,
+  "title": "Sanctuary",
   "new": true,
   "cover": "fallback"
  }

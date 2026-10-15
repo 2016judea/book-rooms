@@ -4,8 +4,9 @@
   "20251001",
   "20260930"
  ],
- "cutoff": 40,
- "generated": "2026-10-14",
+ "selection": "every canon work Aidan has read + the 5 most-viewed unread",
+ "unread_extra": 5,
+ "generated": "2026-10-15",
  "pool": "Bloom, The Western Canon (1994) appendix + Aidan's five-stars by Bloom's 26 central authors",
  "board": [
   {
@@ -14,7 +15,10 @@
    "author": "Homer",
    "article": "Odyssey",
    "views": 8610635,
-   "source": "Bloom appendix"
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Odyssey\" by Homer, read Sun, 10 Aug 2025 00:00:00 +0000",
+   "read_sure": true
   },
   {
    "rank": 2,
@@ -22,7 +26,10 @@
    "author": "Emily Brontë",
    "article": "Wuthering Heights",
    "views": 6697750,
-   "source": "Bloom appendix"
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Wuthering Heights\" by Emily Brontë, read Sun, 4 Feb 2018 00:00:00 +0000",
+   "read_sure": true
   },
   {
    "rank": 3,
@@ -30,7 +37,10 @@
    "author": "Mary Wollstonecraft Shelley",
    "article": "Frankenstein",
    "views": 3190906,
-   "source": "Bloom appendix"
+   "source": "Bloom appendix",
+   "read": false,
+   "read_match": "",
+   "read_sure": false
   },
   {
    "rank": 4,
@@ -38,7 +48,10 @@
    "author": "Homer",
    "article": "Iliad",
    "views": 2795564,
-   "source": "Bloom appendix"
+   "source": "Bloom appendix",
+   "read": false,
+   "read_match": "",
+   "read_sure": false
   },
   {
    "rank": 5,
@@ -46,7 +59,10 @@
    "author": "William Shakespeare",
    "article": "Hamlet",
    "views": 1747593,
-   "source": "Bloom appendix (Plays, expanded)"
+   "source": "Bloom appendix (Plays, expanded)",
+   "read": false,
+   "read_match": "",
+   "read_sure": false
   },
   {
    "rank": 6,
@@ -54,7 +70,10 @@
    "author": "Jane Austen",
    "article": "Pride and Prejudice",
    "views": 1383578,
-   "source": "Bloom appendix"
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Pride and Prejudice\" by Jane Austen, read Tue, 1 Jan 2019 00:00:00 +0000",
+   "read_sure": true
   },
   {
    "rank": 7,
@@ -62,7 +81,10 @@
    "author": "Vladimir Nabokov",
    "article": "Lolita",
    "views": 1362799,
-   "source": "Bloom appendix"
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Lolita\" by Vladimir Nabokov, read Mon, 19 Aug 2019 00:00:00 +0000",
+   "read_sure": true
   },
   {
    "rank": 8,
@@ -70,7 +92,10 @@
    "author": null,
    "article": "Epic of Gilgamesh",
    "views": 1357552,
-   "source": "Bloom appendix"
+   "source": "Bloom appendix",
+   "read": false,
+   "read_match": "",
+   "read_sure": false
   },
   {
    "rank": 9,
@@ -78,7 +103,10 @@
    "author": "Cormac McCarthy",
    "article": "Blood Meridian",
    "views": 1338937,
-   "source": "Bloom appendix"
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Blood Meridian, or, the Evening Redness in the West\" by Cormac McCarthy, read Tue, 24 Feb 2026 00:00:00 +0000",
+   "read_sure": true
   },
   {
    "rank": 10,
@@ -86,7 +114,10 @@
    "author": "F. Scott Fitzgerald",
    "article": "The Great Gatsby",
    "views": 1317564,
-   "source": "Bloom appendix"
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Great Gatsby\" by F. Scott Fitzgerald, read undated",
+   "read_sure": true
   },
   {
    "rank": 11,
@@ -94,256 +125,654 @@
    "author": "Miguel de Cervantes",
    "article": "Don Quixote",
    "views": 1269930,
-   "source": "Bloom appendix"
-  },
-  {
-   "rank": 12,
-   "work": "One Hundred Years of Solitude",
-   "author": "Gabriel García Márquez",
-   "article": "One Hundred Years of Solitude",
-   "views": 1082033,
-   "source": "Bloom appendix"
+   "source": "Bloom appendix",
+   "read": false,
+   "read_match": "",
+   "read_sure": false
   },
   {
    "rank": 13,
+   "work": "Romeo and Juliet",
+   "author": "William Shakespeare",
+   "article": "Romeo and Juliet",
+   "views": 1082274,
+   "source": "Bloom appendix (Plays, expanded)",
+   "read": true,
+   "read_match": "goodreads \"Romeo and Juliet\" by William Shakespeare, read undated",
+   "read_sure": true
+  },
+  {
+   "rank": 15,
    "work": "Ulysses",
    "author": "James Joyce",
    "article": "Ulysses (novel)",
    "views": 1069286,
-   "source": "Bloom appendix"
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Ulysses\" by James Joyce, read Tue, 30 Nov 2021 00:00:00 +0000",
+   "read_sure": true
   },
   {
-   "rank": 14,
-   "work": "Paradise Lost",
-   "author": "John Milton",
-   "article": "Paradise Lost",
-   "views": 1004915,
-   "source": "Bloom appendix"
-  },
-  {
-   "rank": 15,
-   "work": "Les Misérables",
-   "author": "Victor Hugo",
-   "article": "Les Misérables",
-   "views": 992640,
-   "source": "Bloom appendix"
-  },
-  {
-   "rank": 16,
+   "rank": 18,
    "work": "Moby-Dick",
    "author": "Herman Melville",
    "article": "Moby-Dick",
    "views": 982150,
-   "source": "Bloom appendix"
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Moby-Dick or, The Whale\" by Herman Melville, read Tue, 7 Nov 2023 00:00:00 +0000",
+   "read_sure": true
   },
   {
-   "rank": 17,
+   "rank": 19,
    "work": "Brave New World",
    "author": "Aldous Huxley",
    "article": "Brave New World",
    "views": 947552,
-   "source": "Bloom appendix"
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Brave New World\" by Aldous Huxley, read Mon, 1 Jan 2018 00:00:00 +0000",
+   "read_sure": true
   },
   {
-   "rank": 18,
+   "rank": 20,
    "work": "Jane Eyre",
    "author": "Charlotte Brontë",
    "article": "Jane Eyre",
    "views": 937424,
-   "source": "Bloom appendix"
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Jane Eyre\" by Charlotte Brontë, read undated",
+   "read_sure": true
   },
   {
-   "rank": 19,
+   "rank": 21,
    "work": "The Picture of Dorian Gray",
    "author": "Oscar Wilde",
    "article": "The Picture of Dorian Gray",
    "views": 907987,
-   "source": "Bloom appendix"
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Picture of Dorian Gray\" by Oscar Wilde, read Tue, 1 Jan 2019 00:00:00 +0000",
+   "read_sure": true
   },
   {
-   "rank": 20,
+   "rank": 22,
    "work": "Crime and Punishment",
    "author": "Fyodor Dostoevsky",
    "article": "Crime and Punishment",
    "views": 905204,
-   "source": "Bloom appendix"
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Crime and Punishment\" by Fyodor Dostoevsky, read Sun, 7 Apr 2024 00:00:00 +0000",
+   "read_sure": true
   },
   {
-   "rank": 21,
-   "work": "Beowulf",
-   "author": null,
-   "article": "Beowulf",
-   "views": 903186,
-   "source": "Bloom appendix"
+   "rank": 23,
+   "work": "A Christmas Carol",
+   "author": "Charles Dickens",
+   "article": "A Christmas Carol",
+   "views": 904512,
+   "source": "Aidan read, by a Bloom central author",
+   "read": true,
+   "read_match": "goodreads \"A Christmas Carol\" by Charles Dickens, read undated",
+   "read_sure": true
   },
   {
-   "rank": 22,
-   "work": "Macbeth",
-   "author": "William Shakespeare",
-   "article": "Macbeth",
-   "views": 885847,
-   "source": "Bloom appendix (Plays, expanded)"
-  },
-  {
-   "rank": 24,
+   "rank": 27,
    "work": "The Brothers Karamazov",
    "author": "Fyodor Dostoevsky",
    "article": "The Brothers Karamazov",
    "views": 871745,
-   "source": "Bloom appendix"
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Brothers Karamazov\" by Fyodor Dostoevsky, read undated",
+   "read_sure": true
   },
   {
-   "rank": 25,
+   "rank": 28,
    "work": "The Catcher in the Rye",
    "author": "J. D. Salinger",
    "article": "The Catcher in the Rye",
    "views": 862582,
-   "source": "Bloom appendix"
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Catcher in the Rye\" by J.D. Salinger, read undated",
+   "read_sure": true
   },
   {
-   "rank": 27,
-   "work": "The Divine Comedy",
-   "author": "Dante",
-   "article": "Divine Comedy",
-   "views": 834922,
-   "source": "Bloom appendix"
-  },
-  {
-   "rank": 29,
-   "work": "Waiting for Godot",
-   "author": "Samuel Beckett",
-   "article": "Waiting for Godot",
-   "views": 788380,
-   "source": "Bloom appendix"
-  },
-  {
-   "rank": 30,
-   "work": "Aeneid",
-   "author": "Virgil",
-   "article": "Aeneid",
-   "views": 782377,
-   "source": "Bloom appendix"
-  },
-  {
-   "rank": 31,
+   "rank": 34,
    "work": "The Stranger",
    "author": "Albert Camus",
    "article": "The Stranger (Camus novel)",
    "views": 771971,
-   "source": "Bloom appendix"
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Stranger\" by Albert Camus, read Tue, 23 Jun 2020 00:00:00 +0000",
+   "read_sure": true
   },
   {
-   "rank": 32,
-   "work": "Little Women",
-   "author": "Louisa May Alcott",
-   "article": "Little Women",
-   "views": 749653,
-   "source": "Bloom appendix"
-  },
-  {
-   "rank": 33,
-   "work": "A Midsummer Night's Dream",
-   "author": "William Shakespeare",
-   "article": "A Midsummer Night's Dream",
-   "views": 720581,
-   "source": "Bloom appendix (Plays, expanded)"
-  },
-  {
-   "rank": 34,
-   "work": "The Forsyte Saga",
-   "author": "John Galsworthy",
-   "article": "The Forsyte Saga",
-   "views": 710997,
-   "source": "Bloom appendix"
-  },
-  {
-   "rank": 35,
-   "work": "Death of a Salesman",
-   "author": "Arthur Miller",
-   "article": "Death of a Salesman",
-   "views": 707701,
-   "source": "Bloom appendix"
-  },
-  {
-   "rank": 36,
-   "work": "Dr. Jekyll and Mr. Hyde",
-   "author": "Robert Louis Stevenson",
-   "article": "Strange Case of Dr Jekyll and Mr Hyde",
-   "views": 682149,
-   "source": "Bloom appendix"
-  },
-  {
-   "rank": 37,
-   "work": "A Tale of Two Cities",
-   "author": "Charles Dickens",
-   "article": "A Tale of Two Cities",
-   "views": 680632,
-   "source": "Bloom appendix"
-  },
-  {
-   "rank": 38,
-   "work": "War and Peace",
-   "author": "Leo Tolstoy",
-   "article": "War and Peace",
-   "views": 663022,
-   "source": "Bloom appendix"
-  },
-  {
-   "rank": 39,
-   "work": "Othello",
-   "author": "William Shakespeare",
-   "article": "Othello",
-   "views": 648309,
-   "source": "Bloom appendix (Plays, expanded)"
-  },
-  {
-   "rank": 40,
+   "rank": 43,
    "work": "The Grapes of Wrath",
    "author": "John Steinbeck",
    "article": "The Grapes of Wrath",
    "views": 639726,
-   "source": "Bloom appendix"
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Grapes of Wrath\" by John Steinbeck, read Mon, 8 Apr 2019 00:00:00 +0000",
+   "read_sure": true
   },
   {
-   "rank": 41,
-   "work": "Anna Karenina",
+   "rank": 47,
+   "work": "The Adventures of Huckleberry Finn",
+   "author": "Mark Twain",
+   "article": "Adventures of Huckleberry Finn",
+   "views": 532083,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Adventures of Huckleberry Finn\" by Mark Twain, read undated",
+   "read_sure": true
+  },
+  {
+   "rank": 63,
+   "work": "The Prince",
+   "author": "Niccolò Machiavelli",
+   "article": "The Prince",
+   "views": 416760,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Prince\" by Niccolò Machiavelli, read Tue, 27 Dec 2022 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 66,
+   "work": "Emma",
+   "author": "Jane Austen",
+   "article": "Emma (novel)",
+   "views": 376852,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Emma\" by Jane Austen, read undated",
+   "read_sure": true
+  },
+  {
+   "rank": 69,
+   "work": "The Sun Also Rises",
+   "author": "Ernest Hemingway",
+   "article": "The Sun Also Rises",
+   "views": 366764,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Sun Also Rises\" by Ernest Hemingway, read Sat, 14 Dec 2019 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 70,
+   "work": "The Taming of the Shrew",
+   "author": "William Shakespeare",
+   "article": "The Taming of the Shrew",
+   "views": 360560,
+   "source": "Bloom appendix (Plays, expanded)",
+   "read": true,
+   "read_match": "goodreads \"The Taming of the Shrew\" by William Shakespeare, read undated",
+   "read_sure": true
+  },
+  {
+   "rank": 76,
+   "work": "The Sound and the Fury",
+   "author": "William Faulkner",
+   "article": "The Sound and the Fury",
+   "views": 312402,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Sound and the Fury\" by William Faulkner, read Mon, 16 Dec 2019 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 78,
+   "work": "The Trial",
+   "author": "Franz Kafka",
+   "article": "The Trial",
+   "views": 309104,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Trial\" by Franz Kafka, read Sun, 13 Jun 2021 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 80,
+   "work": "Madame Bovary",
+   "author": "Gustave Flaubert",
+   "article": "Madame Bovary",
+   "views": 297514,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Madame Bovary\" by Gustave Flaubert, read Tue, 14 Feb 2023 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 86,
+   "work": "Walden",
+   "author": "Henry David Thoreau",
+   "article": "Walden",
+   "views": 272462,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Walden and Other Writings\" by Henry David Thoreau, read Mon, 1 Jan 2018 00:00:00 +0000 [title contains/contained]",
+   "read_sure": false
+  },
+  {
+   "rank": 88,
+   "work": "A Farewell to Arms",
+   "author": "Ernest Hemingway",
+   "article": "A Farewell to Arms",
+   "views": 267022,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"A Farewell to Arms\" by Ernest Hemingway, read Tue, 1 Jan 2019 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 93,
+   "work": "Julius Caesar",
+   "author": "William Shakespeare",
+   "article": "Julius Caesar (play)",
+   "views": 256909,
+   "source": "Bloom appendix (Plays, expanded)",
+   "read": true,
+   "read_match": "goodreads \"Julius Caesar\" by William Shakespeare, read undated",
+   "read_sure": true
+  },
+  {
+   "rank": 104,
+   "work": "The Age of Innocence",
+   "author": "Edith Wharton",
+   "article": "The Age of Innocence",
+   "views": 217211,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Age of Innocence\" by Edith Wharton, read Thu, 5 Dec 2019 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 105,
+   "work": "As I Lay Dying",
+   "author": "William Faulkner",
+   "article": "As I Lay Dying",
+   "views": 216289,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"As I Lay Dying\" by William Faulkner, read Thu, 25 Jun 2020 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 106,
+   "work": "The Crying of Lot 49",
+   "author": "Thomas Pynchon",
+   "article": "The Crying of Lot 49",
+   "views": 215701,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Crying of Lot 49\" by Thomas Pynchon, read Tue, 13 Aug 2019 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 117,
+   "work": "The Death of Ivan Ilyich",
    "author": "Leo Tolstoy",
-   "article": "Anna Karenina",
-   "views": 637096,
-   "source": "Bloom appendix"
+   "article": "The Death of Ivan Ilyich",
+   "views": 189833,
+   "source": "Aidan read, by a Bloom central author",
+   "read": true,
+   "read_match": "goodreads \"The Death of Ivan Ilyich\" by Leo Tolstoy, read Tue, 21 Nov 2023 00:00:00 +0000",
+   "read_sure": true
   },
   {
-   "rank": 42,
-   "work": "Great Expectations",
-   "author": "Charles Dickens",
-   "article": "Great Expectations",
-   "views": 550246,
-   "source": "Bloom appendix"
+   "rank": 119,
+   "work": "Dubliners",
+   "author": "James Joyce",
+   "article": "Dubliners",
+   "views": 181728,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Dubliners\" by James Joyce, read Thu, 26 Dec 2019 00:00:00 +0000",
+   "read_sure": true
   },
   {
-   "rank": 43,
-   "work": "A Streetcar Named Desire",
-   "author": "Tennessee Williams",
-   "article": "A Streetcar Named Desire",
-   "views": 543808,
-   "source": "Bloom appendix"
+   "rank": 122,
+   "work": "To the Lighthouse",
+   "author": "Virginia Woolf",
+   "article": "To the Lighthouse",
+   "views": 180374,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"To the Lighthouse\" by Virginia Woolf, read Sat, 1 Jun 2024 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 130,
+   "work": "Portrait of the Artist as a Young Man",
+   "author": "James Joyce",
+   "article": "A Portrait of the Artist as a Young Man",
+   "views": 167191,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"A Portrait of the Artist as a Young Man\" by James Joyce, read Mon, 22 Apr 2019 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 141,
+   "work": "Absalom, Absalom!",
+   "author": "William Faulkner",
+   "article": "Absalom, Absalom!",
+   "views": 154991,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Absalom, Absalom!\" by William Faulkner, read Sat, 29 Feb 2020 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 142,
+   "work": "The Plague",
+   "author": "Albert Camus",
+   "article": "The Plague (novel)",
+   "views": 152204,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"the plague\" by Albert Camus, read Mon, 26 Jan 2026 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 146,
+   "work": "Tender is the Night",
+   "author": "F. Scott Fitzgerald",
+   "article": "Tender Is the Night",
+   "views": 147097,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Tender Is the Night\" by F. Scott Fitzgerald, read Tue, 1 Jan 2019 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 155,
+   "work": "Beyond Good and Evil",
+   "author": "Friedrich Nietzsche",
+   "article": "Beyond Good and Evil",
+   "views": 136898,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Beyond Good and Evil\" by Friedrich Nietzsche, read Tue, 1 Jan 2019 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 169,
+   "work": "White Noise",
+   "author": "Don DeLillo",
+   "article": "White Noise (novel)",
+   "views": 121187,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"White Noise\" by Don DeLillo, read Tue, 29 Oct 2019 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 181,
+   "work": "Suttree",
+   "author": "Cormac McCarthy",
+   "article": "Suttree",
+   "views": 111990,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Suttree\" by Cormac McCarthy, read Fri, 15 Oct 2021 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 183,
+   "work": "Under the Volcano",
+   "author": "Malcolm Lowry",
+   "article": "Under the Volcano",
+   "views": 109876,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Under the Volcano\" by Malcolm Lowry, read Tue, 25 Aug 2026 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 184,
+   "work": "Invisible Cities",
+   "author": "Italo Calvino",
+   "article": "Invisible Cities",
+   "views": 109678,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Invisible Cities\" by Italo Calvino, read Tue, 4 Aug 2020 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 190,
+   "work": "North and South",
+   "author": "Elizabeth Gaskell",
+   "article": "North and South (Gaskell novel)",
+   "views": 106218,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"North and South\" by Elizabeth Gaskell, read undated",
+   "read_sure": true
+  },
+  {
+   "rank": 193,
+   "work": "The Power and the Glory",
+   "author": "Graham Greene",
+   "article": "The Power and the Glory",
+   "views": 101556,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Power and the Glory\" by Graham Greene, read Tue, 1 Jan 2019 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 195,
+   "work": "Child of God",
+   "author": "Cormac McCarthy",
+   "article": "Child of God",
+   "views": 100542,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Child of God\" by Cormac McCarthy, read Sat, 10 Apr 2021 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 213,
+   "work": "The Fall",
+   "author": "Albert Camus",
+   "article": "The Fall (Camus novel)",
+   "views": 87555,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Fall\" by Albert Camus, read Tue, 6 Dec 2022 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 239,
+   "work": "The Birth of Tragedy",
+   "author": "Friedrich Nietzsche",
+   "article": "The Birth of Tragedy",
+   "views": 71156,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Birth of Tragedy\" by Friedrich Nietzsche, read Sat, 19 Oct 2019 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 242,
+   "work": "Jesus' Son",
+   "author": "Denis Johnson",
+   "article": "Jesus' Son (short story collection)",
+   "views": 67689,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Jesus’ Son\" by Denis Johnson, read Sun, 27 Feb 2022 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 246,
+   "work": "The Waves",
+   "author": "Virginia Woolf",
+   "article": "The Waves",
+   "views": 66565,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Waves\" by Virginia Woolf, read Tue, 5 May 2020 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 256,
+   "work": "Light in August",
+   "author": "William Faulkner",
+   "article": "Light in August",
+   "views": 60592,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Light in August\" by William Faulkner, read Fri, 5 Jun 2020 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 316,
+   "work": "The Moviegoer",
+   "author": "Walker Percy",
+   "article": "The Moviegoer",
+   "views": 43901,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Moviegoer\" by Walker Percy, read Sat, 25 Mar 2023 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 347,
+   "work": "The Violent Bear It Away",
+   "author": "Flannery O'Connor",
+   "article": "The Violent Bear It Away",
+   "views": 37736,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Violent Bear It Away\" by Flannery O'Connor, read Fri, 13 Oct 2023 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 396,
+   "work": "1984",
+   "author": "George Orwell",
+   "article": "1984 (play)",
+   "views": 29359,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"1984\" by George Orwell, read undated",
+   "read_sure": true
+  },
+  {
+   "rank": 398,
+   "work": "Mythology",
+   "author": "Edith Hamilton",
+   "article": "Mythology (book)",
+   "views": 28918,
+   "source": "Aidan read, by a Bloom central author",
+   "read": true,
+   "read_match": "goodreads \"Mythology\" by Edith Hamilton, read Sun, 17 Nov 2024 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 409,
+   "work": "Point Counter Point",
+   "author": "Aldous Huxley",
+   "article": "Point Counter Point",
+   "views": 27126,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Point Counter Point\" by Aldous Huxley, read Thu, 18 Feb 2021 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 430,
+   "work": "The Hamlet",
+   "author": "William Faulkner",
+   "article": "The Hamlet",
+   "views": 23732,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"The Hamlet\" by William Faulkner, read Fri, 25 Mar 2022 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 544,
+   "work": "Angels",
+   "author": "Denis Johnson",
+   "article": "Angels (novel)",
+   "views": 13455,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Angels\" by Denis Johnson, read Sun, 3 Apr 2022 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 561,
+   "work": "Omensetter's Luck",
+   "author": "William H. Gass",
+   "article": "Omensetter's Luck",
+   "views": 12201,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Omensetter's Luck\" by William H. Gass, read Mon, 29 May 2023 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 779,
+   "work": "Babylon Revisited and Other Stories",
+   "author": "F. Scott Fitzgerald",
+   "article": "Babylon Revisited and Other Stories",
+   "views": 2164,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Babylon Revisited and Other Stories\" by F. Scott Fitzgerald, read Thu, 29 Aug 2019 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 819,
+   "work": "The Complete Poems",
+   "author": "Walt Whitman",
+   "article": "Complete Poems",
+   "views": 578,
+   "source": "Aidan read, by a Bloom central author",
+   "read": true,
+   "read_match": "goodreads \"The Complete Poems\" by Walt Whitman, read Fri, 4 Oct 2019 00:00:00 +0000",
+   "read_sure": true
+  },
+  {
+   "rank": 825,
+   "work": "Sanctuary",
+   "author": "William Faulkner",
+   "article": "Sanctuary (play)",
+   "views": 348,
+   "source": "Bloom appendix",
+   "read": true,
+   "read_match": "goodreads \"Sanctuary\" by William Faulkner, read Thu, 25 Apr 2024 00:00:00 +0000",
+   "read_sure": true
   }
  ],
  "excluded": [
   {
-   "rank": 23,
+   "rank": 26,
    "article": "Ramayana",
    "views": 877370,
    "reason": "Sanskrit epic (ancient India); listed by Bloom for its influence on the West, not a western work"
   },
   {
-   "rank": 26,
+   "rank": 29,
    "article": "Bhagavad Gita",
    "views": 856187,
    "reason": "Sanskrit scripture (ancient India); listed by Bloom for its influence on the West, not a western work"
   },
   {
-   "rank": 28,
+   "rank": 31,
    "article": "Mahabharata",
    "views": 834396,
    "reason": "Sanskrit epic (ancient India); listed by Bloom for its influence on the West, not a western work"
