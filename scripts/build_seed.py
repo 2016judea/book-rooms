@@ -147,8 +147,26 @@ def ol_cover(title, author, published):
     return _cover_for_work(works[0], title, published)
 
 
+def editions(work_key, page=500):
+    """Every edition of a work. The editions endpoint pages at `limit` and reports the work's
+    total as `size`: 39 of the 172 works looked up on 2026-10-18 had more than 500 editions
+    (The Odyssey 4,042), and a single page silently dropped the rest."""
+    entries, offset, size = [], 0, None
+    while size is None or offset < size:
+        d = get(f"https://openlibrary.org{work_key}/editions.json?limit={page}&offset={offset}") if offset else \
+            get(f"https://openlibrary.org{work_key}/editions.json?limit={page}") or {}
+        d = d or {}
+        got = d.get("entries", [])
+        entries += got
+        size = d.get("size") or len(entries)
+        if not got:
+            break
+        offset += len(got)
+    return {"entries": entries, "size": size}
+
+
 def _cover_for_work(work, title, published):
-    eds = get(f"https://openlibrary.org{work['key']}/editions.json?limit=500") or {}
+    eds = editions(work["key"])
     tn = lambda t: re.sub(r"^(the|a|an) ", "", re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip())
     want = {tn(re.sub(r",?\s*or,?\s.*$", "", re.split(r"[:(]", title)[0], flags=re.I)), tn(work.get("title"))} - {""}
     junk = re.compile(r"study guide|summary|sparknotes|cliffs|analysis|companion|notes on|workbook|coloring|adaptation", re.I)
