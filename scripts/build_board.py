@@ -106,7 +106,7 @@ def main():
     # Aidan's own Goodreads review, verbatim, in every board chat for a book he has read
     # (any rating). Five-stars were seeded by seed_sql.py and are left alone. No review, no message.
     from email.utils import parsedate_to_datetime
-    reads = json.load(open(os.path.expanduser("~/Desktop/writing-topology/data/personal_corpus/goodreads_reads.json")))
+    reads = json.load(open(os.path.expanduser("~/Desktop/workspace/writing-topology/data/personal_corpus/goodreads_reads.json")))
     five = {b["id"] for b in seed}
     seeded = empty = 0
     for e, o in zip(board, out):

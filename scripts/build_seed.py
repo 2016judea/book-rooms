@@ -7,7 +7,7 @@ Vintage International > Picador > Penguin Classics, then to the earliest
 edition with a cover, and log the fallback.
 
 Sources, in order:
-  1. ~/Desktop/hard-books-club/brand/covers/<slug>/ (hand-sourced, sources.csv)
+  1. ~/Desktop/workspace/hard-books-club/brand/covers/<slug>/ (hand-sourced, sources.csv)
   2. Open Library editions that carry a cover scan
 
 Run: python3 scripts/build_seed.py   (network; caches under data/cache/)
@@ -15,8 +15,8 @@ Run: python3 scripts/build_seed.py   (network; caches under data/cache/)
 import csv, html, json, os, re, sys, time, urllib.parse, urllib.request, shutil
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CORPUS = os.path.expanduser("~/Desktop/writing-topology/data/personal_corpus/goodreads_reads.json")
-HBC = os.path.expanduser("~/Desktop/hard-books-club/brand/covers")
+CORPUS = os.path.expanduser("~/Desktop/workspace/writing-topology/data/personal_corpus/goodreads_reads.json")
+HBC = os.path.expanduser("~/Desktop/workspace/hard-books-club/brand/covers")
 CACHE = os.path.join(ROOT, "data", "cache")
 COVERS = os.path.join(ROOT, "public", "covers")
 os.makedirs(CACHE, exist_ok=True)
@@ -214,7 +214,7 @@ def _cover_for_work(work, title, published):
 
 def buy_links():
     out = {}
-    f = os.path.expanduser("~/Desktop/hard-books-club/archive/buy_links.csv")
+    f = os.path.expanduser("~/Desktop/workspace/hard-books-club/archive/buy_links.csv")
     if os.path.exists(f):
         for row in csv.DictReader(open(f)):
             out.setdefault(row["slug"], []).append({"label": row["label"], "url": row["ebay_url"]})

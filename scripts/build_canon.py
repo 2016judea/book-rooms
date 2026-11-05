@@ -24,7 +24,7 @@ CACHE = os.path.join(ROOT, "data", "cache", "canon")
 os.makedirs(CACHE, exist_ok=True)
 UA = {"User-Agent": "book-rooms/0.1 (https://read-with-community.vercel.app; aidanjude2016@gmail.com)"}
 UNREAD_EXTRA = 5
-READS = os.path.expanduser("~/Desktop/writing-topology/data/personal_corpus/goodreads_reads.json")
+READS = os.path.expanduser("~/Desktop/workspace/writing-topology/data/personal_corpus/goodreads_reads.json")
 # Bloom's appendix lists these "because of their influence on the Western canon" (p. 531);
 # they are not western works, and the board is "western canon" (Aidan, 2026-10-14).
 EXCLUDE = {
